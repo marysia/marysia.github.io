@@ -25,8 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  marysia
 
 header_pages:
-  - about.md
-  - bookshelf.md
+ - about.md
 	
 # Build settings
 markdown: kramdown
