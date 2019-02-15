@@ -7,3 +7,5 @@ title: Home
 ---
 
 This is the landing page of marysia.nl. Hello!
+
+This is a small change to the landing page to see if the implemented change worked.
