@@ -6,4 +6,4 @@ layout: page
 title: Home
 ---
 
-This is the landing page of marysia.nl. Welcome! Please do expect some changes. 
+This is the landing page of marysia.nl. Welcome! Please do expect some changes in the near future.
