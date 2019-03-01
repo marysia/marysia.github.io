@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Hello, World!"
-date:   2019-01-12 16:36:56 +0100
-permalink: /blog/first-post
-categories: testing
----
-This is the first actual published post, I'm just messing around to see how this works. Hope to see you for real soon! Or.. maybe not?

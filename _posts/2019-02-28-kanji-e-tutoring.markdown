@@ -9,14 +9,14 @@ _Kanji, the characters in the Japanese writing system, can be notoriously comple
 
 <!-- more -->
 
-Kanji are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use. 
-
+Kanji are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
+ 
 <p align="center">
     <img src="../assets/kanji/compound_kanji.png" alt="Image" width="200"/>
 	<br>
 	<em> Figure 1. Example of compound kanji. </em>
 </p>
-
+ 
 Maybe even more so than in other domains, kanji requires individual practise and repetition to master, more than a classroom approach, which is why e-tutoring systems are often used to supplement - or even replace - lectures, by providing instructions, asking questions and providing feedback. The aim for such a system is to keep the student as engaged as possible, in order to prevent the student abandoning the system out of frustration, and to facilitate the necessary repetition to master the writing system. 
 
 One way to do this is by what we call a _competence model_, which includes parameters for the difficulty of the individual skills to acquire (_e.g._ per character), as well as the current level with respect to each skill for each student. A major limitation, however, is that this tends to be highly data-intensive, even in small domains. To combat this, we exploit the key observation that it is often not necessary to explicitly model competence in order to provide the appropriate challenge to the student. Instead, we can learn  a mapping from implicit user feedback to experienced challenge level, and use this to provide the appropriate next learning object (such as question or example) for each student individually. 
