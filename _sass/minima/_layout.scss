@@ -1,3 +1,20 @@
+/* unvisited link */
+a:link {
+  color: $custom-color;
+}
+
+/* visited link */
+a:visited {
+  color: $custom-color;
+}
+
+
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 /**
  * Site header
  */
@@ -203,13 +220,22 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
+  font-family: "Optima", Optima, sans-serif;
 }
 
 .post-link {
+
+    font-family: "Optima", Optima, sans-serif;
+  margin-bottom: -25px !important; 
   display: block;
   @include relative-font-size(1.5);
 }
 
+.post-excerpt { 
+	margin-top: -15px !important; 
+	font-style: normal !important;
+}
 
 
 /**
@@ -246,7 +272,7 @@
 }
 .blog-post-subtitle {
   //letter-spacing: .5px;
-  text-indent: .5em;
+  text-indent: .25em;
   line-height: 1;
   font-family: "Optima", Optima, sans-serif;
   font-style: italic;
@@ -297,7 +323,6 @@
   }
 }
 
-#post-content a:link { color: $custom-color; }
 .Figure { 
 	text-align: center;
     font-family: "Optima", Optima, sans-serif;
