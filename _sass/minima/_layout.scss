@@ -308,6 +308,12 @@ hr {
     margin-left: 1em; /* Also needed for space (tweak if needed) */
   }
   
+  emph {
+	  color: $custom-color;
+	  //font-style: italic;
+	  letter-spacing: 1px;
+  }
+  
   h1 { 
 	  margin-top: 20px;
 	  
@@ -363,6 +369,9 @@ hr {
   }
 }
 
+.post-content.emph { 
+	color: $custom-color;
+}
 .Figure { 
 	text-align: center;
     font-family: "Optima", Optima, sans-serif;
