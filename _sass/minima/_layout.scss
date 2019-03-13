@@ -315,13 +315,15 @@ hr {
   }
   
   h1 { 
-	  margin-top: 20px;
+
 	  
 	text-indent: 1em;
 	font-family: "Optima", Optima, sans-serif;
   	color: $custom-color;
     padding: 1px;
     margin: 1px;
+	margin-top: 30px;
+	margin-bottom: 5px;
     @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
