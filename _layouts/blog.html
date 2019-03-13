@@ -22,7 +22,7 @@ layout: default
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h1>
 		  <br> 
-          <span class="post-excerpt"> <i>{{ post.excerpt }}</i> </span><div align="right"><a href="{{ post.url | relative_url }}">Read more!</a></div>
+          <span class="post-excerpt">{{ post.abstract }}</span><div align="right"><a href="{{ post.url | relative_url }}">Read more!</a></div>
         </li>
     {% endfor %}
   </ul>
