@@ -15,6 +15,33 @@ a:active {
   color: blue;
 }
 
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $custom-color; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
+  
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+	border-color: $custom-color;
+	background-color: $custom-color;
+	color: $custom-color;
+}
+
 /**
  * Site header
  */
@@ -308,6 +335,23 @@ a:active {
       @include relative-font-size(1.75);
     }
   }
+  h3 { 
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  
+	text-indent: 0em;
+	font-family: "Optima", Optima, sans-serif;
+  	color: $custom-color;
+	font-weight: bold; 
+	letter-spacing: 2px;
+    padding: 1px;
+    margin: 1px;
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+	}
+}
 
   h4 {
 	  color: $grey-color-dark;

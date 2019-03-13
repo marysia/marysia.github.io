@@ -7,14 +7,26 @@ author: Marysia Winkels
 permalink: /blog/group-convolutions
 categories: AI-projects
 ---
+<hr>
+### TL;DR
+_Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but the challenge is gathering enough data. So what if, instead of focussing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data? That's what we do with 3D G-CNNs!_
 
+_Group-Equivariant Convolutional Neural Networks:_
+<ul style="line-height: 180%">
+  <li>Reduce the data requirements for medical image analysis 10x</li>
+  <li>Proved effective for <i>pulmonary nodule detecion</i></li>
+  <li>Invariant not only to <i>translation</i>, but also <i>rotation</i> and <i>reflection</i> </li>
+  <li>Far better than data augmentation</li>
+</ul>
 
-_The technological advances of the past two decades, particularly in the area of artificial intelligence, have created the opportunity to cause a huge disruption in the way healthcare operates. In the medical image world especially, there is a big potential for AI. However, radiologists need need not worry about their jobs just yet -- a huge challenge in creating successful and accurate self-learning models is gathering enough data to learn from, both due to patient privacy concerns and the labor-intensity of obtaining high-quality annotations. This problem is further compounded because in all likelihood, the data collection process will have to be repeated for different imaging modalities, scanner types and settings, resolutions, image reconstruction techniques and patient populations. So what if, instead of focussing all our energy on this data collection process, we could adjust our deep learning algorithms to require less data? That's exactly what we did with G-CNNs -- by exploiting a key observation about the way in which convolutional neural networks work, we managed to reduce the data requirements for medical imaging by a ten-fold!_
+<font size="2">
+	<b>Note:</b> This post is intended to be an intuitive introduction to the work previously presented at MIDL 2018, ICML 2018 and an upcoming issue of the Medical Image Analysis journal. 
+</font>
+<hr>
 
+<br>
 <!-- more -->
-# The Challenge
-
-Deep learning, and convolutional neural networks in particular, have rapidly become the methodology of choice for (medical) image related tasks.  However, these techniques typically require a substantial amount of labeled data to learn from, meaning a human radiologist needs to manually record their findings in a way the computer can understand. Furthermore, if we want the algorithms to generalise well over different patient populations, scanner types, reconstruction techniques and so forth, we need even more data! 
+Deep learning, and convolutional neural networks in particular, have rapidly become the methodology of choice for all (medical) image related tasks.  However, these techniques typically require a substantial amount of labeled data to learn from, meaning a human radiologist needs to manually record their findings in a way the computer can understand. Furthermore, if we want the algorithms to generalise well over different patient populations, scanner types, reconstruction techniques and so forth, we need even more data! 
 
 This presents us with the challenge of _data efficiency_: the ability of an algorithm to learn complex tasks without requiring large quantities of data. Instead of spending all our time and energy at gathering more data, we try to increase the efficiency of the algorithms to handle the data that we already have.
 
@@ -47,7 +59,7 @@ This is a problem, because this means that you can't just present your algorithm
 Our solution to this was to create a new type of convolutional neural network (CNN) called the _group-equivariant convolutional neural network_ (G-CNN), which can handle the rotated and reflected versions of images. And not only regular images, but also 3D volumes -- the type that of images that we have when we have CTs or MRIs.
 
 # Applying to the Real World
-But how well does new network type this work? As a case study, we use _pulmonary nodule_ detection. Pulmonary nodules are small lesions in the lung that may be indicative of lung cancer, which is why radiologists will generally try to detect these so they can track the growth over time. However, looking for these nodules can feel like looking for a needle in a haystack - without the advantage that you can just burn down the haystack to find said needle. 
+Yes, recognising dogs in pictures is all fun and games, but how well does this work for a real problem, like a medical finding? As a case study, we use _pulmonary nodule_ detection. Pulmonary nodules are small lesions in the lung that may be indicative of lung cancer, which is why radiologists will generally try to detect these so they can track the growth over time. However, looking for these nodules can feel like looking for a needle in a haystack - without the advantage that you can just burn down the haystack to find said needle. 
 
 Lung nodules are visible on a chest CT -- a 3D scan of the chest, visualising bones, muscles, fat, organs and blood vessels in grayscale. A typical chest CT is comprised of ~300 images (_slices_), stacked together to form the whole scan. You can imagine that looking through ~300 black and white images to find a small abnormality can be a tedious task, especially considering that nodules can take many shapes and forms. 
 
@@ -81,6 +93,8 @@ The results were astonishing. Of course, we hoped that our intuition was correct
 ## References
 
 _This research was performed as part of my thesis for the MSc Artificial Intelligence at the University of Amsterdam. It was supervised by [Taco Cohen](http://www.tacocohen.wordpress.com) (Machine Learning researcher at Qualcomm and  recently named as one of the [35 under 35 by MIT](https://www.innovatorsunder35.com/the-list/taco-cohen/)) &  prof. dr. [Max Welling](https://staff.fnwi.uva.nl/m.welling/) (research chair in Machine Learning at the University of Amsterdam and a VP Technologies at Qualcomm), as they originally laid the foundation of the work on equivariance and group-convolutional neural networks._
+
+_Implementation for 2D and 3D group-convolutions in Tensorflow, PyTorch and Chainer can be easily used from the [GrouPy](https://github.com/tscohen/GrouPy) python package. A Keras implementation for 2D can be found [here](https://github.com/basveeling/keras-gcnn)._
 
 <font size="2">
 M. Winkels, T.S. Cohen, <b><i>3D G-CNNs for Pulmonary Nodule Detection</i></b>, International Conference on Medical Imaging with Deep Learning (MIDL), 2018.
