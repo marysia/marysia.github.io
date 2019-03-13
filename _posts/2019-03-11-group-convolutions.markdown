@@ -21,7 +21,7 @@ _Group-Equivariant Convolutional Neural Networks:_
 </ul>
 
 <font size="2">
-	<b>Note:</b> This post is intended to be an <i>intuitive</i> introduction to the work previously presented at MIDL 2018, ICML 2018 and an upcoming issue of the Medical Image Analysis journal. 
+	<b>Note:</b> This post is intended to be an <i>intuitive</i> introduction to the work previously presented at MIDL 2018, ICML 2018 and an upcoming issue of the Medical Image Analysis journal. A more in-depth, technical explanation will appear later.
 </font>
 <hr>
 
