@@ -67,7 +67,7 @@ But enough about dogs. What about _real_ problems, like medical findings? As a c
 
 Pulmonary nodules (also often called <emph>lung nodules</emph>) are visible on a chest CT -- a 3D scan of the chest, visualising bones, muscles, fat, organs and blood vessels in grayscale. A typical chest CT is comprised of ~300 images (called _slices_), stacked together to form the whole scan. You can imagine that looking through ~300 black and white images to find a small abnormality can be a tedious task, especially considering that nodules can take many shapes and forms. 
 
-That's where AI comes in to help! 
+That's where <emph>AI</emph> comes in to help! 
 <div class="Figure">
 	<br>
     <img src="../assets/gconv/nodule-1.png" alt="Image" width="250"/>
