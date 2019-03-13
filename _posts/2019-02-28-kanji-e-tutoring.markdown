@@ -22,7 +22,7 @@ _Kanji, the characters in the Japanese writing system, can be notoriously comple
 <div class="Figure">
     <img src="../assets/kanji/compound_kanji.png" alt="Image" width="200"/>
 	<br>
-	<div class="Figure index">Figure 1.</div><div class="Figure description"> Example of compound kanji. </div>
+	<div class="Figure index">Figure 1.</div><div class="Figure description" style="width: 200px"> Example of compound kanji. </div>
 </div>
  
 Maybe even more so than in other domains, kanji requires individual practise and repetition to master, more than a classroom approach, which is why <emph>e-tutoring systems</emph> are often used to supplement - or even replace - lectures, by providing instructions, asking questions and providing feedback. The aim for such a system is to keep the student as engaged as possible, in order to prevent the student abandoning the system out of frustration, and to facilitate the necessary repetition to master the writing system. 
@@ -37,7 +37,7 @@ Our e-tutoring system provides the user with a series of <emph>multiple choice</
 <div class="Figure">
     <img src="../assets/kanji/mountain.png" alt="Image" width="300"/>
 	<br>
-	<div class="Figure index">Figure 2.</div><div class="Figure description"> Hint presented for the kanji for mountain. </div>
+	<div class="Figure index">Figure 2.</div><div class="Figure description" style="width: 300px"> Hint presented for the kanji for mountain. </div>
 </div>
 
 Because of the way we set up the system and the nature of kanji themselves, we can more or less estimate how difficult a question will be for a student in relative terms. For example, when we present the kanji for trees and provide the option trees, forest, plants and rice field, we expect the question to be more difficult than if we presented car, woman and mountain as alternative options. <emph>Difficulty vector v</emph> is the combination of parameters that determine the relative difficulty, and we've asked an expert from the Japanese language department of the University of Leiden to rank these parameters in order of difficulty. 
@@ -55,7 +55,7 @@ So, of course, we want to know whether our system is actually preferred by stude
  
 <div class="Figure">
 	<img src="../assets/kanji/results.png" alt="Image" width="800"/> 
-	<div class="Figure index">Figure 3.</div><div class="Figure description"> Preference by users for the adaptive system vs. baseline system. </div>
+	<div class="Figure index">Figure 3.</div><div class="Figure description" > Preference by users for the adaptive system vs. baseline system. </div>
 </div>
 
 
