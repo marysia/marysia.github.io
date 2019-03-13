@@ -16,8 +16,7 @@ _Kanji, the characters in the Japanese writing system, can be notoriously comple
 	<b>Note:</b> This project was done as part of the MSc. Artificial Intelligence, under supervision of <a href="http://www.roijers.info">Diederik Roijers</a> and in collaboration with the Japanese language department of Leiden University. This work was presented at <a href="https://bnaic2018.nl)">BNAIC 2018</a>.
 </font>
 <hr>
-
-<i><emph> Kanji</emph></i> are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
+<i></i><emph> Kanji</emph> are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
 
 <div class="Figure">
     <img src="../assets/kanji/compound_kanji.png" alt="Image" width="200"/>
