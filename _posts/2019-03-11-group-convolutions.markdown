@@ -100,11 +100,11 @@ _This research was performed as part of my thesis for the MSc Artificial Intelli
 _Implementations for 2D and 3D group-convolutions in Tensorflow, PyTorch and Chainer can be easily used from the [GrouPy](https://github.com/tscohen/GrouPy) python package. A Keras implementation for 2D can be found [here](https://github.com/basveeling/keras-gcnn)._
 
 <font size="2">
-M. Winkels, T.S. Cohen, <b><i>3D G-CNNs for Pulmonary Nodule Detection</i></b>, International Conference on Medical Imaging with Deep Learning (MIDL), 2018.
+M. Winkels, T.S. Cohen, <b><i>3D G-CNNs for Pulmonary Nodule Detection</i></b>, International Conference on Medical Imaging with Deep Learning (MIDL), 2018. [<a href="https://arxiv.org/abs/1804.04656">arxiv</a>] [<a href="https://arxiv.org/pdf/1804.04656.pdf">pdf</a>]
 <br>
-M. Winkels, T.S. Cohen, <b><i>Pulmonary Nodule Detection in CT Scans with Equivariant CNNs</i></b>, Under review at Medical Image Analysis (MIA), 2018.
+M. Winkels, T.S. Cohen, <b><i>Pulmonary Nodule Detection in CT Scans with Equivariant CNNs</i></b>, Under review at Medical Image Analysis (MIA), 2018. [<a href="{{site.baseurl}}/assets/MIA.pdf">pdf</a>]
 <br>
-M. Winkels, T.S. Cohen, <b><i>3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups</i></b>, FAIM/ICML Workshop on Towards learning with limited labels: Equivariance, Invariance, and Beyond (ICML), 2018.
+M. Winkels, T.S. Cohen, <b><i>3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups</i></b>, FAIM/ICML Workshop on Towards learning with limited labels: Equivariance, Invariance, and Beyond (ICML), 2018. [<a href="{{site.baseurl}}/assets/ICML.pdf">pdf</a>]
 <br>
-T.S. Cohen, M. Welling, <b><i>Group Equivariant Convolutional Networks</i></b>, Proceedings of the International Conference on Machine Learning (ICML), 2016.
+T.S. Cohen, M. Welling, <b><i>Group Equivariant Convolutional Networks</i></b>, Proceedings of the International Conference on Machine Learning (ICML), 2016. [<a href="https://arxiv.org/abs/1602.07576">arxiv</a>] [<a href="https://arxiv.org/pdf/1602.07576.pdf">pdf</a>]
 </font>
