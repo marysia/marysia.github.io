@@ -4,7 +4,7 @@ title:  "Challenge balancing for a kanji e-tutoring system"
 subtitle: "a way to improve the learning experience"
 date:   2019-02-28 16:25:56 +0100
 author: Marysia Winkels
-permalink: /blog/kanji-e-tutoring
+permalink: /blog/kanji-e-tutoring/
 categories: AI-projects
 abstract: "Kanji, the characters in the Japanese writing system, can be notoriously complex and difficult to teach and learn. Maybe even more so than for other domains, learning kanji requires - above all - a lot of repetition, which can be tedious and frankly quite boring. Inspired by an insight from the field of gaming to maximise player engagement, we aimed to improve user engagement with a kanji e-tutoring system by using implicit feedback to gauge the experienced challenge level. The core idea is that we can personalise the experience by adapting our system to provide just the right level of difficulty for each individual user, therefore increasing user engagement and ultimately increasing the time spent using the system."
 ---
@@ -19,7 +19,7 @@ _Kanji, the characters in the Japanese writing system, can be notoriously comple
 <i></i><emph> Kanji</emph> are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
 
 <div class="Figure">
-    <img src="../assets/kanji/compound_kanji.png" alt="Image" width="200"/>
+    <img src="{{site.baseurl}}/assets/kanji/compound_kanji.png" alt="Image" width="200"/>
 	<br>
 	<div class="Figure index">Figure 1.</div><div class="Figure description" style="width: 200px"> Example of compound kanji. </div>
 </div>
@@ -34,7 +34,7 @@ One way to do this is by what we call a _competence model_, which includes param
 Our e-tutoring system provides the user with a series of <emph>multiple choice</emph> questions where they have to provide either the respective kanji or meaning of the kanji. In addition to this, we provide a 'hint' option which can guide the student in the right direction, for example by outlining from what radicals or individual kanji a kanji exists, or a mnemonic.
 
 <div class="Figure">
-    <img src="../assets/kanji/mountain.png" alt="Image" width="300"/>
+    <img src="{{site.baseurl}}/assets/kanji/mountain.png" alt="Image" width="300"/>
 	<br>
 	<div class="Figure index">Figure 2.</div><div class="Figure description" style="width: 300px"> Hint presented for the kanji for mountain. </div>
 </div>
@@ -53,12 +53,10 @@ In the <emph>online adaptation</emph> phase, we use the mapping we created in th
 So, of course, we want to know whether our system is actually preferred by students. We test this by presenting users with our system and a baseline system in random order, for a set number of questions. They then had to indicate which system they preferred, and why. Further feedback included users explicitly noting that the adaptive system better matched their skill level.
  
 <div class="Figure">
-	<img src="../assets/kanji/results.png" alt="Image" width="800"/> 
+	<img src="{{site.baseurl}}/assets/kanji/results.png" alt="Image" width="800"/> 
 	<div class="Figure index">Figure 3.</div><div class="Figure description" > Preference by users for the adaptive system vs. baseline system. </div>
 </div>
 
 
 Initial results already confirmed that using implicit user feedback provides a better mapping to perceived challenge level than solely looking at the correctness of the answers, and further testing indicate that users generally prefer a system based on this method. We can therefore conclude that challenge balancing based on implicit user feedback provides a <emph>viable alternative</emph> to competence models based challenge balancing.
 
-<br>
-<div align="left"><i>Read more:</i> &nbsp; [<a href="http://roijers.info/pub/winkels2018bnaic.pdf">link to paper</a>]</div>

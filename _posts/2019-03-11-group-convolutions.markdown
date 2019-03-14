@@ -4,7 +4,7 @@ title: "Group-Convolutions: a new take on convolutional neural networks"
 subtitle: "overcoming the data challenge in medical image analysis"
 date:   2019-03-11 12:25:56 +0100
 author: Marysia Winkels
-permalink: /blog/group-convolutions
+permalink: /blog/group-convolutions/
 categories: AI-projects
 abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but the challenge is gathering enough data. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data? That's what we do with 3D G-CNNs!"
 ---
@@ -26,7 +26,7 @@ _Group-Equivariant Convolutional Neural Networks:_
 <hr>
 
 Deep learning, and convolutional neural networks in particular, have rapidly become the methodology of choice for all (medical) image related tasks. However, these techniques typically require a substantial amount of labeled data to learn from, meaning a human radiologist needs to manually record their findings in a way the computer can understand.
-<img src="../assets/gconv/radiologist.png" alt="Image" width="250" align="right" />
+<img src="{{site.baseurl}}/assets/gconv/radiologist.png" alt="Image" width="250" align="right" />
  Furthermore, if we want the algorithms to generalise well over different patient populations, scanner types, reconstruction techniques and so forth, we need **even more data!**
 
 This presents us with the challenge of <emph>data efficiency</emph>: the ability of an algorithm to learn complex tasks without requiring large quantities of data. Instead of spending all our time and energy at gathering more data, we try to increase the efficiency of the algorithms to handle the data that we already have.
@@ -37,8 +37,8 @@ To explore how we can improve the data efficiency of convolutional neural networ
 
 <div class="Figure">
 	<br>
-    <img src="../assets/gconv/ender-translated-1.jpg" alt="Image" width="250"/>
-    <img src="../assets/gconv/ender-translated-2.jpg" alt="Image" width="250"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-translated-1.jpg" alt="Image" width="250"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-translated-2.jpg" alt="Image" width="250"/>
 	<br> <br>
 	<div class="Figure index">Figure 1.</div><div class="Figure description"> Two images of the same dog, at a slightly different location (an example of translation). Still easy for the model to understand. </div>
 </div>
@@ -47,10 +47,10 @@ This is great for images -- after all, it rarely matters where exactly in an ima
 
 <div class="Figure">
 	<br>
-    <img src="../assets/gconv/ender-rot-1.jpg" alt="Image" width="125"/>
-    <img src="../assets/gconv/ender-rot-2.jpg" alt="Image" width="125"/>
-    <img src="../assets/gconv/ender-rot-3.jpg" alt="Image" width="125"/>
-    <img src="../assets/gconv/ender-rot-4.jpg" alt="Image" width="125"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-rot-1.jpg" alt="Image" width="125"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-rot-2.jpg" alt="Image" width="125"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-rot-3.jpg" alt="Image" width="125"/>
+    <img src="{{site.baseurl}}/assets/gconv/ender-rot-4.jpg" alt="Image" width="125"/>
 	<br> <br>
 	<div class="Figure index">Figure 2.</div><div class="Figure description"> Images of the same dog, but this time rotated by 90 degrees. Incomprehensible to the model. </div>
 </div>
@@ -70,8 +70,8 @@ Pulmonary nodules (also often called <emph>lung nodules</emph>) are visible on a
 That's where <emph>AI</emph> comes in to help! 
 <div class="Figure">
 	<br>
-    <img src="../assets/gconv/nodule-1.png" alt="Image" width="250"/>
-    <img src="../assets/gconv/nodule-2.png" alt="Image" width="250"/>
+    <img src="{{site.baseurl}}/assets/gconv/nodule-1.png" alt="Image" width="250"/>
+    <img src="{{site.baseurl}}/assets/gconv/nodule-2.png" alt="Image" width="250"/>
 	<br> <br>
 	<div class="Figure index">Figure 3.</div><div class="Figure description"> Example of a nodule detected and analysed on a single CT slice by <a href="http://www.aidence.com/our-solution">Veye Chest</a>, Aidence's pulmonary nodule detection software.  </div>
 </div>
@@ -86,7 +86,7 @@ That's why we trained our model on four different dataset sizes: <emph>30</emph>
 
 <div class="Figure">
 	<br>
-    <img src="../assets/gconv/barplot.png" alt="Image" width="400"/>
+    <img src="{{site.baseurl}}/assets/gconv/barplot.png" alt="Image" width="400"/>
 	<br> <br>
 	<div class="Figure index">Figure 4.</div><div class="Figure description">The G-CNN (<font color="#2EC0D6">blue</font>) models are as good (or better than) the score of the regular CNN (<font color="grey">grey</font>) trained on ten times the amount of data, which means we've achieved a <b>10x</b> increase in data efficiency! </div>
 </div>
