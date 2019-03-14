@@ -13,7 +13,7 @@ abstract: "Kanji, the characters in the Japanese writing system, can be notoriou
 _Kanji, the characters in the Japanese writing system, can be notoriously complex and difficult to teach and learn. Maybe even more so than for other domains, learning kanji requires - above all - a lot of repetition, which can be tedious and frankly quite boring. Inspired by an insight from the field of gaming to maximise player engagement, we aimed to improve user engagement with a kanji e-tutoring system by using implicit feedback to gauge the experienced challenge level. The core idea is that we can personalise the experience by adapting our system to provide just the right level of difficulty for each individual user, therefore increasing user engagement and ultimately increasing the time spent using the system._
 
 <font size="2">
-	<b>Note:</b> This project was done as part of the MSc. Artificial Intelligence, under supervision of <a href="http://www.roijers.info">Diederik Roijers</a> and in collaboration with the Japanese language department of Leiden University. This work was presented at <a href="https://bnaic2018.nl">BNAIC 2018</a>.
+	<b>Note:</b> This project was done as part of the MSc. Artificial Intelligence, under supervision of <a href="http://www.roijers.info">Diederik Roijers</a> and in collaboration with the Japanese language department of Leiden University. This work was presented at <a href="https://bnaic2018.nl">BNAIC 2018</a>. [<a href="http://roijers.info/pub/winkels2018bnaic.pdf">link to paper</a>]
 </font>
 <hr>
 <i></i><emph> Kanji</emph> are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
@@ -59,3 +59,6 @@ So, of course, we want to know whether our system is actually preferred by stude
 
 
 Initial results already confirmed that using implicit user feedback provides a better mapping to perceived challenge level than solely looking at the correctness of the answers, and further testing indicate that users generally prefer a system based on this method. We can therefore conclude that challenge balancing based on implicit user feedback provides a <emph>viable alternative</emph> to competence models based challenge balancing.
+
+<br>
+<div align="left"><i>Read more:</i> &nbsp; [<a href="http://roijers.info/pub/winkels2018bnaic.pdf">link to paper</a>]</div>
