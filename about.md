@@ -12,8 +12,9 @@ Other things on my ever expanding list of interests are in no particular order: 
 
 On the side, I'm a boardgame enthousiast, very happy owner of every single Pokémon game ever released by Nintendo (yes, including Pokémon Snap), enjoy storytelling, a strong appreciator of coffee (both quality and quantity), love experiencing and learning new things (case in point: recently followed this [slacklining course](https://www.youtube.com/watch?v=NDlFf4WDBTk)), and occasionally like to dabble in concert photography. 
 
-Don't hesitate to shoot me a message at [hello@marysia.nl](mailto:hello@marysia.nl).
+Don't hesitate to shoot me a message at [hello@marysia.nl](mailto:hello@marysia.nl). 
 
-I'll leave you with a picture of this little guy, a Swiss White Shepherd called _Ender_ (after Ender Wiggin). 
+<br> 
 
-![text](../assets/ender.jpg)
+![text](../assets/vhto-marysia.jpg)
+<div align="center"><i> Photo by <a href="https://500px.com/ringtailmaki">Jessica van Wynsberge</a><i><div>
