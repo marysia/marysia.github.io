@@ -1,30 +1,35 @@
 ---
 layout: post
-title: "Group-Convolutions: a new take on convolutional neural networks"
-subtitle: "overcoming the data challenge in medical image analysis"
+title: "Group-Convolution: increasing data-efficiency in medical image analysis"
 date:   2019-03-11 12:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/group-convolutions/
 categories: AI-projects
-abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but the challenge is gathering enough data. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data? That's what we do with 3D G-CNNs!"
+abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?"
 ---
+<br>
 <hr>
-### TL;DR
-_Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but the challenge is gathering enough data. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data? That's what we do with <emph>3D G-CNNs</emph>!_
+### Summary
+<br>
+Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?
+
+To tackle this, we introduce _Group Equivariant Convolutional Networks_ -- networks with a convolutional layer that generalises the weight sharing property to other types of transformations. 
 
 _Group-Equivariant Convolutional Neural Networks:_
 <ul style="line-height: 180%">
   <li>Reduce the <i>data requirements</i> for medical image analysis by <emph>10x</emph></li>
-  <li>Proved effective for <i>pulmonary nodule detecion</i></li>
   <li>Invariant not only to <i>translation</i>, but also <i>rotation</i> and <i>reflection</i> </li>
+  <li>Proved effective for <i>pulmonary nodule detecion</i></li>
   <li>Far better than data augmentation</li>
 </ul>
 
 <font size="2">
-	<b>Note:</b> This post is intended to be an <i>intuitive</i> introduction to the work previously presented at <emph>MIDL 2018</emph> and <emph>ICML 2018</emph>. An in-depth academic article is to be featured in <emph>Medical Image Analysis</emph> (MIA) Journal.
+	<b>Note:</b> This post is intended to be an intuitive introduction to the work previously presented at <emph>MIDL 2018</emph> and <emph>ICML 2018</emph>. An in-depth academic article is to be featured in <emph>Medical Image Analysis</emph> (MIA) Journal.
 </font>
+<br>
 <hr>
-
+<br>
+<br>
 Deep learning, and convolutional neural networks in particular, have rapidly become the methodology of choice for all (medical) image related tasks. However, these techniques typically require a substantial amount of labeled data to learn from, meaning a human radiologist needs to manually record their findings in a way the computer can understand.
 <img src="{{site.baseurl}}/assets/gconv/radiologist.png" alt="Image" width="250" align="right" />
  Furthermore, if we want the algorithms to generalise well over different patient populations, scanner types, reconstruction techniques and so forth, we need **even more data!**

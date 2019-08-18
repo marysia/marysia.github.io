@@ -5,13 +5,11 @@ date:   2019-02-28 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/kanji-e-tutoring/
 categories: AI-projects
-abstract: "Kanji, the characters in the Japanese writing system, can be notoriously complex and difficult to teach and learn. Maybe even more so than for other domains, learning kanji requires - above all - a lot of repetition, which can be tedious and frankly quite boring. Inspired by an insight from the field of gaming to maximise player engagement, we aimed to improve user engagement with a kanji e-tutoring system by using implicit feedback to gauge the experienced challenge level. The core idea is that we can personalise the experience by adapting our system to provide just the right level of difficulty for each individual user, therefore increasing user engagement and ultimately increasing the time spent using the system."
+abstract: "Kanji, the characters in the Japanese writing system, can be notoriously complex and difficult to teach and learn as it requires - above all - a lot of repetition, which can be tedious and frankly quite boring. Inspired by an insight from the field of gaming to maximise player engagement, we aimed to improve user engagement with a kanji e-tutoring system by using implicit feedback to gauge the experienced challenge level. The core idea is that we can personalise the experience by adapting our system to provide just the right level of difficulty for each individual user, therefore increasing user engagement and ultimately increasing the time spent using the system."
 ---
-
 <br>
 <hr>
 ### Summary
-
 <br>
 Kanji, the characters in the Japanese writing system, can be notoriously complex and difficult to teach and learn as it requires - above all - a lot of repetition, which can be tedious and frankly quite boring. Inspired by an insight from the field of gaming to maximise player engagement, we aimed to improve user engagement with a kanji e-tutoring system by using implicit feedback to gauge the experienced challenge level. The core idea is that we can personalise the experience by adapting our system to provide just the right level of difficulty for each individual user, therefore increasing user engagement and ultimately increasing the time spent using the system.
 
