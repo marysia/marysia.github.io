@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Challenge balancing for a kanji e-tutoring system"
+title: "Challenge balancing for a kanji e-tutoring system"
 date:   2019-02-28 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/kanji-e-tutoring/
