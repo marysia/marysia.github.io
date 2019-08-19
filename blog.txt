@@ -1,8 +1,0 @@
-- G-Convs
-- Kanji trainer
-- Authorship classification
-- Fair division & resource allocation 
-	- tools hermaken in Python
-- PyData
-- UFC betting analysis
-- Microsoft
