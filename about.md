@@ -14,7 +14,7 @@ Besides that, I'm co-chair of the [PyData Amsterdam](http://pydata.org/amsterdam
 Although I work in medical image analysis, during my studies I particularly enjoyed working on projects related to learning analytics, logic, fair division and resource allocation, voting systems and invariance/equivariance in convolutional neural networks. I also still eagerly read anything about  natural language processing, multi-agent systems, reinforcement learning, neuroscience, language philosophy and education. I'm particularly passionate about programming education, as I love to share my enthousiasm for programming and tech with others, especially girls. 
 -->
 
-On the side, I'm a boardgame enthousiast, proud owner of nearly all Pokémon games (currently playing _Let's Go! Eevee_), enjoy storytelling evenings at Mezrab, have an [adorable dog](../assets/ender.jpg), am a strong appreciator of coffee (both quality and quantity), love learning new things (like [slacklining](https://www.youtube.com/watch?v=NDlFf4WDBTk){:.no-lightbox}), and occasionally like to dabble in concert photography. 
+On the side, I'm a boardgame enthousiast, proud owner of nearly all Pokémon games (currently playing _Let's Go! Eevee_), enjoy storytelling evenings at Mezrab, have an [adorable dog](../assets/ender.jpg), am a strong appreciator of coffee (both quality and quantity), love learning new things (like [slacklining](https://www.youtube.com/watch?v=NDlFf4WDBTk){:.no-lightbox}), and occasionally like to dabble in [concert photography](https://marysia.nl/photos/). 
 
 Don't hesitate to shoot me a message at [hello@marysia.nl](mailto:hello@marysia.nl). 
 
