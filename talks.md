@@ -6,7 +6,7 @@ permalink: /talks/
 ---
 ### 2020 
 _Interview - Guido van Rossum._ 
-<br>Creator of the Python programming language. Interview co-hosted with [Nelson Mooren](nelson.science). <br>  [[link to interview]](www.youtube.com/watch?v=eJUwlzR_hCY)
+<br>Creator of the Python programming language. Interview co-hosted with [Nelson Mooren](https://nelson.science). <br>  [[link to interview]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
 
 _Interview - Adrin Jalali._ 
 <br>Core developer Scikit-Learn. Interview co-hosted with [Matthijs Brouns](https://www.mbrouns.com).
@@ -15,7 +15,7 @@ _Panel Discussion - WaiDATATHON._
 <br>Panel discussion with Maarten Sukel, Wilder Rodrigues and Judit Szaffenauer on trends and challenges in data science. Moderated by Elizabeth Adams.
 
 _Talk - Deep Learning in Practice_
-<br>Introductory talk on deep learning for Xebia Academy Webinar Week. <br> [[link to talk]](community.xebia.academy/courses/3857038)
+<br>Introductory talk on deep learning for Xebia Academy Webinar Week. <br> [[link to talk]](https://community.xebia.academy/courses/3857038)
 
 
 ### 2019 
@@ -47,7 +47,7 @@ A week-long online festival to serve as an alternative to the IRL conference. Ea
 
  Highlights include: interviews with the creator of Python (Guido van Rossum), core developer of Scikit Learn (Adrin Jalali), release managers of Python 3.8/3.9 (Łukasz Langa) and Python 3.10/3.11 (Pablo Galindo Salgado) and a Pandas sprint lead by a Pandas maintainer (Marco Gorelli).
  
- [[conference website]](amsterdam.pydata.org) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH)
+ [[conference website]](https://amsterdam.pydata.org) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH)
 
 
 
