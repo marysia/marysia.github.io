@@ -12,7 +12,7 @@ Hi there! I'm Marysia.
 
 I am many things, amongst which: 
 * Co-chair [PyData Amsterdam](http://amsterdam.pydata.org). 
-* Machine learning R&D engineer at [Aidence](http://www.aidence.com). 
+* Data scientist & educator at [GoDataDriven](https://godatadriven.com). 
 * Advocate for diversity in CompSci and accessible programming education. 
 * [Adorable dog](../assets/ender.jpg) owner. 
 * Boardgame enthousiast and occassional [concert photographer](https://marysia.nl/photos/).
