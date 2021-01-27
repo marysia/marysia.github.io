@@ -25,6 +25,9 @@ _Talk - PyCon DE & PyData Berlin._
 _Talk - PyData @ TomTom HQ._
 <br>Meetup on data challenges. Talk on data challenges in the medical domain and how to solve them w.r.t. medical imaging.
 
+_Podcast - de Dataloog_
+<br>Reflection on eHealth meetup and the barriers and do's and don't of AI in healthcare. [[link to podcast]](https://www.dedataloog.nl/uitzending/dtl-ddsw-update-reflecties-van-deelnemers-op-de-ehealth-meetup/) 
+
 _Lightning Talk - PyData Amsterdam._
 <br>Alternative for data augmentation for image-related tasks.
 
