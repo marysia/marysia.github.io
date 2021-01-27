@@ -22,11 +22,11 @@ _Talk - Deep Learning in Practice_
 _Talk - PyCon DE & PyData Berlin._
 <br> Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency. <br> [[link to talk]](https://www.youtube.com/watch?v=t7U-Z5a7oWw)
 
+_Podcast - de Dataloog_
+<br>Reflection on eHealth meetup and the barriers and do's and don't of AI in healthcare. <br>[[link to podcast]](https://www.dedataloog.nl/uitzending/dtl-ddsw-update-reflecties-van-deelnemers-op-de-ehealth-meetup/) 
+
 _Talk - PyData @ TomTom HQ._
 <br>Meetup on data challenges. Talk on data challenges in the medical domain and how to solve them w.r.t. medical imaging.
-
-_Podcast - de Dataloog_
-<br>Reflection on eHealth meetup and the barriers and do's and don't of AI in healthcare. [[link to podcast]](https://www.dedataloog.nl/uitzending/dtl-ddsw-update-reflecties-van-deelnemers-op-de-ehealth-meetup/) 
 
 _Lightning Talk - PyData Amsterdam._
 <br>Alternative for data augmentation for image-related tasks.
