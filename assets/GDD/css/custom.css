@@ -198,30 +198,29 @@ img[alt~="right_center_quarter"] {
 }
 
 /*----------------------------*/
-li {
+.rendered_html li {
 	counter-increment: li;
 }
 
-ul {
+.rendered_html ul {
   margin: 0;
   list-style: none;
   content: none;
 }
 
-ul li::before {
+.rendered_html ul li::before {
 	content: " •";
-/*	content: "⚬";*/
 	color: var(--blue);
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em
 }
 
-ol {
+.rendered_html ol {
 	list-style: none;
 	counter-reset: li}
 
-ol li::before {
+.rendered_html ol li::before {
 	content: counter(li) ".";
 	color: var(--blue);
 	display: inline-block;
@@ -229,7 +228,6 @@ ol li::before {
     margin-left: -1.5em;
     margin-right: 0.5em;
 	text-align: right;
-/*	direction: rtl*/
 }
 
 
@@ -355,4 +353,15 @@ ol li::before {
     margin-left: -1.5em;
     margin-right: 0.5em;
 	text-align: right;
+}
+
+#ipython_notebook img{
+    display:block;
+    background: url(logo.png) no-repeat;
+    background-size: contain;
+    width: 233px;
+    height: 33px;
+    padding-left: 233px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
