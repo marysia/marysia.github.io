@@ -5,7 +5,7 @@ menu: true
 permalink: /talks/
 ---
 
-I've given, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection: 
+&emsp; I've given, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection: 
  - [Talks](#talks) 
  - [Interviews](#interviews) 
  - [Trainings](#trainings) 
@@ -13,7 +13,7 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 <a name="talks"></a>
 # Talks
-
+<br>
 * **Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
 * **Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
 * **Serious Time for Time Series** (*it's time to take time series seriously!*), 
@@ -27,14 +27,13 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 <a name="interviews"></a>
 # Interviews
-
+<br>
 * **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
 * **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
 
 <a name="trainings"></a>
 # Trainings
-
-I've created, improved and delivered a variety of trainings through GoDataDriven at various clients. Some past clients include DSM, Ahold, bol.com, KNAW, ING. Anything marked with an asterix (*) is a training I've contributed significantly to.  
+<br>
 * Python for Data Analysis
 * Data Science with Python (*)
 * Advanced Data Science with Python (*)
@@ -47,9 +46,11 @@ I've created, improved and delivered a variety of trainings through GoDataDriven
 * Deep Learning for Image Processing (*)
 * Deep Learning for Natural Language Processing (*)
 
+I've created, improved and delivered a variety of trainings through GoDataDriven at various clients. Many times, this included creating new material on demand or adjusting existing material to suit the clients needs. Some past clients include DSM, Ahold, bol.com, KNAW, ING. Anything marked with an asterix (*) is a training I've contributed significantly to.  
 
 <a name="conferences"></a>
 # Conferences
+<br>
 
 * **PyData Amsterdam 2023** (as co-chair) _upcoming!_
 * **PyData Global 2021** (as co-chair)
