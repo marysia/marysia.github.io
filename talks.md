@@ -75,10 +75,8 @@ A three-day conference hosted at GoDataDriven and Booking.com HQ. The conference
 [[conference website]](https://pydata.org/amsterdam2019/schedule/) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht) -->
 
 <br>
-![](../assets/ballpit.gif)
-
 <center>
-<img src='../assets/ballpit.gif'></img>
+<img src='../assets/ballpit.gif'>
 	<br>
  PyData Amsterdam committee at the 2019 conference in the conference ballpit!</center>
 
