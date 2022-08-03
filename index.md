@@ -17,11 +17,12 @@ I am currently:
 
 I'm particularly fascinated with data-centric AI, geometric deep learning, data science education and community building.
 
-
-<p float="center">
-  <img src="../assets/dogsds-round.png" width="200" />
-  <img src="../assets/vhto-round.png" width="200" /> 
+<center> 
+<p>
+  <img src="../assets/dogsds-round.png" height="200" />
+  <img src="../assets/vhto-round.png" height="200" /> 
 </p>
+</center>
 
 
 <!--![](../assets/dogsds-round.png)
