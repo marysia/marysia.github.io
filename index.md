@@ -13,7 +13,7 @@ Hi there! I'm Marysia.
 I am many things, amongst which: 
 * Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (through GoDataDriven)
 * Data Scientist & Data Science Educator @ [GoDataDriven](https://godatadriven.com)
-* Chair @ [PyData Amsterdam](http://amsterdam.pydata.org)
+* Co-Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) (and formerly [PyData Global](https://pydata.org/global2021/))
 
 ![text](../assets/dogdatascience.jpeg)
 
