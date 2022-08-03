@@ -29,5 +29,6 @@ I'm particularly fascinated with data-centric AI, geometric deep learning, data 
 
 ![](../assets/vhto-round.png) -->
 
-
+<center> 
 Want to chat? Feel free to shoot me a message at <a href="mailto:hello@marysia.nl">hello@marysia.nl</a>!
+</center>
