@@ -8,9 +8,9 @@ permalink: /talks/
 I've given, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection: 
  - [Talks](#talks) 
  - [Interviews](#interviews) 
+ - [Competitions](#competitions)
  - [Trainings](#trainings) 
  - [Conferences](#conferences)
- - [Competitions](#competitions)
 
 <a name="talks"></a>
 # Talks
@@ -36,6 +36,14 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 * **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
 * **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
+
+	
+<a name="competitions"></a>
+# Competitions
+* [Data-Centric AI competition by deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/) -- winner in 'Most Innovative' category with Rens Dimmendaal & Roel Bertens (GoDataDriven)
+* [Kaggle Data Science Bowl 2017](https://www.kaggle.com/c/data-science-bowl-2017) -- 3rd place with Aidence.
+
+
 
 <a name="trainings"></a>
 # Trainings
@@ -79,12 +87,6 @@ A week-long online festival to serve as an alternative to the IRL conference. Ea
 A three-day conference hosted at GoDataDriven and Booking.com HQ. The conference in numbers: 2 keynotes, 4 tutorials, 30 talks, 45 speakers, >350 attendees, 11 sponsors, 1 ballpit.
 
 [[conference website]](https://pydata.org/amsterdam2019/schedule/) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht) -->
-	
-<a name="competitions"></a>
-# Competitions
-* [Data-Centric AI competition by deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/) -- winner in 'Most Innovative' category with Rens Dimmendaal & Roel Bertens (GoDataDriven)
-* [Kaggle Data Science Bowl 2017](https://www.kaggle.com/c/data-science-bowl-2017) -- 3rd place with Aidence.
-
 
 <br>
 <center>
