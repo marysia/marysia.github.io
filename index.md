@@ -11,12 +11,13 @@ title: Marysia Winkels
 Hi there! I'm Marysia. 
 
 I am many things, amongst which: 
-* Co-chair [PyData Amsterdam](http://amsterdam.pydata.org). 
-* Data scientist & educator at [GoDataDriven](https://godatadriven.com). 
-* Advocate for diversity in CompSci and accessible programming education. 
-* [Adorable dog](../assets/ender.jpg) owner. 
-* Boardgame enthousiast and occassional [concert photographer](https://marysia.nl/photos/).
+* Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (through GoDataDriven)
+* Data Scientist & Data Science Educator @ [GoDataDriven](https://godatadriven.com)
+* Chair @ [PyData Amsterdam](http://amsterdam.pydata.org)
 
-![text](../assets/vhto-marysia.jpg)
+![text](../assets/dogdatascience.jpeg)
 
+This is a space where I write things. I'm particularly fascinated with data-centric AI, data-efficiency, deep learning, data science education and community building.
+
+Want to chat?
 <center> Don't hesitate to shoot me a message at <a href="mailto:hello@marysia.nl">hello@marysia.nl</a>! </center>
