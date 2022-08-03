@@ -13,10 +13,13 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 <a name="talks"></a>
 # Talks
+
 * **Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
 * **Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
-* **Serious Time for Time Series** (*it's time to take time series seriously!*), PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
-* **Unpacking the "Black Box": How to Interpret your Machine Learning Model**, [Applied Machine Learning Days 2022](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
+* **Serious Time for Time Series** (*it's time to take time series seriously!*), 
+	PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
+* **Unpacking the "Black Box": How to Interpret your Machine Learning Model**, 
+	[Applied Machine Learning Days 2022](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
 * **Equivariance in CNNs**, PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
 * **An Alternative to Data Augmentation**, PyData Amsterdam 2019 lightning talk
 * **Data-efficiency in Medical AI**, PyData Amsterdam 2019 meetup
@@ -24,26 +27,30 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 <a name="interviews"></a>
 # Interviews
+
 * **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
 * **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
 
 <a name="trainings"></a>
 # Trainings
+
+I've created, improved and delivered a variety of trainings through GoDataDriven at various clients. Some past clients include DSM, Ahold, bol.com, KNAW, ING. Anything marked with an asterix (*) is a training I've contributed significantly to.  
 * Python for Data Analysis
-* Data Science with Python
-* Advanced Data Science with Python
-* Advanced Python
-* Production-Ready Machine Learning
+* Data Science with Python (*)
+* Advanced Data Science with Python (*)
+* Advanced Python (*)
+* Production-Ready Machine Learning (*)
 * Clean Coding, Version Control and CI/CD
-* Unsupervised Learning
-* Explainability/Interpretability
+* Unsupervised Learning (*)
+* Explainability/Interpretability (*)
 * Data Visualisation & Storytelling
-* Deep Learning for Image Processing
-* Deep Learning for Natural Language Processing
+* Deep Learning for Image Processing (*)
+* Deep Learning for Natural Language Processing (*)
 
 
 <a name="conferences"></a>
 # Conferences
+
 * **PyData Amsterdam 2023** (as co-chair) _upcoming!_
 * **PyData Global 2021** (as co-chair)
 	[website](https://pydata.org/global2021/) - [YouTube playlist](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
@@ -67,8 +74,10 @@ A three-day conference hosted at GoDataDriven and Booking.com HQ. The conference
 [[conference website]](https://pydata.org/amsterdam2019/schedule/) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht) -->
 
 <br>
-<center>
 ![](../assets/ballpit.gif)
+
+<center>
+<img src='../assets/ballpit.gif'></img>
 	<br>
  PyData Amsterdam committee at the 2019 conference in the conference ballpit!</center>
 
