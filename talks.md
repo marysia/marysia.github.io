@@ -5,7 +5,7 @@ menu: true
 permalink: /talks/
 ---
 
-I've given, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of: 
+I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of: 
  - [Talks](#talks) 
  - [Interviews](#interviews) 
  - [Competitions](#competitions)
@@ -40,7 +40,7 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 
 <a name="trainings"></a>
 # Trainings
-I've created, improved and delivered a variety of trainings through GoDataDriven at various clients. Many times, this included creating new material on demand or adjusting existing material to suit the clients needs. Some past clients include DSM, Ahold, bol.com, KNAW, ING. Anything marked with an asterix (*) is a training I've contributed significantly to.  
+I've created, upgraded and delivered a variety of trainings  at various companies for GoDataDriven. Often this involved creating new material on demand or adjusting existing material to suit the clients' needs. Some past clients include DSM, Ahold, bol.com, KNAW, ING, and many others. Anything marked with an asterix (*) is a training I've contributed significantly to.  
 
 
 * Python for Data Analysis

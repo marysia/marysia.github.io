@@ -11,7 +11,7 @@ title: Marysia Winkels
 Hi there! I'm Marysia. This is a space where I write things. 
 
 I am currently: 
-* Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (through GoDataDriven)
+* Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (via GoDataDriven)
 * Data Scientist & Data Science Educator @ [GoDataDriven](https://godatadriven.com)
 * Co-Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) since 2019 (and [PyData Global 2021](https://pydata.org/global2021/))
 
