@@ -11,15 +11,8 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
  - [Trainings](#trainings) 
  - [Conferences](#conferences)
 
-# First
-## Second
-### Third
-#### Fourth
-
-
-<a name="talks">### Talks</a>
-
-### Talks
+<a name="talks"></a>
+# Talks
 * **Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
 * **Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
 * **Serious Time for Time Series** (*it's time to take time series seriously!*), PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
@@ -29,11 +22,13 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 * **Data-efficiency in Medical AI**, PyData Amsterdam 2019 meetup
 * **Towards learning with limited labels: Equivariance, Invariance, and Beyond**, International Conference on Machine Learning (ICML) 2019 
 
-<a name="talks">**Interviews**</a>
+<a name="interviews"></a>
+# Interviews
 * **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
 * **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
 
-<a name="trainings">Trainings</a>
+<a name="trainings"></a>
+# Trainings
 * Python for Data Analysis
 * Data Science with Python
 * Advanced Data Science with Python
@@ -47,7 +42,8 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 * Deep Learning for Natural Language Processing
 
 
-<a name="conferences">Conferences</a>
+<a name="conferences"></a>
+# Conferences
 * **PyData Amsterdam 2023** (as co-chair) _upcoming!_
 * **PyData Global 2021** (as co-chair)
 	[website](https://pydata.org/global2021/) - [YouTube playlist](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
