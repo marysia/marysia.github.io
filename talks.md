@@ -20,18 +20,18 @@ I've given, attended and organised a fair bit of talks, workshops and trainings 
 <a name="talks">### Talks</a>
 
 ### Talks
-* **Why you should care about data-centric AI**, PyData London 2022 [link](https://www.youtube.com/watch?v=vgtdPwUrP5I)
-* **Data-centric AI competition**, NeurIPS 2021 [link](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
-* **Serious Time for Time Series** (it's time to take time series seriously!), PyCon US 2021 [link](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
+* **Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
+* **Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
+* **Serious Time for Time Series** (*it's time to take time series seriously!*), PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
 * **Unpacking the "Black Box": How to Interpret your Machine Learning Model**, [Applied Machine Learning Days 2022](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
-* **Equivariance in CNNs**, PyData Berlin/PyCon DE 2019 [link](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
+* **Equivariance in CNNs**, PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
 * **An Alternative to Data Augmentation**, PyData Amsterdam 2019 lightning talk
 * **Data-efficiency in Medical AI**, PyData Amsterdam 2019 meetup
 * **Towards learning with limited labels: Equivariance, Invariance, and Beyond**, International Conference on Machine Learning (ICML) 2019 
 
 <a name="talks">**Interviews**</a>
-* **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link to interview]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
-* **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [link](https://www.youtube.com/watch?v=0tXIkjClGOs)
+* **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
+* **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
 
 <a name="trainings">Trainings</a>
 * Python for Data Analysis
@@ -71,7 +71,9 @@ A three-day conference hosted at GoDataDriven and Booking.com HQ. The conference
 [[conference website]](https://pydata.org/amsterdam2019/schedule/) - [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht) -->
 
 <br>
-<center>![](../assets/ballpit.gif)<br>
+<center>
+![](../assets/ballpit.gif)
+	<br>
  PyData Amsterdam committee at the 2019 conference in the conference ballpit!</center>
 
 
