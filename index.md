@@ -8,16 +8,25 @@ title: Marysia Winkels
 ---
 
 
-Hi there! I'm Marysia. 
+Hi there! I'm Marysia. This is a space where I write things. 
 
-I am many things, amongst which: 
+I am currently: 
 * Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (through GoDataDriven)
 * Data Scientist & Data Science Educator @ [GoDataDriven](https://godatadriven.com)
-* Co-Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) (and formerly [PyData Global](https://pydata.org/global2021/))
+* Co-Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) since 2019 (and [PyData Global 2021](https://pydata.org/global2021/))
 
-![text](../assets/dogdatascience.jpeg)
+I'm particularly fascinated with data-centric AI, geometric deep learning, data science education and community building.
 
-This is a space where I write things. I'm particularly fascinated with data-centric AI, data-efficiency, deep learning, data science education and community building.
 
-Want to chat?
-<center> Don't hesitate to shoot me a message at <a href="mailto:hello@marysia.nl">hello@marysia.nl</a>! </center>
+<p float="center">
+  <img src="../assets/dogsds-round.png" width="200" />
+  <img src="../assets/vhto-round.png" width="200" /> 
+</p>
+
+
+<!--![](../assets/dogsds-round.png)
+
+![](../assets/vhto-round.png) -->
+
+
+Want to chat? Feel free to shoot me a message at <a href="mailto:hello@marysia.nl">hello@marysia.nl</a>!
