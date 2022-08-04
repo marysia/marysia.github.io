@@ -8,7 +8,7 @@ title: Marysia Winkels
 ---
 
 
-Hi there! I'm Marysia. This is a space where I about write things. 
+Hi there! I'm Marysia. This is a space where I write about things. 
 
 I am currently: 
 * Chapter Lead/Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (via GoDataDriven)
