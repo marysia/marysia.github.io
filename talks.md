@@ -1,70 +1,91 @@
 ---
 layout: page
-title: Talks
+title: My Talks
 menu: true
 permalink: /talks/
 ---
 
-I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of: 
- - [Talks](#talks) 
- - [Interviews](#interviews) 
+<!--I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of:
+ - [Talks](#talks)
+ - [Interviews](#interviews)
  - [Competitions](#competitions)
- - [Trainings](#trainings) 
- - [Conferences](#conferences)
+ - [Trainings](#trainings)
+ - [Conferences](#conferences) -->
 
 <a name="talks"></a>
 # Talks
 
+**Data Storytelling through Visualization**, PyData Global/Eindhoven 2022 [[link]](https://www.youtube.com/watch?v=eMGF9AeO-sM&t)
 
-* **Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
-* **Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
-* **Serious Time for Time Series** (*it's time to take time series seriously!*), PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
-* **Unpacking the "Black Box": How to Interpret your Machine Learning Model**, [Applied Machine Learning Days 2022](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
-* **Equivariance in CNNs**, PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
-* **An Alternative to Data Augmentation**, PyData Amsterdam 2019 lightning talk
-* **Data-efficiency in Medical AI**, PyData Amsterdam 2019 meetup
-* **Towards learning with limited labels: Equivariance, Invariance, and Beyond**, International Conference on Machine Learning (ICML) 2019 
+**Tech Talk 101**, PyData Global 2022 -- Impact Scholarship Programme Session 
+
+**Data-Centric AI Cookbook**, PyData Global 2022 
+
+**Why you should care about data-centric AI**, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
+
+**Data-centric AI competition**, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
+
+**Serious Time for Time Series** (*it's time to take time series seriously!*), PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw), PyData Berlin 2022, AMLD 2022
+
+**Unpacking the "Black Box": How to Interpret your Machine Learning Model**, [Applied Machine Learning Days 2022](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
+
+**Equivariance in CNNs**, PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
+
+**An Alternative to Data Augmentation**, PyData Amsterdam 2019 lightning talk
+
+**Data-efficiency in Medical AI**, PyData Amsterdam 2019 meetup
+
+**Towards learning with limited labels: Equivariance, Invariance, and Beyond**, International Conference on Machine Learning (ICML) 2019 
 
 <a name="interviews"></a>
 # Interviews
-* **w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
-* **w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
+**w/ Guido van Rossum** (creator Python), PyData Festival  2020  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
+
+**w/ Adrin Jalali** (scikit-learn core developer), PyData Festival 2020 
+[[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
+
+**DataTalks.Club Podcast** on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html)
 
 	
 <a name="competitions"></a>
 # Competitions
-* [Data-Centric AI competition by deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/) -- **winner** in '*Most Innovative*' category with Rens Dimmendaal & Roel Bertens (GoDataDriven)
-* [Kaggle Data Science Bowl 2017](https://www.kaggle.com/c/data-science-bowl-2017) -- **3rd place** with Aidence.
 
+[Data-Centric AI competition by deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/) -- **winner** in '*Most Innovative*' category with Rens Dimmendaal & Roel Bertens (GoDataDriven)
 
+[Kaggle Data Science Bowl 2017](https://www.kaggle.com/c/data-science-bowl-2017) -- **3rd place** with Aidence.
 
-<a name="trainings"></a>
-# Trainings
-I've created, upgraded and delivered a variety of trainings  at various companies for GoDataDriven. Often this involved creating new material on demand or adjusting existing material to suit the clients' needs. Some past clients include DSM, Ahold, bol.com, KNAW, ING, and many others. Anything marked with an asterix (*) is a training I've contributed significantly to.  
-
-
-* Python for Data Analysis
-* Data Science with Python (*)
-* Advanced Data Science with Python (*)
-* Advanced Python (*)
-* Production-Ready Machine Learning (*)
-* Clean Coding, Version Control and CI/CD
-* Unsupervised Learning (*)
-* Explainability/Interpretability (*)
-* Data Visualisation & Storytelling
-* Deep Learning for Image Processing (*)
-* Deep Learning for Natural Language Processing (*)
 
 <a name="conferences"></a>
 # Conferences
-* **PyData Amsterdam 2023** (as co-chair) _upcoming!_
-* **PyData Global 2021** (as co-chair)
+**PyData Amsterdam 2023** (as co-chair) _upcoming!_
+
+**PyData Global 2021** (as co-chair)
 	[website](https://pydata.org/global2021/) - [YouTube playlist](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
-* **PyData Festival 2020** (as co-chair)
+	
+**PyData Festival 2020** (as co-chair)
 	[website](https://pydata.org/amsterdam2019/schedule/) - [YouTube playlist](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht)
-* **PyData Amsterdam 2019** (as co-chair)
+	
+**PyData Amsterdam 2019** (as co-chair)
 	[website](https://pydata.org/amsterdam2019/) - [YouTube playlist](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht)
 	
+
+<a name="trainings"></a>
+# Trainings
+I've created, upgraded and delivered a variety of trainings  at various companies for GoDataDriven. Often this involved creating new material on demand or adjusting existing material to suit the clients' needs. 
+
+
+* Python for Data Analysis
+* Data Science with Python 
+* Advanced Data Science with Python 
+* Advanced Python
+* Production-Ready Machine Learning 
+* Clean Coding, Version Control and CI/CD
+* Unsupervised Learning 
+* Explainability/Interpretability 
+* Data Visualisation & Storytelling
+* Deep Learning for Image Processing 
+* Deep Learning for Natural Language Processing 
+
 <!--#### PyData Festival 2020 (co-chair)
 A week-long online festival to serve as an alternative to the IRL conference. Each day had a dedicated theme (Engineering, Fairness & Data, Open Source, Python, Applications) and sessions during breakfast (tutorials/workshops), lunch (panels, interviews, sprint preparation sessions) and after dinner (talks).
 

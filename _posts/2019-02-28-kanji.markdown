@@ -1,0 +1,87 @@
+---
+layout: post
+title: "Automated challenge balancing to increase student engagement"
+date:   2018-11-28 16:25:56 +0100
+author: Marysia Winkels
+permalink: /blog/challenge-balancing/
+categories: AI-projects
+abstract: "Kanji, characters in the Japanese writing system, are notoriously difficult master. Nothing is as effective as a lot of repetition -- but that can be tedious, and frankly quite boring. So what if we could make it fun?"
+
+
+---
+
+
+### Summary
+
+Mastering the Japanse writing system can be a tedious task. To quickly recognise and comprehend all kanji requires, above all, a *lot* of repetition. So what if we could make it fun? 
+
+Inspired by an insight from the field of gaming, we aim to improve student (or *player*) engagement with our kanji e-tutoring system by providing challenges at exactly the right level to keep them engaged. The core idea is that if students mremain engaged, this will ultimately translates itself into an increase in time spent using the e-tutoring system -- and therefore the level of mastery of the kanji writing system. 
+
+
+<hr>
+# The Context
+
+<i></i><emph> Kanji</emph> are the logographic characters borrowed from Chinese used to write Japanese, where each character corresponds to a content word. Kanji can be complex, as they may consist of smaller components (radicals) and can be used in conjunction with other kanji to form new meanings. For example, the combination of the kanji for 'electricity' and the kanji for 'car' means 'train'. The number of kanji characters ranges in the thousands, with a little over 2000 being in on the joyo list: the list of kanji designated for daily use.
+
+
+
+<div class="Figure">
+    <img src="{{site.baseurl}}/assets/kanji/compound_kanji.png" alt="Image" width="200"/>
+	<br>
+	<div class="Figure index">Figure 1.</div><div class="Figure description" style="width: 200px"> Example of compound kanji. </div>
+</div>
+ 
+ 
+# The Problem
+ 
+ Maybe even more so than in other domains, kanji requires individual practise and repetition to master, more than a classroom approach, which is why <emph>e-tutoring systems</emph> are often used to supplement - or even replace - lectures, by providing instructions, asking questions and providing feedback. The aim for such a system is to keep the student as engaged as possible, in order to prevent the student abandoning the system out of frustration, and to facilitate the necessary repetition to master the writing system. 
+
+In order to optimise engagement, a student must be presented with tasks that are the right <emph>challenge level</emph> for them: a tasks should be _difficult_ enough for the student to keep them om their toes, but simultaneously _easy_ enough for the student to realistically complete. 
+
+A common way to personalise this learning experience is with a _competence model_, where we estimate the current skill level of each student with respect to each skill (_e.g._ per character). However, a major limitation is that this tends to be highly data-intensive, even in small domains. 
+
+# The Solution
+
+To combat this, we exploit the key observation that it is often **not necessary** to explicitly model competence in order to provide the appropriate challenge to the student. Instead, we can create a mapping from <emph>implicit user feedback</emph> to <emph>experienced challenge level</emph>, and use this to provide the appropriate next learning object (such as question or example) for each student individually. 
+
+
+<b><emph>- The System</emph></b>
+
+Our e-tutoring system provides the user with a series of <emph>multiple choice</emph> questions where they have to select either the respective kanji or meaning of the kanji. In addition to this, we provide a 'hint' option which can guide the student in the right direction, for example by outlining from what radicals or individual kanji a kanji exists, or a mnemonic. These questions are the *tasks*.
+
+<div class="Figure">
+    <img src="{{site.baseurl}}/assets/kanji/mountain.png" alt="Image" width="300"/>
+	<br>
+	<div class="Figure index">Figure 2.</div><div class="Figure description" style="width: 300px"> Hint presented for the kanji for mountain. </div>
+</div>
+
+<b><emph>- Task difficulty</emph></b>
+
+Various factors influence the perceived difficulty of a task. We make the assumption that all students will perceive changes to these individual factors similarly; for example, all students will find kanji with a higher stroke count strokes or more radicals more complicated. Similarly, on a task level, all students would agree that a task with more multiple choice options is harder than a task with less options.
+
+
+In collaboration with Emi Yamamoto, an expert from the Japanese language department of the University of Leiden, we select and rank the influence of parameters that could affect the perceived difficulty of a task. This allowed us to more or less estmate how difficult a task will be for a student relative to other questions. For example, when we present the kanji for trees and provide the option trees, forest, plants and rice field, we expect the question to be more difficult than if we presented car, woman and mountain as alternative options. 
+
+The difficulty of a task is recorded in the <emph>difficulty vector</emph>.
+
+
+<b><emph>- Offine learning</emph></b>
+
+In order to adapt the system to personalise the student's experience, we require a model that is able to map the *implicit user feedback* to the *perceived challenge level*. This means we need to collect data in order to determine what the perceived challenge level is. We did this by presenting users with chunks of questions generated from the same difficulty vector, and asking them what their perceived challenge level was on a Likert scale, ranging from way too easy to way too hard. We record the implicit user feedback, such as whether they answered the questions correctly, how long they took and whether they requested hints. 
+
+We both trained a model solely on correctness, and one on the correctness in combination of the implicit user feedback. The model trained with implicit user feedback was _more effective_ in determining the perceived challenge level than training only on correctness.
+
+<b><emph>- Online adaptation</emph></b>
+
+The model that maps implicit user feedback to perceived challenge level is then used in the definitive e-tutoring system. A user answers a chunk of questions, and based on the implicit feedback, we estimate how close this chunk was to the right challenge level. Then, using this information, we jump in the ranking of difficulty vectors to a new difficulty vector and generate the new chunk of questions from that. This continues for the duration of the use of the program.
+
+# The Results
+
+So, of course, we were curious to find out whether our system is actually preferred by students. We test this by presenting users with our (adaptive) system and a baseline system in random order, for a set number of questions. They then had to indicate which system they preferred, and why. 
+
+
+The majority of users (60%) indicated they preferred the adaptive system, whereas 40% indicated they had no preference. *None* of the users preferred the baseline system. Further feedback included users explicitly noting that the adaptive system better matched their skill level. Further feedback included users explicitly noting that the adaptive system better matched their skill level.
+
+
+Initial results already confirmed that using implicit user feedback provides a better mapping to perceived challenge level than solely looking at the correctness of the answers, and further testing indicate that users generally prefer a system based on this method. We can therefore conclude that challenge balancing based on implicit user feedback provides a _viable alternative_ to competence models based challenge balancing.
+

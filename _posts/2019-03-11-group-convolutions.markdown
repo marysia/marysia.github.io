@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "Group-Convolution: increasing data-efficiency in medical image analysis"
+title: "Increasing data-efficiency in medical image analysis"
 date:   2019-03-11 12:25:56 +0100
 author: Marysia Winkels
-permalink: /blog/group-convolutions/
+permalink: /blog/data-efficiency/
 categories: AI-projects
 abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?"
 ---
-<br>
-<hr>
 ### Summary
-<br>
 Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?
 
 To tackle this, we introduce _Group Equivariant Convolutional Networks_ -- networks with a convolutional layer that generalises the weight sharing property to other types of transformations. 
@@ -23,12 +20,7 @@ _Group-Equivariant Convolutional Neural Networks:_
   <li>Far better than data augmentation</li>
 </ul>
 
-<font size="2">
-	<b>Note:</b> This post is intended to be an intuitive introduction to the work previously presented at <emph>MIDL 2018</emph> and <emph>ICML 2018</emph>. An in-depth academic article is to be featured in <emph>Medical Image Analysis</emph> (MIA) Journal.
-</font>
-<br>
 <hr>
-<br>
 <br>
 Deep learning, and convolutional neural networks in particular, have rapidly become the methodology of choice for all (medical) image related tasks. However, these techniques typically require a substantial amount of labeled data to learn from, meaning a human radiologist needs to manually record their findings in a way the computer can understand.
 <img src="{{site.baseurl}}/assets/gconv/radiologist.png" alt="Image" width="250" align="right" />
@@ -100,7 +92,7 @@ That's why we trained our model on four different dataset sizes: <emph>30</emph>
 
 ## References
 
-_This research was performed as part of my thesis for the MSc Artificial Intelligence at the University of Amsterdam. It was supervised by [Taco Cohen](http://www.tacocohen.wordpress.com) (Machine Learning researcher at Qualcomm and  recently named as one of the [35 under 35 by MIT](https://www.innovatorsunder35.com/the-list/taco-cohen/)) &  prof. dr. [Max Welling](https://staff.fnwi.uva.nl/m.welling/) (research chair in Machine Learning at the University of Amsterdam and a VP Technologies at Qualcomm), as they originally laid the foundation of the work on equivariance and group-convolutional neural networks._
+_This research was performed as part of my thesis for the MSc Artificial Intelligence at the University of Amsterdam. It was supervised by [Taco Cohen](http://www.tacocohen.wordpress.com) (Machine Learning researcher at Qualcomm) &  prof. dr. [Max Welling](https://staff.fnwi.uva.nl/m.welling/) (research chair in Machine Learning at the University of Amsterdam and a VP Technologies at Qualcomm), as they originally laid the foundation of the work on equivariance and group-convolutional neural networks._
 
 _Implementations for 2D and 3D group-convolutions in Tensorflow, PyTorch and Chainer can be easily used from the [GrouPy](https://github.com/tscohen/GrouPy) python package. A Keras implementation for 2D can be found [here](https://github.com/basveeling/keras-gcnn)._
 

@@ -1,6 +1,6 @@
 ---
 layout: blog
 title: Blog
-menu: false
+menu: true
 permalink: /blog/
 ---
