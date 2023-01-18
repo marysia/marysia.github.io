@@ -15,7 +15,7 @@ abstract: "Kanji, characters in the Japanese writing system, are notoriously dif
 
 Mastering the Japanse writing system can be a tedious task. To quickly recognise and comprehend all kanji requires, above all, a *lot* of repetition. So what if we could make it fun? 
 
-Inspired by an insight from the field of gaming, we aim to improve student (or *player*) engagement with our kanji e-tutoring system by providing challenges at exactly the right level to keep them engaged. The core idea is that if students mremain engaged, this will ultimately translates itself into an increase in time spent using the e-tutoring system -- and therefore the level of mastery of the kanji writing system. 
+Inspired by an insight from the field of gaming, we aim to improve student (or *player*) engagement with our kanji e-tutoring system by providing challenges at exactly the right challenge level to keep them engaged. The core idea is that if students remain engaged, this will ultimately translates itself into an increase in time spent using the e-tutoring system -- and therefore the level of mastery of the kanji writing system. 
 
 
 <hr>
