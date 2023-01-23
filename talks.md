@@ -21,7 +21,7 @@ _Tech Talk 101_, PyData Global 2022 -- Impact Scholarship Programme Session
 
 _Data-Centric AI Cookbook_, PyData Global 2022 
 
-_Why you should care about data-centric AI_, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
+_The Why of Data-Centric AI_, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
 
 _Data-centric AI competition_, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
 
