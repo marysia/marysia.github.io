@@ -5,7 +5,7 @@ date:   2023-02-08 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-storytelling-forward/
 categories: AI-projects
-abstract: "some abstract"
+abstract: "There is a reason why you are showing your chart to someone. You want them to take action. How do you effectively convince people to move forward, based on data?"
 
 
 ---

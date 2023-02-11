@@ -5,7 +5,7 @@ date:   2023-02-07 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-storytelling-foundation/
 categories: AI-projects
-abstract: "some abstract"
+abstract: "The first step towards data storytelling is to choose the right foundation. How do you choose the right chart type, and display your data in the most correct and effective way?"
 
 
 ---

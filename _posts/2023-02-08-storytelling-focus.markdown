@@ -5,7 +5,7 @@ date:   2023-02-08 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-storytelling-focus/
 categories: AI-projects
-abstract: "some abstract"
+abstract: "To convey a story with your data, it is up to you to draw the attention of the reader to the right place so they arrive at a similar conclusion. How can you draw their attention to the right place?"
 
 
 ---

@@ -5,7 +5,7 @@ date:   2023-01-23 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-storytelling-introduction/
 categories: AI-projects
-abstract: "<i>\"Beautiful data visualizations and fancy infographics are not for me. As a data scientist, I need nothing more than my trusty matplotlib toolkit!\"</i> ... do you recognise yourself in this statement? Let me convince you why you, too, should care about telling a story with your data."
+abstract: "As data scientists, it's crucial to understand the difference between data visualization intended to gain insights and visualizations to communicate those insights to others. This blog entry highlights the importance of data storytelling."
 
 
 ---
