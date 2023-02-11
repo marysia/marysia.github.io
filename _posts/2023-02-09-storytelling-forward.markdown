@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Storytelling part 3: Forward"
-date:   2023-02-08 16:25:56 +0100
+date:   2023-02-09 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-storytelling-forward/
 categories: AI-projects
