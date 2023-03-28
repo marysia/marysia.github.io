@@ -64,7 +64,7 @@ So instead of this...
 </div>
 
 
-Now you and your audience have time to talk about what the next best action is to take, based on this insight, as  you did not have to waste any time explaining why you are showing them this graph. ☺
+Now you and your audience have time to talk about what the next best action is to take, based on this insight, as  you did not have to waste any time explaining why you showed them this graph. ☺
 
 
 ### Takeaway
