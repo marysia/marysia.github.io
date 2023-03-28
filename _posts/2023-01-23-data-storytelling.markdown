@@ -35,7 +35,7 @@ That's why we typically show a visualization instead. It shows data to back up y
 
 <div class="Figure">
 	<br>
-    <img src="{{site.baseurl}}/assets/storytelling/insight.png" alt="Image" height="150"/>
+    <img src="{{site.baseurl}}/assets/storytelling/insight2.png" alt="Image" height="150"/>
 </div>
 
 #### > *This is where things go wrong.*
