@@ -15,13 +15,13 @@ permalink: /talks/
 <a name="talks"></a>
 ### - Talks
 
-_Data Storytelling through Visualization_, PyData Global/Eindhoven 2022 [[link]](https://www.youtube.com/watch?v=eMGF9AeO-sM&t)
+_Data Storytelling through Visualization_, PyData Global/Eindhoven 2022 [[link]](https://www.youtube.com/watch?v=eMGF9AeO-sM&t) [[slides]](../assets/slides/data_visualization_storytelling.pdf)
 
-_Tech Talk 101_, PyData Global 2022 -- Impact Scholarship Programme Session 
+_Tech Talk 101_, PyData Global 2022 -- Impact Scholarship Programme Session [[slides]](../assets/slides/tech_talk_101.pdf)
 
 _Data-Centric AI Cookbook_, PyData Global 2022 
 
-_The Why of Data-Centric AI_, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I)
+_The Why of Data-Centric AI_, PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I) [[slides]](../assets/slides/why_of_data_centric_ai.pdf)
 
 _Data-centric AI competition_, NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
 
@@ -31,9 +31,9 @@ _Unpacking the "Black Box": How to Interpret your Machine Learning Model_, [Appl
 
 _Equivariance in CNNs_, PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw&t=3s)
 
-_An Alternative to Data Augmentation_, PyData Amsterdam 2019 lightning talk
+_An Alternative to Data Augmentation_, PyData Amsterdam 2019
 
-_Data-efficiency in Medical AI_, PyData Amsterdam 2019 meetup
+_Data-efficiency in Medical AI_, PyData Amsterdam 2019 (meetup) [[slides]](../assets/slides/data_efficiency_for_medical_image_analysis.pdf)
 
 _Towards learning with limited labels: Equivariance, Invariance, and Beyond_, International Conference on Machine Learning (ICML) 2019 
 
@@ -104,7 +104,7 @@ A three-day conference hosted at GoDataDriven and Booking.com HQ. The conference
 
 <br>
 <center>
-<img src='../assets/ballpit.gif'>
+<img src='../assets/misc/ballpit.gif'>
 	<br>
  PyData Amsterdam committee at the 2019 conference in the conference ballpit!</center>
 

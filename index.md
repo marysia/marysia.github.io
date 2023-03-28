@@ -18,8 +18,8 @@ I am currently:
 
 <center> 
 <p>
-  <img src="../assets/dogsds-round.png" height="200" />
-  <img src="../assets/vhto-round.png" height="200" /> 
+  <img src="../assets/misc/dogsds-round.png" height="200" />
+  <img src="../assets/misc/vhto-round.png" height="200" /> 
 </p>
 </center>
 
