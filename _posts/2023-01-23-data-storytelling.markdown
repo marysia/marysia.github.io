@@ -38,7 +38,7 @@ That's why we typically show a visualization instead. It shows data to back up y
     <img src="{{site.baseurl}}/assets/storytelling/insight.png" alt="Image" height="150"/>
 </div>
 
-#### > This is where things go wrong.
+#### > *This is where things go wrong.*
 
 
 We tend to use the visualization that we used for *exploratory* data analysis, as our *explanatory* visualization in our presentation. But this exploratory visualization suffers from the same problem the raw data table did. 
@@ -47,6 +47,36 @@ When you explore your data, you have the luxury of time. You can look at summary
 
 But don't expect your audience to do all that work, again.
 
-A great exploratory data visualization gives a lot of information and context to your data. A great explanatory visualization draws the audience's attention to what they need to know. 
+So rather than showing them this... 
+
+<div class="Figure">
+	<br>
+    <img src="{{site.baseurl}}/assets/storytelling/lang-bad.png" alt="Image" width="300"/>
+</div>
+
+... show them this instead: 
+
+<div class="Figure">
+	<br>
+    <img src="{{site.baseurl}}/assets/storytelling/lang-good-1.png" alt="Image" width="300"/>
+</div>
+
+
+### Takeaway
+#### *A great exploratory data visualization provides **you** with a lot of insight into your data. A great explanatory visualization draws the focus of **the audience** only to what they need to know.* 
+
+<!-- You can even take this one step further. By adding more context, and an (opinionated) associated action, you can guide the audience towards the conclusion you want them to draw -- and the action you want them to take.
+
+<div class="Figure">
+	<br>
+    <img src="{{site.baseurl}}/assets/storytelling/lang-good-2.png" alt="Image" width="360"/>
+</div> -->
+
+<br>
+<br>
+
+----
+
+Want to know more? Check out my talk at PyData on [Data Storytelling through Visualization](https://www.youtube.com/watch?v=eMGF9AeO-sM) for some simple tricks on how to transform your exploratory visualization into an explanatory visualization.
 
  
