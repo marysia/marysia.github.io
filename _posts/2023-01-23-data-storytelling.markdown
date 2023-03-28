@@ -5,7 +5,7 @@ date:   2023-01-23 16:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-visualization/
 categories: AI-projects
-abstract: "As data scientists, it's crucial to understand the difference between data visualization intended to gain insights and visualizations to communicate those insights to others. This blog entry highlights the importance of data storytelling."
+abstract: "What can you do to make your exploratory data visualization into a powerful tool for communication?"
 
 
 ---
