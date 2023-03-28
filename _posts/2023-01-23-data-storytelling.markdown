@@ -45,7 +45,7 @@ We tend to use the visualization that we used for *exploratory* data analysis, a
 
 When you explore your data, you have the luxury of time. You can look at summary statistics, create different visualizations, spend time disecting the information on the graph presented to you, and make connections to insights you gathered before. 
 
-But please don't expect your audience to do all that work, *again*. Help them out by directing their focus towards the interesting part. Some simple adjustments to your graph can help guide your audience's attention towards the part of the data you want to talk about.
+Please don't expect your audience to do all that work, *again*. Help them out by directing their focus towards the interesting part. Some simple adjustments to your graph can help guide your audience's attention towards the part of the data you want to talk about.
  
 <!-- Rather than explaining your visualization, and talking them through what the most important aspects of the data are -- show them! -->
 
