@@ -5,7 +5,7 @@ date:   2019-03-11 12:25:56 +0100
 author: Marysia Winkels
 permalink: /blog/data-efficiency/
 categories: AI-projects
-abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?"
+abstract: "Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data instead?"
 ---
 ### Summary
 Artificial intelligence has the opportunity to cause a huge disruption in the way healthcare operates, but gathering enough data for training remains a challenge. So what if, instead of focusing all our energy on this data collection process, we can adjust our deep learning algorithms to require less data?
