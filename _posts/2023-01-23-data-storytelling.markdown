@@ -45,16 +45,18 @@ We tend to use the visualization that we used for *exploratory* data analysis, a
 
 When you explore your data, you have the luxury of time. You can look at summary statistics, create different visualizations, spend time disecting the information on the graph presented to you, and make connections to insights you gathered before. 
 
-But don't expect your audience to do all that work, again.
+But please don't expect your audience to do all that work, *again*. Help them out by directing their focus towards the interesting part. Some simple adjustments to your graph can help guide your audience's attention towards the part of the data you want to talk about.
+ 
+<!-- Rather than explaining your visualization, and talking them through what the most important aspects of the data are -- show them! -->
 
-So rather than showing them this... 
+So instead of this... 
 
 <div class="Figure">
 	<br>
     <img src="{{site.baseurl}}/assets/storytelling/lang-bad.png" alt="Image" width="300"/>
 </div>
 
-... show them this instead: 
+... make it easy for them, and show them this: 
 
 <div class="Figure">
 	<br>
@@ -62,8 +64,11 @@ So rather than showing them this...
 </div>
 
 
+Now you and your audience have time to talk about what the next best action is to take, based on this insight, as  you did not have to waste any time explaining why you are showing them this graph. ☺
+
+
 ### Takeaway
-#### *A great exploratory data visualization provides **you** with a lot of insight into your data. A great explanatory visualization draws the focus of **the audience** only to what they need to know.* 
+#### *A great exploratory data visualization provides **you** with a lot of insight into your data. A great explanatory visualization draws the focus of **the audience** to what they need to know.* 
 
 <!-- You can even take this one step further. By adding more context, and an (opinionated) associated action, you can guide the audience towards the conclusion you want them to draw -- and the action you want them to take.
 
