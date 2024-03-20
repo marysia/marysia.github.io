@@ -11,11 +11,15 @@ title: Marysia Winkels
 Hi there! I'm Marysia. This is a space where I write about things. 
 
 I am currently: 
-* Lead Data Scientist @ [Vattenfall](https://vattenfall.com) (via GoDataDriven \| now Xebia)
-* Data Scientist & Educator @ [GoDataDriven](https://godatadriven.com) \| now Xebia
-* Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) (and [PyData Global 2021](https://pydata.org/global2021/))
+* Member of Technical Staff  @ [Cohere](https://cohere.com/)
+* Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) 
 * Science Communication Volunteer @ [510](https://510.global) \| An initiative by the Netherlands Red Cross.
 
+And was previously: 
+* Chair @ [PyData Global 2021](https://pydata.org/global2021/)
+* Lead Data Scientist @ [Vattenfall](https://vattenfall.nl/)
+* Data Scientist & Educator @ [GoDataDriven](https://godatadriven.com) \| now Xebia Data
+* Deep Learning Scientist @ med-tech start-up [Aidence](https://www.aidence.com/)
 <center> 
 <p>
   <img src="../assets/misc/dogsds-round.png" height="200" />
