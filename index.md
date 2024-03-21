@@ -8,7 +8,7 @@ title: Marysia Winkels
 ---
 
 
-Hi there! I'm Marysia. This is a space where I write about things. 
+Hi there! I'm Marysia. This is a space where I [write]((https://marysia.nl/blog/) about things. 
 
 I am currently: 
 * Member of Technical Staff  @ [Cohere](https://cohere.com/)
@@ -17,7 +17,7 @@ I am currently:
 
 Previously, I've been chair of [PyData Global 2021](https://pydata.org/global2021/), spoken at [various conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), taught over a 1000 hours of data science & python trainings through [Xebia Data](www.xebia.com), and dabbled in bit in [geometric deep learning](https://arxiv.org/abs/1804.04656).
  
-Nowadays, I'm most interested in [data-centric AI](https://www.youtube.com/watch?v=vgtdPwUrP5I), data quality of post-training data, sharing knowledge and and supporting the open source Python ecosystem.
+Nowadays, I'm most interested in [data-centric AI](https://www.youtube.com/watch?v=vgtdPwUrP5I), [data storytelling](https://www.youtube.com/watch?v=23Bf-jb3ryk), data quality (particularly of post-training data), and supporting the open source.
 
 
 <!-- And was previously:
