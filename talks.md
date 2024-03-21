@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Talks
-menu: true
+menu: false
 permalink: /talks/
 ---
 
