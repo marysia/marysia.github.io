@@ -59,7 +59,10 @@ _Kaggle Data Science Bowl 2017_ -- _3rd place_ with Aidence. [[competition]](htt
  
 <a name="conferences"></a>
 ### - Conferences
-_PyData Amsterdam 2023_ (as co-chair) _upcoming!_
+_PyData Amsterdam 2024_ (as co-chair) _upcoming!_
+
+_PyData Amsterdam 2023_ (as co-chair) 	[YouTube playlist](https://www.youtube.com/watch?v=_nlryVPWTGM&list=PLGVZCDnMOq0pADyz2VboxPFIdrsozlENg)
+	
 
 _PyData Global 2021_ (as co-chair)
 	[website](https://pydata.org/global2021/) - [YouTube playlist](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
