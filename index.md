@@ -14,6 +14,7 @@ I am currently:
 * Member of Technical Staff  @ [Cohere](https://cohere.com/)
 * Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) 
 * Science Communication Volunteer @ [510](https://510.global) \| An initiative by the Netherlands Red Cross.
+* Creating nursery decor @ [my Etsy store](https://www.etsy.com/shop/kwispelstudios/) 
 
 Previously, I've been chair of [PyData Global 2021](https://pydata.org/global2021/), spoken at [various conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), taught >1000 hours of data science & python trainings, and dabbled in bit in [geometric deep learning](https://arxiv.org/abs/1804.04656).
  
