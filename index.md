@@ -14,7 +14,7 @@ I spend my time...
 * Training LLMs @ [Cohere](https://cohere.com/)
 * Organising Conferences @ [PyData Amsterdam](http://amsterdam.pydata.org) 
 * Data Sciencing for Social Good @ [CorrelAid NL](https://correlaid.nl/)
-* Dinosaur Doodling @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
+* Doodling Dinosaurs @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
 
 Previously, I've spoken at [conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), chaired [PyData Global 2021](https://pydata.org/global2021/), and taught >1000 hours of data science & python trainings.
  
