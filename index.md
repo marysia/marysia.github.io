@@ -10,16 +10,14 @@ title: Marysia Winkels
 
 Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 
-I am currently: 
-* Member of Technical Staff  @ [Cohere](https://cohere.com/)
-* Chair @ [PyData Amsterdam](http://amsterdam.pydata.org) 
-* Science Communication Volunteer @ [510](https://510.global) \| An initiative by the Netherlands Red Cross.
-* Creating nursery decor @ [my Etsy store](https://www.etsy.com/shop/kwispelstudios/) 
+I spend my time...
+* Training LLMs @ [Cohere](https://cohere.com/)
+* Organising Conferences @ [PyData Amsterdam](http://amsterdam.pydata.org) 
+* Data Sciencing for Social Good @ [CorrelAid NL](https://correlaid.nl/)
+* Dinosaur Doodling @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
 
-Previously, I've been chair of [PyData Global 2021](https://pydata.org/global2021/), spoken at [various conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), taught >1000 hours of data science & python trainings, and dabbled in bit in [geometric deep learning](https://arxiv.org/abs/1804.04656).
+Previously, I've spoken at [conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), chaired [PyData Global 2021](https://pydata.org/global2021/), and taught >1000 hours of data science & python trainings.
  
-Nowadays, I'm most interested in [data-centric AI](https://www.youtube.com/watch?v=vgtdPwUrP5I), [data storytelling](https://www.youtube.com/watch?v=23Bf-jb3ryk), data quality (particularly of post-training data), and supporting Open Source.
-
 
 <!-- And was previously:
 * Chair @ [PyData Global 2021](https://pydata.org/global2021/)
