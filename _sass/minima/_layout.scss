@@ -304,8 +304,8 @@ hr {
     color: $custom-color; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */ 
-    width: 2em; /* Also needed for space (tweak if needed) */
-    margin-left: 1em; /* Also needed for space (tweak if needed) */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: .5em; /* Also needed for space (tweak if needed) */
   }
   
   emph {
@@ -317,7 +317,7 @@ hr {
   h1 { 
 
 	  
-	text-indent: 1em;
+	text-indent: 0em;
 	font-family: "Optima", Optima, sans-serif;
   	color: $custom-color;
     padding: 1px;
