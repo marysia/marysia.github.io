@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Speaking
+title: Talks
 menu: true
 permalink: /talks/
 ---
