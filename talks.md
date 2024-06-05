@@ -1,9 +1,78 @@
 ---
 layout: page
-title: My Talks
-menu: false
+title: Speaking
+menu: true
 permalink: /talks/
 ---
+
+
+# Interviews
+
+**Guido van Rossum**, creator of Python
+- PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)
+
+**Adrian Jalali**, scikit-learn core developer
+- PyData Festival 2020 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
+
+**DataTalks.Club Podcast**, with Alexey Grigorev
+- interviewed on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html)
+
+# Competitions
+
+**Data-Centric AI competition**, by [deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/)
+- Winner in 'Most Innovative' category with  [[write-up]](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/) [[NeurIPS talk]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
+
+**Kaggle Data Science Bowl 2017**
+- 3rd place with Aidence [[info]](https://www.kaggle.com/c/data-science-bowl-2017)
+
+# Conferences
+
+**PyData Amsterdam 2024** (as co-chair) -- upcoming!
+
+**PyData Amsterdam 2023** (as co-chair) [[Aftermovie]](https://www.youtube.com/watch?v=TwQNBqqH9hA) [[Youtube playlist]](https://www.youtube.com/watch?v=_nlryVPWTGM&list=PLGVZCDnMOq0pADyz2VboxPFIdrsozlENg&pp=iAQB)
+
+**PyData Global 2021** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
+
+**PyData Festival 2020** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=BKYWt8B9hgs&list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH&pp=iAQB)
+
+**PyData Amsterdam 2019** (as co-chair) [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht)
+
+# Talks
+**Data Storytelling through Visualization**
+- PyData London 2023 [[link]](https://www.youtube.com/watch?v=23Bf-jb3ryk) [[slides]](../assets/slides/data_visualization_storytelling.pdf)
+- PyData Global 2022
+- PyData Eindhoven 2022
+
+**Tech Talk 101**
+- PyData Global 2022 – Impact Scholarship Programme Session [[slides]](../assets/slides/tech_talk_101.pdf)
+
+**The Why of Data-Centric AI**
+- PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I) [[slides]](../assets/slides/why_of_data_centric_ai.pdf)
+
+**Data-centric AI competition**
+- NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
+
+**Serious Time for Time Series (it's time to take time series seriously!)**
+- PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw)
+- PyData Berlin 2022
+- Applied Machine Learning Days 2022
+
+**Unpacking the “Black Box”: How to Interpret your Machine Learning Model**
+- Applied Machine Learning Days 2022 [[link]](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
+
+**Equivariance in CNNs**
+- PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw)
+
+**An Alternative to Data Augmentation**
+- PyData Amsterdam 2019
+
+**Data-efficiency in Medical AI**
+- PyData Amsterdam 2019 (meetup) [[slides]](../assets/slides/data_efficiency_for_medical_image_analysis.pdf)
+
+**Towards learning with limited labels: Equivariance, Invariance, and Beyond**
+- International Conference on Machine Learning (ICML) 2019
+
+
 
 <!--I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of:
  - [Talks](#talks)
@@ -12,8 +81,8 @@ permalink: /talks/
  - [Trainings](#trainings)
  - [Conferences](#conferences) -->
 
-<a name="talks"></a>
-### - Talks
+<!-- <a name="talks"></a> -->
+<!-- ### - Talks
 
 _Data Storytelling through Visualization_, PyData Global/Eindhoven 2022 [[link]](https://www.youtube.com/watch?v=eMGF9AeO-sM&t) [[slides]](../assets/slides/data_visualization_storytelling.pdf)
 
@@ -44,8 +113,8 @@ _w/ Guido van Rossum_ (creator Python), PyData Festival  2020  [[link]](https://
 _w/ Adrin Jalali_ (scikit-learn core developer), PyData Festival 2020 
 [[link]](https://www.youtube.com/watch?v=0tXIkjClGOs)
 
-_DataTalks.Club Podcast_ on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html)
-
+_DataTalks.Club Podcast_ on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html) -->
+<!-- 
 	
 <a name="competitions"></a>
 ### - Competitions
@@ -53,9 +122,9 @@ _DataTalks.Club Podcast_ on Data-Centric AI [[link]](https://datatalks.club/podc
 _Data-Centric AI competition_ by [deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/)
 -- _winner_ in '*Most Innovative*' category with Rens Dimmendaal & Roel Bertens. [[write-up]](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 
-_Kaggle Data Science Bowl 2017_ -- _3rd place_ with Aidence. [[competition]](https://www.kaggle.com/c/data-science-bowl-2017) \| [[solution]](https://bitbucket.org/aidence/kaggle-data-science-bowl-2017/src/master/)
+_Kaggle Data Science Bowl 2017_ -- _3rd place_ with Aidence. [[competition]](https://www.kaggle.com/c/data-science-bowl-2017) \| [[solution]](https://bitbucket.org/aidence/kaggle-data-science-bowl-2017/src/master/) -->
 
-
+<!-- 
  
 <a name="conferences"></a>
 ### - Conferences
@@ -72,19 +141,18 @@ _PyData Festival 2020_ (as co-chair)
 	
 _PyData Amsterdam 2019_ (as co-chair)
 	[website](https://pydata.org/amsterdam2019/) - [YouTube playlist](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht)
-	
+	 -->
 
 <a name="trainings"></a>
-### - Trainings
-I've created, upgraded and delivered a variety of trainings  at various companies for GoDataDriven. Often this involved creating new material on demand or adjusting existing material to suit the clients' needs. 
-
-
+# Trainings
+During my time at Xebia Data Academy, I've delivered *>1000* hours of training. I've also been heavily involved in designing the curriculum for these trainings: 
 * Python for Data Analysis
 * Data Science with Python 
 * Advanced Data Science with Python 
 * Advanced Python
 * Production-Ready Machine Learning 
 * Clean Coding, Version Control and CI/CD
+* MLOps 
 * Unsupervised Learning 
 * Explainability/Interpretability 
 * Data Visualisation & Storytelling
