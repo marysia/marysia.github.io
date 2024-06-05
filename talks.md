@@ -22,7 +22,7 @@ permalink: /talks/
 **Data-Centric AI competition**, by [deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/)
 - Winner in 'Most Innovative' category with  [[write-up]](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/) [[NeurIPS talk]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
 
-**Kaggle Data Science Bowl 2017**
+**Kaggle Data Science Bowl 2017**, on Lung Cancer Detection in CT scans
 - 3rd place with Aidence [[info]](https://www.kaggle.com/c/data-science-bowl-2017)
 
 # Conferences
