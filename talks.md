@@ -43,6 +43,15 @@ permalink: /talks/
 
 # Talks
 
+**The Data That Shapes Foundational LLMs**
+
+* Talk @ PyData Global 2024 
+
+**Introduction to Data Storytelling**
+
+* Tutorial session @ PyLadiesCon 2024
+
+
 **How to build a Large Language Model from scratch**
 
 * Women in Data 2024
