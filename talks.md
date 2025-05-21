@@ -56,6 +56,13 @@ permalink: /talks/
 
 * Women in Data 2024
 
+
+
+**Data For Social Good**
+
+* Talk @ PyData Amsterdam 2024 (facilitating role)
+
+
 **Data Storytelling through Visualization**
 
 - PyData London 2023 [[link]](https://www.youtube.com/watch?v=23Bf-jb3ryk) [[slides]](../assets/slides/data_visualization_storytelling.pdf)
