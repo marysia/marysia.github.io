@@ -11,17 +11,17 @@ Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/)
 
 Nowadays, I mostly spend my time...
 * making AI safe & secure @ [Gray Swan](https://www.grayswan.ai/)
-* helping NGOs as a volunteer @ [AI for Impact Collective](https://www.aiforimpactcollective.com/)
+* supporting NGOs with AI adoption @ [AI for Impact Collective](https://www.aiforimpactcollective.com/)
 * doodling dinosaurs as a side project @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
 
 Previously, I..
-* was a member of technicall staff  @ [Cohere](https://cohere.com/)
-* organised [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org)  for >5 years.
+* was a member of technical staff  @ [Cohere](https://cohere.com/)
+* organized [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org)  for >5 years.
 * did a research project with the [Center of AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
-* taught over >1000 hours of data science & Python
+* taught >1000 hours of data science & Python
 * gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 
-I'm interested in AI safety, from both a technical as well as a governance perspective. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
+I'm interested in AI safety, from both technical and governance perspectives. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
 
 <!-- Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 
