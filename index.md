@@ -7,7 +7,9 @@ menu: false
 title: Marysia Winkels
 ---
 
-Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
+Hi there! I'm Marysia, based in Amsterdam. 
+
+<!-- This is a space where I [write](https://marysia.nl/blog/) about things.  -->
 
 Nowadays, I mostly spend my time...
 * making AI safe & secure @ [Gray Swan](https://www.grayswan.ai/)
