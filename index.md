@@ -16,8 +16,8 @@ Nowadays, I mostly spend my time...
 
 Previously, I..
 * was a member of technicall staff  @ [Cohere](https://cohere.com/)
+* organised [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org)  for >5 years.
 * did a research project with the [Center of AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
-* organised [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org) 
 * taught over >1000 hours of data science & Python
 * gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 

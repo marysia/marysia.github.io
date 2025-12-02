@@ -206,6 +206,7 @@ hr {
  * Page content
  */
 .page-content {
+  font-family: $base-font-family;
   padding: $spacing-unit 0;
   flex: 1;
 }
@@ -246,6 +247,7 @@ hr {
 }
 
 .post-excerpt { 
+	font-family: $base-font-family;
 	margin-top: -15px !important; 
 	font-style: normal !important;
 }
@@ -274,7 +276,7 @@ hr {
   letter-spacing: .5px;
   line-height: 1;
   font-family: "Optima", Optima, sans-serif;
-  color: #8B0000;
+  color: $custom-color;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -293,6 +295,7 @@ hr {
 
 
 .post-content {
+  font-family: $base-font-family;
   margin-bottom: $spacing-unit;
   ul {
     list-style: none; /* Remove default bullets */
