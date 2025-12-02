@@ -9,13 +9,10 @@ title: Marysia Winkels
 
 Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 
-Nowadays, I spend my time...
+Nowadays, I mostly spend my time...
 * making AI safe & secure @ [Gray Swan](https://www.grayswan.ai/)
 * helping NGOs as a volunteer @ [AI for Impact Collective](https://www.aiforimpactcollective.com/)
 * doodling dinosaurs as a side project @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
-
-I'm interested in AI safety, from both a technical as well as a governance perspective. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
-
 
 Previously, I..
 * was a member of technicall staff  @ [Cohere](https://cohere.com/)
@@ -24,6 +21,7 @@ Previously, I..
 * taught over >1000 hours of data science & Python
 * gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 
+I'm interested in AI safety, from both a technical as well as a governance perspective. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
 
 <!-- Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 
