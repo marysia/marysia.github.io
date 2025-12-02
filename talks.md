@@ -53,6 +53,23 @@ permalink: /talks/
 **Data-efficiency in Medical AI**, talk @ PyData Amsterdam 2019 (meetup) [[slides]](../assets/slides/data_efficiency_for_medical_image_analysis.pdf) <br>
 **Towards learning with limited labels: Equivariance, Invariance, and Beyond**, talk @ International Conference on Machine Learning (ICML) 2019 <br>
 
+# Research 
+From my time at Cohere:
+* *Team Cohere*, Command A: An Enterprise-Ready Large Language Model *Technical Report*, 2025. [[link]](https://cohere.com/research/papers/command-a-technical-report.pdf) <br>
+
+From my Master (MSc Artificial Intelligence @ University of Amsterdam):
+* *M. Winkels & T.S. Cohen*, Pulmonary Nodule Detection with 3D G-CNNs. *Medical Image Analysis Journal*, 2019. [[arxiv]](https://arxiv.org/abs/1804.04656) <br>
+* *M. Winkels & T. S. Cohen*, 3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups. *ICML Workshop*, 2018.
+* *M. Winkels & T. S. Cohen*, 3D G-CNNs for Pulmonary Nodule Detection. *International Conference on Medical Imaging with Deep Learning (MIDL)*, 2018. [[arxiv]](https://arxiv.org/abs/1804.04656)
+* M. Winkels *et al.*, Challenge balancing for a kanji e-tutoring system. *BNAIC*, 2018. 
+
+<!-- \noindent M. Winkels \& T. S. Cohen, 3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups. \emph{ICML}, 2018. \emph{Accepted for an oral presentation.} \\
+
+\noindent M. Winkels, T. S. Cohen, M. Welling. 3D G-CNNs for Pulmonary Nodule Detection. \emph{MIDL}, 2018. \emph{Accepted for an oral presentation.} \\
+
+\noindent M. Winkels \emph{et al.} Challenge balancing for a kanji e-tutoring system. \emph{BNAIC}, 2018. \emph{Accepted for an oral presentation.} \\ -->
+
+
 <!--I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of:
  - [Talks](#talks)
  - [Interviews](#interviews)
