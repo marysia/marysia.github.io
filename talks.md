@@ -54,14 +54,14 @@ permalink: /talks/
 **Towards learning with limited labels: Equivariance, Invariance, and Beyond**, talk @ International Conference on Machine Learning (ICML) 2019 <br>
 
 # Research 
-From my time at Cohere:
+From my time at [Cohere](https://cohere.com):
 * *Team Cohere*, Command A: An Enterprise-Ready Large Language Model *Technical Report*, 2025. [[link]](https://cohere.com/research/papers/command-a-technical-report.pdf) <br>
 
-From my Master (MSc Artificial Intelligence @ University of Amsterdam):
+From my studies (MSc Artificial Intelligence @ University of Amsterdam):
 * *M. Winkels & T.S. Cohen*, Pulmonary Nodule Detection with 3D G-CNNs. *Medical Image Analysis Journal*, 2019. [[arxiv]](https://arxiv.org/abs/1804.04656) <br>
 * *M. Winkels & T. S. Cohen*, 3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups. *ICML Workshop*, 2018.
 * *M. Winkels & T. S. Cohen*, 3D G-CNNs for Pulmonary Nodule Detection. *International Conference on Medical Imaging with Deep Learning (MIDL)*, 2018. [[arxiv]](https://arxiv.org/abs/1804.04656)
-* M. Winkels *et al.*, Challenge balancing for a kanji e-tutoring system. *BNAIC*, 2018. 
+* *M. Winkels et al.*, Challenge balancing for a kanji e-tutoring system. *BNAIC*, 2018. 
 
 <!-- \noindent M. Winkels \& T. S. Cohen, 3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups. \emph{ICML}, 2018. \emph{Accepted for an oral presentation.} \\
 
