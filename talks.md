@@ -4,7 +4,7 @@ title: Talks
 menu: true
 permalink: /talks/
 ---
-
+<!-- 
 # Interviews
 
 **Guido van Rossum**, creator of Python
@@ -17,95 +17,41 @@ permalink: /talks/
 
 **DataTalks.Club Podcast**, with Alexey Grigorev
 
-- interviewed on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html)
+- interviewed on Data-Centric AI [[link]](https://datatalks.club/podcast/s12e03-data-centric-ai.html) -->
+# Conference & event organisation
+**PyData Amsterdam 2024** (as co-chair) [[Aftermovie]](https://www.youtube.com/watch?v=y-dFFhVs_6E) [[Youtube playlist]](https://www.youtube.com/watch?v=di670dGu3No&list=PLGVZCDnMOq0reU2lzNZCn9obkyRVaSnpF) <br>
+**PyData Amsterdam 2023** (as co-chair) [[Aftermovie]](https://www.youtube.com/watch?v=TwQNBqqH9hA) [[Youtube playlist]](https://www.youtube.com/watch?v=_nlryVPWTGM&list=PLGVZCDnMOq0pADyz2VboxPFIdrsozlENg&pp=iAQB) <br>
+**PyData Global 2021** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq) <br>
+**PyData Festival 2020** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=BKYWt8B9hgs&list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH&pp=iAQB) <br>
+**PyData Amsterdam 2019** (as co-chair) [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht) <br>
 
-# Competitions
-
-**Data-Centric AI competition**, by [deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/)
-
-- Winner in *'Most Innovative'* category with  [[write-up]](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/) [[NeurIPS talk]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
-
-**Kaggle Data Science Bowl 2017**, on Lung Cancer Detection in CT scans
-
-- 3rd place with Aidence [[info]](https://www.kaggle.com/c/data-science-bowl-2017)
-
-# Conferences
-
-**PyData Amsterdam 2024** (as co-chair) [[Aftermovie]](https://www.youtube.com/watch?v=y-dFFhVs_6E) [[Youtube playlist]](https://www.youtube.com/watch?v=di670dGu3No&list=PLGVZCDnMOq0reU2lzNZCn9obkyRVaSnpF)
-
-**PyData Amsterdam 2023** (as co-chair) [[Aftermovie]](https://www.youtube.com/watch?v=TwQNBqqH9hA) [[Youtube playlist]](https://www.youtube.com/watch?v=_nlryVPWTGM&list=PLGVZCDnMOq0pADyz2VboxPFIdrsozlENg&pp=iAQB)
-
-**PyData Global 2021** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq)
-
-**PyData Festival 2020** (as co-chair) [[YouTube playlist]](https://www.youtube.com/watch?v=BKYWt8B9hgs&list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH&pp=iAQB)
-
-**PyData Amsterdam 2019** (as co-chair) [[YouTube playlist]](https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht)
-
-# Talks
-
-**The Data That Shapes Foundational LLMs**
-
-* Talk @ PyData Global 2024 
-
-**Introduction to Data Storytelling**
-
-* Tutorial session @ PyLadiesCon 2024
+*Now involved in an advisory role (2025--present).* 
 
 
-**How to build a Large Language Model from scratch**
+# Competitions (selection)
 
-* Women in Data 2024
-
-
-
-**Data For Social Good**
-
-* Talk @ PyData Amsterdam 2024 (facilitating role)
+**Data-Centric AI competition**, winner in *'Most Innovative'* category hosted by [deeplearning.ai](https://https-deeplearning-ai.github.io/data-centric-comp/) [[write-up]](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/) [[NeurIPS talk]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305) <br>
+**Kaggle Data Science Bowl 2017**, 3rd place with Aidence on Lung Cancer Detection in CT scans hosted by [Kaggle](https://www.kaggle.com/c/data-science-bowl-2017)
 
 
-**Data Storytelling through Visualization**
-
-- PyData London 2023 [[link]](https://www.youtube.com/watch?v=23Bf-jb3ryk) [[slides]](../assets/slides/data_visualization_storytelling.pdf)
-- PyData Global 2022
-- PyData Eindhoven 2022
-
-**Tech Talk 101**
-
-- PyData Global 2022 – Impact Scholarship Programme Session [[slides]](../assets/slides/tech_talk_101.pdf)
-
-**The Why of Data-Centric AI**
-
-- PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I) [[slides]](../assets/slides/why_of_data_centric_ai.pdf)
-
-**Data-centric AI competition**
-
-- NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305)
-
-**Serious Time for Time Series (it's time to take time series seriously!)**
-
-- PyCon US 2021 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw)
-- PyData Berlin 2022
-- Applied Machine Learning Days 2022
-
-**Unpacking the “Black Box”: How to Interpret your Machine Learning Model**
-
-- Applied Machine Learning Days 2022 [[link]](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)
-
-**Equivariance in CNNs**
-
-- PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw)
-
-**An Alternative to Data Augmentation**
-
-- PyData Amsterdam 2019
-
-**Data-efficiency in Medical AI**
-
-- PyData Amsterdam 2019 (meetup) [[slides]](../assets/slides/data_efficiency_for_medical_image_analysis.pdf)
-
-**Towards learning with limited labels: Equivariance, Invariance, and Beyond**
-
-- International Conference on Machine Learning (ICML) 2019
+# Talks (selection)
+**Interview w/ Guido van Rossem**, interviewer @ PyData Festival  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)<br>
+**Amsterdam AI Impact Festival**, panelist <br>
+**Help! There Are Humans in My Data!**, talk @ PyData Amsterdam 2025 <br>
+**The Data That Shapes Foundational LLMs**, talk @ PyData Global 2024 <br>
+**Introduction to Data Storytelling**, tutorial session @ PyLadiesCon 2024 <br>
+**How to build a Large Language Model from scratch**, Women in Data 2024 <br>
+**Data For Social Good**, talk @ PyData Amsterdam 2024 <br>
+**Data Storytelling through Visualization**, talk @ PyData London 2023, Global 2022, Eindhoven 2022 [[link]](https://www.youtube.com/watch?v=23Bf-jb3ryk) [[slides]](../assets/slides/data_visualization_storytelling.pdf) <br>
+**Tech Talk 101**, talk @ PyData Global 2022 – Impact Scholarship Programme Session [[slides]](../assets/slides/tech_talk_101.pdf) <br>
+**The Why of Data-Centric AI**, talk @ PyData London 2022 [[link]](https://www.youtube.com/watch?v=vgtdPwUrP5I) [[slides]](../assets/slides/why_of_data_centric_ai.pdf) <br>
+**Data-centric AI competition**, talk @ NeurIPS 2021 [[link]](https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305) <br>
+**Serious Time for Time Series (it's time to take time series seriously!)**, tutorial @ PyCon US 2021, PyData Berlin 2022, Applied Machine Learning Days 2022 [[link]](https://www.youtube.com/watch?v=nT6UsVgJ0xw)<br>
+**Unpacking the “Black Box”: How to Interpret your Machine Learning Model**, tutorial @ Applied Machine Learning Days 2022 [[link]](https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model)<br>
+**Equivariance in CNNs**, talk @ PyData Berlin/PyCon DE 2019 [[link]](https://www.youtube.com/watch?v=t7U-Z5a7oWw) <br>
+**An Alternative to Data Augmentation**, talk @ PyData Amsterdam 2019 <br>
+**Data-efficiency in Medical AI**, talk @ PyData Amsterdam 2019 (meetup) [[slides]](../assets/slides/data_efficiency_for_medical_image_analysis.pdf) <br>
+**Towards learning with limited labels: Equivariance, Invariance, and Beyond**, talk @ International Conference on Machine Learning (ICML) 2019 <br>
 
 <!--I've delivered, attended and organised a fair bit of talks, workshops and trainings throughout the years. Here's a selection of:
  - [Talks](#talks)
@@ -180,22 +126,10 @@ _PyData Amsterdam 2019_ (as co-chair)
 
 <a name="trainings"></a>
 
-# Trainings
+# Trainings (selection)
+As a data science educator at Xebia Data Academy, I delivered >1000 hours of training and designed various curricula. Including, but not limited to, Python for Data Analysis, Data Science with Python, Advanced Data Science with Python, Advanced Python, Production-Ready Machine Learning, Clean Coding, Version Control & CI/CD, MLOps, Unsupervised Learning, Explainability, Data Visualisation & Storytelling, Deep Learning for Computer Vision, Deep Learning for Natural Language Processing. 
 
-During my time at Xebia Data Academy, I've delivered *>1000* hours of training. I've also been heavily involved in designing the curriculum for these trainings: 
 
-* Python for Data Analysis
-* Data Science with Python 
-* Advanced Data Science with Python 
-* Advanced Python
-* Production-Ready Machine Learning 
-* Clean Coding, Version Control and CI/CD
-* MLOps 
-* Unsupervised Learning 
-* Explainability/Interpretability 
-* Data Visualisation & Storytelling
-* Deep Learning for Image Processing 
-* Deep Learning for Natural Language Processing 
 
 <!--#### PyData Festival 2020 (co-chair)
 A week-long online festival to serve as an alternative to the IRL conference. Each day had a dedicated theme (Engineering, Fairness & Data, Open Source, Python, Applications) and sessions during breakfast (tutorials/workshops), lunch (panels, interviews, sprint preparation sessions) and after dinner (talks).

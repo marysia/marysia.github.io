@@ -7,8 +7,25 @@ menu: false
 title: Marysia Winkels
 ---
 
-
 Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
+
+Nowadays, I spend my time...
+* making AI safe & secure @ [Gray Swan](https://www.grayswan.ai/)
+* helping NGOs as a volunteer @ [AI for Impact Collective](https://www.aiforimpactcollective.com/)
+* doodling dinosaurs as a side project @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
+
+I'm interested in AI safety, from both a technical as well as a governance perspective. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
+
+
+Previously, I..
+* was a member of technicall staff  @ [Cohere](https://cohere.com/)
+* did a research project with the [Center of AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
+* organised [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org) 
+* taught over >1000 hours of data science & Python
+* gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
+
+
+<!-- Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 
 I spend my time...
 * Training LLMs @ [Cohere](https://cohere.com/)
@@ -17,7 +34,7 @@ I spend my time...
 * Doodling Dinosaurs @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
 
 Previously, I've spoken at [conferences](https://marysia.nl/talks/), competed in [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/), chaired [PyData Global 2021](https://pydata.org/global2021/), and taught >1000 hours of data science & python trainings.
- 
+  -->
 
 <!-- And was previously:
 * Chair @ [PyData Global 2021](https://pydata.org/global2021/)
