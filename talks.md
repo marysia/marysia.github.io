@@ -37,7 +37,7 @@ permalink: /talks/
 # Talks (selection)
 **Interview w/ Guido van Rossem**, interviewer @ PyData Festival  [[link]](https://www.youtube.com/watch?v=eJUwlzR_hCY)<br>
 **Amsterdam AI Impact Festival**, panelist <br>
-**Help! There Are Humans in My Data!**, talk @ PyData Amsterdam 2025 <br>
+**Help! There Are Humans in My Data!**, talk @ PyData Amsterdam 2025 [[link]](https://www.youtube.com/watch?v=vYZjNQkESr8) <br>
 **The Data That Shapes Foundational LLMs**, talk @ PyData Global 2024 <br>
 **Introduction to Data Storytelling**, tutorial session @ PyLadiesCon 2024 <br>
 **How to build a Large Language Model from scratch**, Women in Data 2024 <br>
