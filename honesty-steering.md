@@ -77,14 +77,6 @@ We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmar
 ✔️ **Prevents degradation**: Where single-layer steering *hurt* performance (Qwen models), Gaussian scheduling recovered and improved results <br>
 ✔️ **Distribution matters**: Equal-budget experiments show the *shape* of depth allocation is decisive—Gaussian outperforms random, uniform, and box-filter distributions <br>
 ✔️ **Complements fine-tuning**: Remains effective alongside LoRA, offering a zero-cost alternative or supplement to retraining
-<!-- 
-### Why This Matters
-
-This work provides:
-- A **practical tool** for improving AI honesty without expensive retraining
-- **Interpretable control** through simple parameters
-- Evidence that **architectural depth is an underexplored design dimension** for AI safety interventions
-- A **low-cost pathway** to more auditable and trustworthy AI systems -->
 
 ## Future Directions
 
