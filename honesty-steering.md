@@ -55,18 +55,22 @@ Current solutions are expensive, brittle, or easy to bypass:
 
 We introduce **depth-wise activation steering**—a principled approach to allocating steering strength across layers. The key insight: *where* you intervene across the network's depth matters as much as *how much* you intervene.
 
-<div style="float: right; margin: 0 0 20px 20px; max-width: 300px;">
+<!-- <div style="float: right; margin: 0 0 20px 20px; max-width: 250px;">
   <figure style="text-align: center; margin: 0 0 15px 0;">
     <img src="{{ '/assets/steering/single_layer.png' | relative_url }}" alt="Single layer steering" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="{{ '/assets/steering/gaussian_layer.png' | relative_url }}" alt="Gaussian layer steering" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   </figure>
-</div>
+</div> -->
 
 
 Our **Gaussian depth schedule** uses a smooth distribution that concentrates intervention in middle layers where semantic features are most separable, while avoiding the brittleness of single-layer edits and the dilution of uniform approaches.
 
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="{{ '/assets/steering/gaussian_depth.png' | relative_url }}" alt="Lying LLM" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <!-- <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Large language models can make statements that don't align with what they believe to be true.</figcaption> -->
+</figure> 
 ### Why It Works
 
 Instead of patching a single layer (brittle) or spreading intervention uniformly (diluted), we allocate steering strength according to a principled schedule that:
@@ -92,9 +96,19 @@ We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmar
 ✔️ **Distribution matters**: Equal-budget experiments show the *shape* of depth allocation is decisive—Gaussian outperforms random, uniform, and box-filter distributions <br>
 ✔️ **Complements fine-tuning**: Remains effective alongside LoRA, offering a zero-cost alternative or supplement to retraining
 
+
+
 <figure style="text-align: center; margin: 20px 0;">
-  <img src="{{ '/assets/steering/good_robot.png' | relative_url }}" alt="Lying LLM" style="max-width: 60%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Happy aligned LLM!</figcaption>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="{{ '/assets/steering/results.png' | relative_url }}" alt="Results" style="height: 175px; width: auto; display: block;">
+      <!-- <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Performance on MASK benchmark.</figcaption> -->
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="{{ '/assets/steering/good_robot.png' | relative_url }}" alt="Happy aligned LLM" style="height: 175px; width: auto; display: block;">
+      <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Happy aligned LLM!</figcaption>
+    </div>
+  </div>
 </figure> 
 
 ## Future Directions
