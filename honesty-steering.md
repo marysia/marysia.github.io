@@ -91,11 +91,7 @@ This work provides:
 
 ## Future Directions
 
-This work opens several promising research directions:
-
-**Generalization**: Applying depth-wise scheduling to other safety-relevant properties, such as *harmlessness* (resistance to jailbreaks) and *fairness* (reducing bias), and investigating whether optimal depth distributions vary across different target behaviors. <br>
-**Zero-hyperparameter methods**: Developing adaptive approaches that automatically determine optimal strength and depth distributions without manual tuning. <br>
-**Broader evaluation**: Testing on additional safety benchmarks beyond MASK (e.g., Machiavelli) and incorporating multiple judges or human evaluation for more robust validation.
+This work opens several promising research directions, including applying depth-wise scheduling to other safety-relevant properties, such as *harmlessness* (resistance to jailbreaks) and *fairness* (reducing bias), and investigating whether optimal depth distributions vary across different target behaviors and models. <br>
 
 
 ---
