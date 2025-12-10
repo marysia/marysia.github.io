@@ -52,7 +52,7 @@ Current solutions are expensive, brittle, or easy to bypass:
 
 We introduce **depth-wise activation steering**—a principled approach to allocating steering strength across layers. The key insight: *where* you intervene across the network's depth matters as much as *how much* you intervene.
 
-Our **Gaussian depth schedule** uses a smooth distribution that concentrates intervention in mid-to-late layers where semantic features are most separable, while avoiding the brittleness of single-layer edits and the dilution of uniform approaches.
+Our **Gaussian depth schedule** uses a smooth distribution that concentrates intervention in middle layers where semantic features are most separable, while avoiding the brittleness of single-layer edits and the dilution of uniform approaches.
 
 <img src="{{ '/assets/steering/gaussian_depth.png' | relative_url }}" alt="Lying LLM" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
@@ -77,11 +77,8 @@ We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmar
 ✔️ **Prevents degradation**: Where single-layer steering *hurt* performance (Qwen models), Gaussian scheduling recovered and improved results <br>
 ✔️ **Distribution matters**: Equal-budget experiments show the *shape* of depth allocation is decisive—Gaussian outperforms random, uniform, and box-filter distributions <br>
 ✔️ **Complements fine-tuning**: Remains effective alongside LoRA, offering a zero-cost alternative or supplement to retraining
-
-
 <!-- 
-
-## Why This Matters
+### Why This Matters
 
 This work provides:
 - A **practical tool** for improving AI honesty without expensive retraining
