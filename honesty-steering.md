@@ -2,6 +2,7 @@
 layout: standalone
 title: Honesty Steering
 permalink: /honesty-steering
+menu: false
 ---
 
 <!-- --- -->
