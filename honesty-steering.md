@@ -51,8 +51,6 @@ Current solutions are expensive, brittle, or easy to bypass:
 
 ## Our Solution: Gaussian Depth Scheduling
 
-
-
 We introduce **depth-wise activation steering**—a principled approach to allocating steering strength across layers. The key insight: *where* you intervene across the network's depth matters as much as *how much* you intervene.
 
 <!-- <div style="float: right; margin: 0 0 20px 20px; max-width: 250px;">
@@ -68,7 +66,7 @@ We introduce **depth-wise activation steering**—a principled approach to alloc
 Our **Gaussian depth schedule** uses a smooth distribution that concentrates intervention in middle layers where semantic features are most separable, while avoiding the brittleness of single-layer edits and the dilution of uniform approaches.
 
 <figure style="text-align: center; margin: 20px 0;">
-  <img src="{{ '/assets/steering/gaussian_depth.png' | relative_url }}" alt="Lying LLM" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="{{ '/assets/steering/gaussian_depth.png' | relative_url }}" alt="Lying LLM" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
   <!-- <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Large language models can make statements that don't align with what they believe to be true.</figcaption> -->
 </figure> 
 ### Why It Works
@@ -82,11 +80,6 @@ The method is **model-agnostic**, requires **no retraining**, and provides a **p
 
 ## Results
 
-<!-- <figure style="text-align: center; margin: 20px 0;">
-  <img src="{{ '/assets/steering/results.png' | relative_url }}" alt="Results" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Performance improvements across seven models on the MASK benchmark.</figcaption>
-</figure> -->
-
 We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmark**—which specifically measures honesty by testing whether models contradict their own stated beliefs under pressure.
 
 ### Key Findings
@@ -96,25 +89,26 @@ We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmar
 ✔️ **Distribution matters**: Equal-budget experiments show the *shape* of depth allocation is decisive—Gaussian outperforms random, uniform, and box-filter distributions <br>
 ✔️ **Complements fine-tuning**: Remains effective alongside LoRA, offering a zero-cost alternative or supplement to retraining
 
-
-
 <figure style="text-align: center; margin: 20px 0;">
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
-    <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="{{ '/assets/steering/results.png' | relative_url }}" alt="Results" style="height: 175px; width: auto; display: block;">
-      <!-- <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Performance on MASK benchmark.</figcaption> -->
-    </div>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="{{ '/assets/steering/good_robot.png' | relative_url }}" alt="Happy aligned LLM" style="height: 175px; width: auto; display: block;">
-      <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Happy aligned LLM!</figcaption>
-    </div>
-  </div>
-</figure> 
+  <img src="{{ '/assets/steering/honest_no_title.png' | relative_url }}" alt="Results" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="font-size: 0.8em; color: #666; margin-top: 10px;">Gaussian steering improvements over baseline and single-layer steering.</figcaption>
+</figure>
+
 
 ## Future Directions
 
 This work opens several promising research directions, including applying depth-wise scheduling to other safety-relevant properties, such as *harmlessness* (resistance to jailbreaks) and *fairness* (reducing bias), and investigating whether optimal depth distributions vary across different target behaviors and models. <br>
 
+# Key Takeaways
+* LLMs can make statements that contradict what they internally believe to be true—failures of *honesty*, not accuracy
+* Activation steering allows you to intervene during inference by adjusting internal representations to guide behavior toward honesty
+* *Where* you intervene across network depth matters as much as *how much* you intervene
+* Gaussian depth scheduling consistently outperforms all baselines and alternative methods tested, including LoRA. 
+
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="{{ '/assets/steering/good_robot.png' | relative_url }}" alt="Honest LLM" style="max-width: 60%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px;">Happy aligned LLM!</figcaption>
+</figure> 
 
 ---
 
