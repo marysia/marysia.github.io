@@ -100,11 +100,11 @@ We evaluated seven models (LLaMA, Qwen, Mistral families) on the **MASK benchmar
 
 This work opens several promising research directions, including applying depth-wise scheduling to other safety-relevant properties, such as *harmlessness* (resistance to jailbreaks) and *fairness* (reducing bias), and investigating whether optimal depth distributions vary across different target behaviors and models. <br>
 
-# Key Takeaways
+<!-- # Key Takeaways
 * LLMs can make statements that contradict what they internally believe to be true—failures of *honesty*, not accuracy
 * Activation steering allows you to intervene during inference by adjusting internal representations to guide behavior toward honesty
 * *Where* you intervene across network depth matters as much as *how much* you intervene
-* Gaussian depth scheduling consistently outperforms all baselines and alternative methods tested, including LoRA. 
+* Gaussian depth scheduling consistently outperforms all baselines and alternative methods tested, including LoRA.  -->
 
 <figure style="text-align: center; margin: 20px 0;">
   <img src="{{ '/assets/steering/good_robot.png' | relative_url }}" alt="Honest LLM" style="max-width: 60%; height: auto; display: block; margin: 0 auto;">
