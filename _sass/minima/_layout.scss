@@ -12,19 +12,19 @@ a:visited {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: $custom-color;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0; 
-	border-color: $custom-color;
-	background-color: $custom-color;
-	color: $custom-color;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-color-light;
+  margin: 1em 0;
+  padding: 0;
+  border-color: $grey-color-light;
+  background-color: $grey-color-light;
+  color: $grey-color-light;
 }
 
 /**
@@ -35,8 +35,7 @@ hr {
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   word-spacing: 5px;
-  font-family: "Optima", Optima, sans-serif;
-  // Positioning context for the mobile navigation icon
+  font-family: $base-font-family;
   position: relative;
 }
 
@@ -233,14 +232,12 @@ hr {
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-
-  font-family: "Optima", Optima, sans-serif;
+  font-family: $base-font-family;
 }
 
 .post-link {
-
-    font-family: "Optima", Optima, sans-serif;
-  margin-bottom: -35px !important; 
+  font-family: $base-font-family;
+  margin-bottom: -35px !important;
   line-height: 1.3;
   display: block;
   @include relative-font-size(1.5);
@@ -265,17 +262,18 @@ hr {
   letter-spacing: .5px;
   line-height: 1;
   text-align: right;
-  font-family: "Optima", Optima, sans-serif;
+  font-family: $base-font-family;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
 }
+
 .blog-post-title {
   @include relative-font-size(2.625);
   letter-spacing: .5px;
   line-height: 1;
-  font-family: "Optima", Optima, sans-serif;
+  font-family: $base-font-family;
   color: $custom-color;
 
   @include media-query($on-laptop) {
@@ -285,11 +283,11 @@ hr {
   padding: 3px;
   margin: 3px;
 }
+
 .blog-post-subtitle {
-  //letter-spacing: .5px;
   text-indent: .25em;
   line-height: 1;
-  font-family: "Optima", Optima, sans-serif;
+  font-family: $base-font-family;
   font-style: italic;
 }
 
@@ -303,13 +301,12 @@ hr {
   }
 
   ul li::before {
-
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: $custom-color; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */ 
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: .5em; /* Also needed for space (tweak if needed) */
+    content: "\2022";
+    color: $grey-color-dark;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: .5em;
   }
   
   emph {
@@ -318,50 +315,50 @@ hr {
 	  letter-spacing: 1px;
   }
   
-  h1 { 
-	text-indent: 0em;
-	font-family: "Optima", Optima, sans-serif;
-  	color: $custom-color;
+  h1 {
+    text-indent: 0;
+    font-family: $base-font-family;
+    color: $custom-color;
     padding: 1px;
     margin: 1px;
-	margin-top: 30px;
-	margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 5px;
     @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
-	}
-}
-  h2 {
+    }
+  }
 
-	  margin-top: 20px;
-  	font-family: "Optima", Optima, sans-serif;
-	 color: $grey-color-dark;
-     padding: 1px;
-     margin: 1px;
+  h2 {
+    margin-top: 20px;
+    font-family: $base-font-family;
+    color: $grey-color-dark;
+    padding: 1px;
+    margin: 1px;
     @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
   }
-  h3 { 
-	  margin-top: 10px;
-	  margin-bottom: 10px;
-	  
-	text-indent: 0em;
-	font-family: "Optima", Optima, sans-serif;
-  	color: $custom-color;
-	font-weight: bold; 
-	letter-spacing: 2px;
+
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 0;
+    font-family: $base-font-family;
+    color: $custom-color;
+    font-weight: bold;
+    letter-spacing: 2px;
     padding: 1px;
     margin: 1px;
     @include relative-font-size(1.25);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
-	}
-}
+    }
+  }
 
   h4 {
 	  color: $grey-color-dark;
@@ -376,19 +373,20 @@ hr {
 .post-content.emph { 
 	color: $custom-color;
 }
-.Figure { 
-	text-align: center;
-    font-family: "Optima", Optima, sans-serif;
-    margin-bottom: 10px;
+.Figure {
+  text-align: center;
+  font-family: $base-font-family;
+  margin-bottom: 10px;
 }
-.Figure.index { 
-	vertical-align:top;
-	color: $custom-color;
-    font-family: "Optima", Optima, sans-serif;
-	display: inline-block;
-    padding: 0px;
-    margin: 0px;
-	margin-right:1em;
+
+.Figure.index {
+  vertical-align: top;
+  color: $custom-color;
+  font-family: $base-font-family;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: 1em;
 }
 
 .Figure.description {
@@ -420,4 +418,103 @@ hr {
 
 .PageNavigation .prev {
   text-align: left;
+}
+
+/**
+ * TIL (Today I Learned) – compact notes, not blog
+ */
+.til-list {
+  margin-left: 0;
+  list-style: none;
+  line-height: 1.4;
+
+  > li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $grey-color-light;
+
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.til-meta-line {
+  margin: 0 0 0.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.til-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+  font-family: $base-font-family;
+  margin-left: auto;
+}
+
+.til-series {
+  font-size: $small-font-size;
+  color: $grey-color;
+  font-family: $base-font-family;
+  flex-shrink: 0;
+}
+
+.til-item-title {
+  margin: 0 0 0.25rem 0;
+  @include relative-font-size(1.2);
+  line-height: 1.3;
+  font-family: $base-font-family;
+}
+
+.til-link {
+  color: $custom-color;
+}
+
+.til-excerpt {
+  font-size: 0.9em;
+  color: $grey-color-dark;
+  margin-top: 0.15rem;
+  line-height: 1.35;
+}
+
+/* Single TIL page – minimal, no prev/next */
+.til-single {
+  .til-header {
+    margin-bottom: 1.25rem;
+  }
+
+  .til-title {
+    @include relative-font-size(1.5);
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    font-family: $base-font-family;
+    color: $custom-color;
+    margin: 0.25rem 0 0 0;
+  }
+
+  .til-content {
+    font-family: $base-font-family;
+    line-height: 1.6;
+
+    ul {
+      list-style: none;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding-left: 2em;
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: $grey-color-dark;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+    }
+  }
 }

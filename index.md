@@ -7,23 +7,21 @@ menu: false
 title: Marysia Winkels
 ---
 
-Hi there! I'm Marysia, based in Amsterdam. 
+Hi there! I'm Marysia, based in Amsterdam. This is a space where I [keep track](https://marysia.nl/til/) of what I learn. 
 
-<!-- This is a space where I [write](https://marysia.nl/blog/) about things.  -->
+Nowadays, I mostly spend my time making AI safe and secure at [Gray Swan](https://www.grayswan.ai/) and as a board member at [Encode Europe](https://encodeai.eu). 
 
-Nowadays, I mostly spend my time...
-* making AI safe & secure @ [Gray Swan](https://www.grayswan.ai/)
-* supporting NGOs with AI adoption @ [AI for Impact Collective](https://www.aiforimpactcollective.com/)
-* doodling dinosaurs as a side project @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/) 
-
-Previously, I..
+Previously, I...
 * was a member of technical staff  @ [Cohere](https://cohere.com/)
 * organized [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org)  for >5 years.
 * did a research project with the [Center of AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
 * taught >1000 hours of data science & Python
 * gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 
-I'm interested in AI safety, from both technical and governance perspectives. I also care deeply about data science for social good, and ethical, responsible and open-source AI.  
+<!-- I'm interested in AI safety (technical & governance), data science for social good, and ethical, open-source AI.  -->
+
+I also design and make custom wooden name signs for children's rooms @ [Kwispel Studios](https://www.etsy.com/shop/kwispelstudios/).
+
 
 <!-- Hi there! I'm Marysia. This is a space where I [write](https://marysia.nl/blog/) about things. 
 

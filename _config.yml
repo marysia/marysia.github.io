@@ -29,6 +29,19 @@ plugins:
 
 excerpt_separator: "<!-- more -->"
 
+# Collections
+collections:
+  tils:
+    output: true
+    permalink: /til/:name/
+
+defaults:
+  - scope:
+      path: "_tils"
+      type: "tils"
+    values:
+      layout: til
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
