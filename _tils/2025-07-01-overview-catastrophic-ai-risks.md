@@ -25,8 +25,9 @@ Even when everyone would be better off with safer, slower AI development, compet
 - Any single actor slowing down just gets outcompeted by others who don't
 
 
+
 ### **Organizational Risks**
-Essentially, even when there are no bad actors, no competitive pressures, and good intentions all around, catastrophic accidents still happen because of the inherent nature of how organizations function (or malfunction). Complexity creates unexpected interactions between components that can't all be forseen; AI systems are particularly problematic because (unlike nuclear reactors, which are well-understood) AI systems are poorly understood even by their creators; and AI systems are neither perfectly accurate nor highly reliable, unlike other more traditional industrial components. 
+Essentially, even when there are no bad actors, no competitive pressures, and good intentions all around, catastrophic accidents still happen because of the inherent nature of how organizations function (or malfunction). Complexity creates unexpected interactions between components that can't all be forseen; AI systems are particularly problematic because AI systems are poorly understood even by their creators (unlike, say, nuclear reactors, which are theoretically well-understood); and AI systems are neither perfectly accurate nor highly reliable (unlike other more traditional industrial components). 
 
 This particular passage stood out to me: 
 
@@ -36,9 +37,9 @@ I think it illustrates how even when everyone means well, things just... *happen
 
 
 ### **Rogue AIs**
- AI systems are optimization processes that will find the most efficient path to achieve their given goals, but "most efficient" can - and often does - conflict with *unstated* human values and constraints. And it's impossible to state *everything*
+ AI systems do not have "bad intentions". They do, however, have goals. And in their essence, AI systems are optimization processes that will find the most efficient path to achieve their given goals. But "most efficient" can - and often does - conflict with *unstated* human values and constraints. And it's impossible to state *everything*
  
- As AIs become more capable, they become better at finding these efficient-but-problematic solutions, and better at recognizing that humans would interfere if they knew about these methods - making concealment instrumentally useful for goal achievement, regardless of any intent to harm humans. 
+ As AIs become more capable, they become better at finding these efficient-but-problematic solutions, and better at recognizing that humans would interfere if they knew about these methods - which opens the door for dishonest and rogue systems. This is not because they're evil, but because they try to achieve their goals, which are misaligned with ours.
  
 
 ### **How they tie together**
