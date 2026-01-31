@@ -14,7 +14,7 @@ Nowadays, I mostly spend my time making AI safe and secure at [Gray Swan](https:
 Previously, I...
 * was a member of technical staff  @ [Cohere](https://cohere.com/)
 * organized [PyData Amsterdam](http://amsterdam.pydata.org) & [PyData Global](http://global.pydata.org)  for >5 years.
-* did a research project with the [Center of AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
+* did a research project with the [Center for AI Safety](https://safe.ai/) for [MARS](https://www.cambridgeaisafety.org/mars) 
 * taught >1000 hours of data science & Python
 * gave [a few talks](https://marysia.nl/talks) and participated in a few [competitions](https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/)
 
