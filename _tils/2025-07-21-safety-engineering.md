@@ -1,6 +1,6 @@
 ---
 title: "Safety Engineering"
-date: 2025-01-28
+date: 2025-07-21
 series: "AI Safety, Ethics & Society course"
 ---
 
