@@ -8,6 +8,7 @@ This chapter introduces the idea that AI safety should be seen as a specialized 
 
 Finally, the chapter emphasizes that even with strong safety engineering practices, managing AI risks is still inherently complex and difficult.
 
+
 ### **Understand the Risks** 
 We can analyze and quantify risks by decomposing it: 
 * *probability*: How likely is it that the event happens?
@@ -32,7 +33,9 @@ Another concept introduced related to this is **Nines of Reliability**, which I 
 * prioritize responding quickly and effectively
 * trust people with the most knowledge to make decisions
 * create a culture where close calls are carefully examined instead of ignored
+
 **AI organizations should strive to be HROs**. 
+
 
 ### **Why It's Still Hard**
 
