@@ -1,5 +1,5 @@
 ---
-title: "Safety Engineering"
+title: "Chapter 4: Safety Engineering"
 date: 2025-07-21
 series: "AI Safety, Ethics & Society course"
 ---

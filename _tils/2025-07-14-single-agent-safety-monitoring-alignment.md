@@ -1,13 +1,13 @@
 ---
-title: "Single-agent safety"
+title: "Chapter 3: Single-agent safety"
 date: 2025-07-14
 series: "AI Safety, Ethics & Society course"
 ---
 
-This chapter focusses on the fundamental technical challenges of making *individual* single-agent AI systems safe. That is, not even considering multi-agent dynamics or complex systems. This can be summarized as problems with monitoring, robustness and alignment. 
+This chapter focusses on the fundamental technical challenges of making *individual* single-agent AI systems safe, not even considering multi-agent dynamics or complex systems. Essentially, his can be summarized as problems with *monitoring*, *robustness* and *alignment*, which in turn reinforce each other.  
 
 ### **Monitoring**
-We cannot monitor what we cannot understand, and we do not understand AI systems. Current transparency research (mechanistic interpretability, representation engineering) has a fundamental limitation: you cannot fully understand a complex system by decomposing it into parts. 
+We cannot monitor what we cannot understand. Current transparency research (mechanistic interpretability, representation engineering) aims to understand AI systems, but has a fundamental limitation: you cannot fully understand a complex system by decomposing it into parts. 
 
 ### **Robustness** 
 AI systems rely on "proxies" (measurable approximations of what we actually want) because our real goals are too complex to specify directly. There is a fundamental gap between what we can measure and what we actually want. We cannot make robust systems when our goals are imperfectly specified. 
