@@ -9,7 +9,7 @@ title: Marysia Winkels
 
 Hi there! I'm Marysia, based in Amsterdam. This is a space where I [keep track](https://marysia.nl/til/) of what I learn. 
 
-Nowadays, I mostly spend my time making AI safe and secure at [Gray Swan](https://www.grayswan.ai/), on the board of [Encode Europe](https://encodeai.eu), and as a member of [Amsterdam AI Safety](https://aisafetyamsterdam.org/).
+Nowadays, I mostly spend my time making AI safe and secure at [Gray Swan](https://www.grayswan.ai/). I'm also involved with [Encode Europe](https://encodeai.eu) and [Amsterdam AI Safety](https://aisafetyamsterdam.org/).
 
 Previously, I...
 * was a member of technical staff  @ [Cohere](https://cohere.com/)
