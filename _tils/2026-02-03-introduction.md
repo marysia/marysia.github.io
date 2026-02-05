@@ -1,7 +1,7 @@
 ---
 title: "Module 1: Introduction to AI Evaluation"
-date: 2025-07-21
-series: "AI Evaluation Programme"
+date: 2026-02-03
+series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
 ## Overview
