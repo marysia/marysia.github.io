@@ -295,9 +295,19 @@ hr {
 .post-content {
   font-family: $base-font-family;
   margin-bottom: $spacing-unit;
+  /* Tighten gap between intro line and list (e.g. "Key Concepts:" then bullets) */
+  p + ul {
+    margin-top: -0.4em;
+  }
+  /* Keep ordered lists inside normal text margin (numbers not hanging outside) */
+  ol {
+    padding-left: 1.25em;
+    list-style-position: inside;
+  }
   ul {
     list-style: none; /* Remove default bullets */
-	margin-top: -1em;
+    margin-top: -1em;
+    padding-left: 0.5em;
   }
 
   ul li::before {
@@ -373,6 +383,38 @@ hr {
 .post-content.emph { 
 	color: $custom-color;
 }
+
+/**
+ * Additional notes block – visually distinct so skimmers don't count it as main content.
+ * Smaller, narrower, different font and background. Use in Markdown as:
+ * <div class="note" markdown="1">
+ * Your note text here. **Markdown** works.
+ * </div>
+ */
+.post-content .note,
+.til-content .note {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  @include relative-font-size(0.875);
+  line-height: 1.5;
+  max-width: 38em;
+  background-color: lighten($grey-color-light, 18%);
+  color: darken($text-color, 5%);
+  border-left: 3px solid $grey-color;
+  border-radius: 0 4px 4px 0;
+  padding: 0.9em 1.2em;
+  margin: 1em 0;
+
+  p {
+    font-family: inherit;
+  }
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
 .Figure {
   text-align: center;
   font-family: $base-font-family;
@@ -500,11 +542,20 @@ hr {
     font-family: $base-font-family;
     line-height: 1.6;
 
+    /* Tighten gap between intro line and list */
+    p + ul {
+      margin-top: -0.4em;
+    }
+    /* Keep ordered lists inside normal text margin */
+    ol {
+      padding-left: 1.25em;
+      list-style-position: inside;
+    }
     ul {
       list-style: none;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
-      padding-left: 2em;
+      padding-left: 1.5em;
     }
 
     ul li::before {
@@ -515,6 +566,23 @@ hr {
       width: 1em;
       margin-left: -1.5em;
       margin-right: 0.5em;
+    }
+
+    .example-box {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      @include relative-font-size(0.9375);
+      background-color: lighten($grey-color-light, 15%);
+      border-left: 4px solid $custom-color;
+      border-radius: 4px;
+      padding: 1em 1.25em;
+      margin: 1em 0;
+
+      p {
+        font-family: inherit;
+      }
+      > :last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

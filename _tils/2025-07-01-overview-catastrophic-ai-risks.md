@@ -1,5 +1,5 @@
 ---
-title: ""Chapter 1+2: "Overview of catastrophic AI risks"
+title: 'Chapter 1+2: "Overview of catastrophic AI risks"'
 date: 2025-07-01
 series: "AI Safety, Ethics & Society course"
 ---

@@ -23,6 +23,8 @@ url: "http://marysia.nl" # the base hostname & protocol for your site, e.g. http
 
 # Build settings
 markdown: kramdown
+kramdown:
+  hard_wrap: true   # single newline = line break; blank line = paragraph break
 theme: minima
 plugins:
   - jekyll-feed
