@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Core Evaluation Concepts"
+title: "Module 3: Statistical Foundation of AI Evaluation"
 date: 2026-02-10
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
