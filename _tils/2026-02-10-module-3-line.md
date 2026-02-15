@@ -6,7 +6,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 
 ## Overview
-This lecture establishes the statistical foundations necessary for AI evaluation, focusing on understanding uncertainty, generalization, and the methodological problems that can undermine evaluation validity. A central theme is that statistics in AI evaluation are frequently misused or misinterpreted. We get impressive-looking numbers that seem authoritative but may be meaningless or misleading without understanding their underlying assumptions and limitations.
+This lecture establishes the statistical foundations necessary for AI evaluation. Statistics in AI evaluation are frequently misused or misinterpreted, and impressive-looking numbers that seem authoritative may be meaningless or misleading without understanding their underlying assumptions and limitations.
 
 This lecture was taught by [Line Clemmensen](https://www.imm.dtu.dk/~lkhc/).
 --- 

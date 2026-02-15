@@ -5,7 +5,9 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
 ## Overview
-The main focus of this lecture is on establishing evaluation as a scientific discipline. It argues that AI evaluation needs to move beyond simple benchmarking to become a predictive science that can anticipate how AI systems will behave in real-world situations.
+The main focus of this lecture is on establishing evaluation as a scientific discipline.
+
+> "Something is rotten in the field of evaluation... not because the science is wrong, but because it is really complicated and very cross-disciplinary."
 
 This lecture was taught by [José Hernández-Orallo](https://jorallo.github.io/).
 
@@ -15,8 +17,6 @@ This lecture was taught by [José Hernández-Orallo](https://jorallo.github.io/)
 
 **The Problem** 
 AI evaluation is stuck in a pre-scientific phase where different communities have developed competing paradigms that each miss crucial pieces of the puzzle. Benchmarking dominates but only gives us aggregate performance scores that can't predict when systems will fail in new contexts. Safety researchers focus on finding edge cases but struggle to estimate how likely those failures actually are. Meanwhile, stakeholders across the board are making decisions based on misleading metrics that conflate performance (context-dependent results) with capability (inherent system properties). 
-
-> "Something is rotten in the field of evaluation... not because the science is wrong, but because it is really complicated and very cross-disciplinary."
 
 Additionally, humans tend to..
 * ... confuse *context-dependent results* with *inherent abilities*.
@@ -28,11 +28,11 @@ Reframe evaluation as a prediction problem that goes beyond measuring aggregate 
 
 --- 
 
-# Detailed Notes
+## Detailed Notes
 
 José began by challenging the common assumption that AI should simply replicate human intelligence. He argued that modern AI systems already do things humans cannot do and this trend will accelerate, which means we need evaluation frameworks that can handle artificial behavior that extends far beyond the human cognitive space.
 
-## The Problem with Current AI Evaluation 
+### The Problem with Current AI Evaluation 
 
 AI evaluation currently operates through six different paradigms, with benchmarking (leaderboard comparisons), evals (failure-focused testing), and real-world impact studies being most prevalent. 
 
@@ -44,7 +44,7 @@ Meanwhile, the most important type of study for understanding AI's *actual* effe
 
 These paradigm-specific problems are made worse by fundamental conceptual confusion: people consistently conflate different levels of analysis, leading to poor understanding and prediction of AI behavior.
 
-## Performance vs. Capability
+### Performance vs. Capability
 
 So what do we do? First, we should make a distinction between between *performance* and *capability*:
 
@@ -61,7 +61,7 @@ Capability follows predictable patterns. When you plot performance against task 
 
 Understanding capability allows prediction, because if you know a system's capability level, you can predict how it will perform on new tasks of known difficulty. This is the foundation of evaluation as prediction.
 
-## Capability & Propensitiy
+### Capability & Propensitiy
 
 However, knowing system capabilities alone won't tell us how safe or dangerous a system is. There is a difference between what systems *can* do versus what they *tend* to do:
 
@@ -83,7 +83,7 @@ The combination determines actual risk
 
 This means many dangerous capabilities evaluations miss half the picture. A system might have high capability for harmful actions but low propensity, making it relatively safe. Conversely, a system with both high capability and high propensity would be dangerous.
 
-## Evaluation as a Prediction Problem
+### Evaluation as a Prediction Problem
 
 Instead of reporting aggregate performance scores, we should build models that anticipate how a system will behave in specific real-world situations. This requires:
 
@@ -93,7 +93,7 @@ Instead of reporting aggregate performance scores, we should build models that a
 
 The goal is to predict: "Given this system's capabilities and propensities, in this context, with this user, how likely is it to be safe/correct/fair?"
 
-## Challenges
+### Challenges
 
 While moving away from aggregate performance towards evaluating capabilities and propensities is a huge step forward, we are still faced with challenges with regards to AI evaluation.
 
@@ -103,7 +103,7 @@ This gap exists because real-world evaluation is, practically, much harder. It r
 
 Then, in addition to technical challenges, there are governance challenges that are particularly thorny. Many evaluation organizations receive funding from the companies whose systems they evaluate, raising questions about independence, and political priorities can also skew evaluation focus. For example, some systems are scrutinized more based on their country of origin rather than actual capabilities or risks.The field also lacks international coordination, creating fragmented standards where systems might pass evaluation in one jurisdiction but fail in another. These governance challenges may be even harder to solve than technical ones, but they're equally critical for trustworthy AI evaluation.
 
-## So What's Next? 
+### So What's Next? 
 The evaluation field is undergoing a transformation. Rather than treating evaluation as a collection of ad-hoc methods and benchmarks, researchers are working to establish it as a proper scientific discipline with theoretical foundations.
 
 This shift is necessary because current evaluation practices aren't keeping pace with AI development. We have incredibly sophisticated AI systems being evaluated with relatively primitive tools that often miss critical failure modes or provide misleading confidence estimates. The solution isn't just better benchmarks, but a complete rethinking of how evaluation works.
