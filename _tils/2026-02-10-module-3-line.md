@@ -4,8 +4,9 @@ date: 2026-02-10
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
+
 ## Overview
-This lecture argues why proper experimental design and statistical thinking are essential for building trustworthy AI systems.
+This lecture establishes the statistical foundations necessary for AI evaluation, focusing on understanding uncertainty, generalization, and the methodological problems that can undermine evaluation validity. A central theme is that statistics in AI evaluation are frequently misused or misinterpreted. We get impressive-looking numbers that seem authoritative but may be meaningless or misleading without understanding their underlying assumptions and limitations.
 
 This lecture was taught by [Line Clemmensen](https://www.imm.dtu.dk/~lkhc/), a full professor in the Department of Applied Mathematics and Computer Science at the Technical University of Denmark.
 
@@ -22,11 +23,14 @@ This lecture was taught by [Line Clemmensen](https://www.imm.dtu.dk/~lkhc/), a f
 - **Validation vs test sets**: Separate data for model selection vs final assessment
 - **Bias-variance tradeoff**: Why simple models sometimes beat complex ones  
 - **Cross-validation**: Using data splits to estimate performance without separate validation
+- **Nested cross-validation**: Two-loop approach separating model selection from assessment
 - **Independence assumption**: Why correlated data breaks standard evaluation methods
+- **Data leakage**: How preprocessing can contaminate your evaluation results
 - **Bootstrapping**: Creating confidence intervals by resampling your data
+- **Error analysis**: Systematically examining failures to understand model limitations
 - **Representative sampling**: Whether your data reflects your target population
 - **Miniature vs coverage sampling**: Optimizing average performance vs ensuring fairness
-- **Data leakage**: How preprocessing can contaminate your evaluation results
+
 
 ---
 
@@ -72,6 +76,14 @@ This explains why evaluation results depend so heavily on how much data you have
 
 But cross-validation assumes your data points are independent and identically distributed, which frequently breaks down in practice. When you have multiple observations from the same individual, data collected over time, or samples from different regions, you need specialized approaches. Leave entire individuals or countries out of training if that's how you plan to deploy. And crucially, all preprocessing like normalization must happen within each fold using only training data, otherwise you leak information and get overly optimistic results.
 
+**Nested Cross-Validation**
+When you need both model selection and model assessment, regular cross-validation isn't enough because it conflates the two. Nested cross-validation solves this by using two loops: an inner loop for model selection (choosing hyperparameters) and an outer loop for assessment (estimating final performance).
+
+To do this, you take your data and split it into outer folds. For each outer fold, use the remaining data for inner cross-validation to select your best model. Then test that selected model on the held-out outer fold. This gives you unbiased performance estimates because the outer test data was never used for model selection.
+
+After nested CV, you typically retrain your best model on all available data before deployment, since you want to use as much data as possible for your final production model.
+
+
 **Data Leakage**
 Data leakage happens when information from your test set accidentally influences your training process, making your evaluation overly optimistic. The most common culprit is preprocessing. If you normalize your entire dataset before splitting into train/test, you've used information from the test set (its mean and variance) to transform your training data.
 
@@ -91,6 +103,14 @@ Even with proper cross-validation, you still get just a single performance estim
 Bootstrapping provides a general answer to these questions. Instead of having one dataset and one performance metric, you create many slightly different datasets by sampling with replacement from your original data. You then train models on each of these bootstrap samples and examine the distribution of performance metrics.
 
 This approach, developed by Bradley Efron in 1979, gives you uncertainty estimates without making strong distributional assumptions. Instead of reporting "accuracy = 85%," you can report "accuracy = 85% ± 3%" with a confidence interval that quantifies your uncertainty. This transforms evaluation from providing false precision to acknowledging the inherent uncertainty in performance estimates.
+
+**Error Analysis**
+Beyond getting overall performance numbers, you need to understand where and why your model fails. Error analysis involves systematically examining your model's mistakes to identify patterns and limitations. Again, don't do this on the test set! 
+
+Start by comparing your model's performance to human-level or expert performance to understand whether you have a bias problem (model isn't learning the task well enough) or a variance problem (model isn't generalizing to new data). Then manually examine a sample of misclassified examples - maybe 100 cases if you have a large dataset. Look for common patterns: are there specific types of inputs that consistently cause failures? Are there systematic biases in how the model makes mistakes?
+
+This analysis helps you understand your model's limitations and can guide improvements, whether that's collecting more data for underrepresented cases, adjusting your model architecture, or simply documenting known failure modes for users.
+
 
 ## Representative Data
 
