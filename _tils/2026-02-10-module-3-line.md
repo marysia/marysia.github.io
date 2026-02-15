@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Metrics and Experimental Methodology (Part 1)"
+title: "Module 3: Core Evaluation Concepts"
 date: 2026-02-10
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
