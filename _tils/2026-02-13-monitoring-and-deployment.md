@@ -1,6 +1,6 @@
 ---
 title: "Module 3: ML Model Deployment and Monitoring"
-date: 2026-02-13
+date: 2026-02-12
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture covered the practical realities of putting machine learning models into production and keeping them working over time. The focus was on deployment strategies, why models degrade after deployment, and comprehensive monitoring approaches for both model performance and system health.
 
-This lecture was taught by [Cèsar Ferri](https://www.upv.es/ficha-personal/ceferri) from the Technical University of Valencia.
+This lecture was taught by [Cèsar Ferri](https://www.upv.es/ficha-personal/ceferri).
 
 ---
 
