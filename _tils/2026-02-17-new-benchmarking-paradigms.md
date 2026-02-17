@@ -6,22 +6,16 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 ## Overview
 
-This lecture covered how benchmarks and leaderboards work in AI research. The focus was on understanding why competitive ranking on standardized tests has become central to how AI systems get developed and improved.
-
-This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/).
-
----
-
-## Key Takeaways & Concepts
 AI research embraces an "anything goes" philosophy where you can try any architecture, training method, or data preprocessing approach, but this freedom makes systems hard to compare.
 
-Benchmarks provide the necessary constraint. You can explore freely during development, but eventually you have to submit to competitive empirical testing on standardized tasks.  It's not a perfect system, as test set reuse makes absolute performance claims unreliable, and no benchmark can capture all aspects of intelligence. But the ranking comparisons remain robust enough to guide research priorities and identify promising directions.
+Benchmarks provide the necessary constraint. You can explore freely during development, but eventually you have to submit to competitive empirical testing on standardized tasks.  It's not a perfect system, as (indirect) test set reuse makes absolute performance claims unreliable, and no benchmark can capture all aspects of intelligence. But the ranking comparisons remain robust enough to guide research priorities and identify promising directions.
 
 1. Benchmarks create progress through the "leaderboard effect", as competitive ranking motivates researchers to keep improving their methods.
 2. Rankings between models stay reliable even when absolute performance scores become misleading due to test set reuse.
 3. Benchmark saturation is inevitable, forcing the field to create harder evaluation tasks.
 4. The shift from narrow AI to general AI has created a "plurality of benchmarks" problem where no single test can capture all capabilities.
 
+This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/).
 
 ---
 
