@@ -122,22 +122,11 @@ Some recent benchmarks try to stay ahead of this curve by using expert-created q
 - **Online learning**: Continuous model updates as new data arrives
 - **Few-shot prompting**: Testing models with just a few examples in the prompt
 
-### Benchmark Ecosystem Tools
-- **Storage platforms**: Hugging Face datasets, Papers with Code leaderboards
-- **Evaluation frameworks**: OpenAI Evals, Anthropic's evaluation suite, Inspect
-- **Creation tools**: Crowdsourcing platforms for expert-generated questions
-
 ### Common Benchmark Problems
 - **Data contamination**: Test data accidentally included in training sets
 - **Label errors**: Incorrect ground truth answers (GSM8K had many mislabeled problems)
 - **Distribution shift**: Training and test data from different sources or time periods
 - **Gaming**: Optimizing specifically for benchmark performance rather than real capability
 - **Evaluation protocol variations**: Small changes in testing conditions affecting results
-
-### Philosophical Framework
-- **"Anything goes" principle**: AI research allows unlimited exploration of approaches
-- **"Iron rule" of benchmarks**: All disputes must be settled by competitive empirical testing
-- **Leaderboard effect**: Competitive ranking creates research focus and improvement
-- **Evaluating methods vs models**: Comparing approaches vs predicting real-world performance
 
 </div>
