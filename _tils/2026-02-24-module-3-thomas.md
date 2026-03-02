@@ -6,9 +6,15 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 ## Overview
 
-Machine learning systems typically output single predictions, but knowing when to trust those predictions requires understanding uncertainty.Models need to communicate when they're uncertain so they can refuse to answer, pass useful information to downstream systems, or reveal where they need improvement. This requires understanding where uncertainty comes from (irreducible noise, lack of training data, or being outside the training distribution), building practical tools to measure it (prediction intervals for regression that say "the answer is between 5 and 7" instead of just "6," with methods like conformalized quantile regression providing guarantees), and catching cases where you're in uncharted territory (outlier detection, especially important in deep learning where foundation models help by representing components of novel things). Put it all together and you can build more reliable systems, like LLMs that use conformal prediction to remove their own hallucinated claims while keeping correct ones.
+Machine learning models typically output single predictions, but knowing when to trust those predictions requires understanding and measuring uncertainty. 
 
-This lecture was taught by Tom Dietterich.
+1. Uncertainty quantification serves three purposes: selective classification (refusing to answer when uncertain), system integration (passing probability distributions to downstream components), and system improvement (diagnosing where models struggle).
+2. Uncertainty comes from multiple sources (irreducible noise, lack of training data, being outside the training distribution) that require different measurement approaches and suggest different improvement strategies.
+3. Prediction intervals for regression provide guaranteed coverage by outputting ranges instead of point estimates, with conformalized quantile regression combining practical varying-width intervals with theoretical guarantees.
+4. Ensemble methods measure epistemic uncertainty through model disagreement but fail on outliers, where all models confidently agree despite being far from training data.
+5. Outlier detection addresses this failure mode, with foundation models (trained on diverse data) helping deep learning systems detect novelty by recognizing unusual combinations of familiar components.
+
+This lecture was taught by Thomas Dietterich.
 
 ---
 
@@ -80,6 +86,8 @@ Each uncertainty type suggests different improvement strategies. High aleatoric 
 Low measured epistemic uncertainty doesn't mean you can't improve your system. It just means more data with the same setup won't help. You might still need better features, less noise, or better labels.
 
 For deployment, combine multiple uncertainty signals: aleatoric uncertainty from model outputs, epistemic uncertainty from ensemble disagreement, and local epistemic uncertainty from anomaly detection. Each catches different failure modes.
+
+
 ### Prediction Intervals for Regression
 
 Instead of outputting a single prediction like "the answer is 6," you want your model to say "the answer is probably between 5 and 7." The width of that interval tells you how confident the model is. Narrow intervals mean high confidence, wide intervals mean uncertainty.
