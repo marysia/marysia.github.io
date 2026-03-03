@@ -38,14 +38,9 @@ Less visual information means higher uncertainty, which should trigger more cons
 </div>
 
 **System Integration**
-
-The second goal is *collaborative*,. When your ML model feeds into a larger system, forcing it to make hard binary decisions throws away valuable information. Outputting probability distributions lets downstream components make better decisions.
-
-Cost-sensitive classification shows why this matters. Different mistakes have different costs, and those costs can change dynamically. In cancer screening, false positives are costly (causing anxiety and unnecessary procedures), but false negatives are acceptable because patients get screened repeatedly. By outputting probabilities rather than hard classifications, the system adapts to changing cost functions without retraining.
-
+The second goal is *collaborative*. When your ML model feeds into a larger system, forcing it to make hard binary decisions throws away valuable information. Outputting probability distributions lets downstream components make better decisions.
 
 **System Improvement**
-
 The third goal is *introspective*. High uncertainty tells you where your model struggles, which guides improvement efforts. Uncertainty patterns reveal whether you should collect more training data, reduce sensor noise, improve label quality, or add new features. Each source of uncertainty suggests different improvement strategies.
 
 
@@ -59,17 +54,16 @@ The iris flower dataset has four features: sepal length, sepal width, petal leng
 
 Understanding where uncertainty comes from helps you know what actions might reduce it. Uncertainty splits into two main types.
 
-**Aleatoric uncertainty** comes from irreducible randomness - measurement noise in sensors, inherent randomness in the process, or noise in labels. No matter how much data you collect, this noise persists.
+**Aleatoric uncertainty** comes from irreducible randomness, such as measurement noise in sensors, inherent randomness in the process, or noise in labels. No matter how much data you collect, this noise persists.
 
 **Epistemic uncertainty** comes from lack of knowledge. You could reduce it by collecting more training data, adding new features, using better sensors, or improving label quality.
 
-The distinction gets messy in practice. What counts as which type depends on what actions you consider available. If you can only collect more data with your existing setup, then missing features create aleatoric uncertainty from your perspective. If you can add features, that same problem becomes epistemic.
+This distinction can be hard in practice, as what counts as which type can depend on what actions you consider available. If you can only collect more data with your existing setup, then missing features create aleatoric uncertainty, as - from your perspective - it's irreducible. If you can add features, that same problem becomes epistemic.
 
 Most sources of uncertainty show up in the aleatoric parameters when you fit a model. Missing an important feature makes your model perform poorly, but from the model's perspective it just looks like noisy data. The model's noise estimates (like σ² in regression or softmax probabilities in classification) will be high, even though the real problem is epistemic.
 
 **Measuring Epistemic Uncertainty Through Ensembles**
-
-The practical way to measure epistemic uncertainty is training multiple models and checking if they disagree. If you train an ensemble using different random seeds, bootstrap replicates, or dropout, and all the models agree despite noisy data, the problem is fundamentally aleatoric. But if the models disagree with each other, that's epistemic uncertainty.
+One practical way to measure epistemic uncertainty is training multiple models and checking if they disagree. If you train an ensemble using different random seeds, bootstrap replicates, or dropout, and all the models agree despite noisy data, the problem is fundamentally aleatoric. But if the models disagree with each other, that's epistemic uncertainty.
 
 <div class="example-box" markdown="1">
 **Dropout for Uncertainty Estimation** <br>
