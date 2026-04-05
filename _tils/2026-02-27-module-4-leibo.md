@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 When AI systems interact with each other and with humans, evaluation becomes much more complex than testing individual models. Multi-agent evaluation requires measuring how well systems generalize to unfamiliar partners and situations, not just familiar training scenarios.
 
-This lecture was taught by Joel Leibo from Google DeepMind.
+This lecture was taught by [Joel Z Leibo](https://www.jzleibo.com/) from Google DeepMind.
 
 ---
 
