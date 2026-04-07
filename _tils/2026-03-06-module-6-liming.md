@@ -12,11 +12,9 @@ This lecture was taught by Liming Jiang.
 
 ## Key Takeaways & Concepts
 
-1. Traditional evaluation works for specialized AI but breaks down for general-purpose systems because real-world usage scenarios are infinite and unpredictable.
-2. AI systems have measurable underlying "constructs" (like comprehension, reasoning, language modeling) that explain their behavior across different tasks.
-3. Construct-oriented evaluation offers three advantages: predicting performance on new tasks, explaining why models succeed or fail, and ensuring test quality through systematic validation.
-4. A three-stage pipeline exists for implementation: identify relevant constructs, develop measurement tools, and validate test quality.
-5. Quality assurance through reliability and validity testing is essential but often missing from current AI evaluation practices.
+1. AI systems have measurable underlying "constructs" (like comprehension, reasoning, language modeling) that explain their behavior across different tasks.
+2. Construct-oriented evaluation offers three advantages: predicting performance on new tasks, explaining why models succeed or fail, and ensuring test quality through systematic validation.
+3. A three-stage pipeline exists for implementation: identify relevant constructs, develop measurement tools, and validate test quality.
 
 - **Constructs**: Underlying factors that explain behavior patterns
 - **Operationalization**: Converting abstract constructs into measurable behaviors  
