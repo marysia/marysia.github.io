@@ -1,6 +1,6 @@
 ---
 title: "Module 5: Jailbreaks"
-date: 2026-04-05
+date: 2026-03-05
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 

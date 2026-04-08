@@ -1,6 +1,6 @@
 ---
 title: "Module 6: Construct-Oriented Evaluation"
-date: 2026-04-07
+date: 2026-03-06
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
