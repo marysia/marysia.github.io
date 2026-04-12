@@ -1,5 +1,5 @@
 ---
-title: "Module 7: ARENA"
+title: "Module 7: ARENA, Mech Interp & SAEs"
 date: 2026-03-20
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
