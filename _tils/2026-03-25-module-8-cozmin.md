@@ -1,6 +1,6 @@
 ---
 title: "Module 8: Agentic Evaluation"
-date: 2026-04-13
+date: 2026-03-25
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
