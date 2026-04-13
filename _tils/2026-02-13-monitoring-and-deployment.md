@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture covered the practical realities of putting machine learning models into production and keeping them working over time. The focus was on deployment strategies, why models degrade after deployment, and comprehensive monitoring approaches for both model performance and system health.
 
-This lecture was taught by [Cèsar Ferri](https://www.upv.es/ficha-personal/ceferri).
+This lecture was taught by [Cèsar Ferri](https://www.upv.es/ficha-personal/ceferri) from the Universitat Politècnica de València (UPV).
 
 ---
 

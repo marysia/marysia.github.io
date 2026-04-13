@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture introduces construct-oriented evaluation as an alternative to traditional task-based AI assessment, borrowing methods from psychology to better evaluate AI models. 
 
-This lecture was taught by Liming Jiang.
+This lecture was taught by [Liming Jiang](https://liming-jiang.com/) from ByteDance / TikTok.
 
 ## Key Takeaways & Concepts
 

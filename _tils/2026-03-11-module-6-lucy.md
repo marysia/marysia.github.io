@@ -14,7 +14,7 @@ AI evaluation faces the same challenge that animal cognition researchers have ta
 4. **Construct-based evaluation predicts deployment performance**. Measuring underlying capabilities helps predict behavior in new situations.
 5. **No test is "pure"**. Every evaluation has additional demands beyond the target capability that can confuse results.
 
-This lecture was taught by Lucy Cheke.
+This lecture was taught by [Lucy Cheke](https://www.psychol.cam.ac.uk/people/lucy-cheke) from the University of Cambridge.
 
 ---
 

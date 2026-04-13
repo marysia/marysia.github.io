@@ -13,7 +13,7 @@ Traditional benchmarks assume fixed test sets and stable data distributions, but
 3. LLM judges automate evaluation and scale evaluation cheaply but have their own biases (favoring their own outputs, preferring longer answers) and raise questions about surpassing human judgment.
 4. The fundamental problem of construct validity remains unsolved: Are we measuring what we actually care about?
 
-This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/).
+This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/) from the University of Cambridge.
 
 
 ---

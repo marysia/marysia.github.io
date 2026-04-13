@@ -15,7 +15,7 @@ Benchmarks provide the necessary constraint. You can explore freely during devel
 3. Benchmark saturation is inevitable, forcing the field to create harder evaluation tasks.
 4. The shift from narrow AI to general AI has created a "plurality of benchmarks" problem where no single test can capture all capabilities.
 
-This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/).
+This lecture was taught by [Lorenzo Pacchiardi](https://www.lorenzopacchiardi.me/) from the University of Cambridge.
 
 ---
 

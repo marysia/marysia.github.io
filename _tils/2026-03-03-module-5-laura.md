@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 Red teaming finds vulnerabilities in AI systems by simulating attacks. It started in cybersecurity as a way to test system integrity, but now covers a much broader range of harms including bias, misinformation, and manipulation.
 
-This lecture was taught by Laura Weidinger.
+This lecture was taught by [Laura Weidinger](https://sites.google.com/view/laura-weidinger) from Google DeepMind.
 
 ---
 

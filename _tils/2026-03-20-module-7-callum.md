@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture provides a comprehensive introduction to the ARENA program, a five-chapter course covering everything from machine learning fundamentals to cutting-edge AI safety research. The lecture walks through each chapter's content, and shows how mechanistic interpretability research has evolved over the past several years.
 
-This lecture was taught by [Callum McDougall](https://www.arena.education/callum-mcdougall).
+This lecture was taught by [Callum McDougall](https://www.arena.education/callum-mcdougall) from ARENA.
 
 ## Key Takeaways & Concepts
 

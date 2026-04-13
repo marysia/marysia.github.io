@@ -14,7 +14,7 @@ Machine learning models typically output single predictions, but knowing when to
 4. Ensemble methods measure epistemic uncertainty through model disagreement but fail on outliers, where all models confidently agree despite being far from training data.
 5. Outlier detection addresses this failure mode, with foundation models (trained on diverse data) helping deep learning systems detect novelty by recognizing unusual combinations of familiar components.
 
-This lecture was taught by Thomas Dietterich.
+This lecture was taught by [Thomas Dietterich](https://engineering.oregonstate.edu/people/thomas-g-dietterich) from Oregon State University.
 
 ---
 

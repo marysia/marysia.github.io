@@ -15,7 +15,7 @@ This lecture covered the emerging science of benchmarking AI systems and why mos
 4. Once benchmarks become optimization targets for the entire research community, they lose their ability to provide meaningful signal about model capabilities.
 5. Better benchmarks require domain experts, clear construct definitions, and planned retirement strategies
 
-This lecture was taught by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/).
+This lecture was taught by [Joaquin Vanschoren](https://joaquinvanschoren.github.io/home/) from Eindhoven University of Technology.
 
 ---
 

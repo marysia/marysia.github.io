@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture covers how measurement theory from psychometrics provides frameworks for building more reliable evaluation systems that can support the kinds of claims we now need to make about AI systems.
 
-This lecture was taught by Sanmi Koyejo.
+This lecture was taught by [Sanmi Koyejo](https://cs.stanford.edu/~sanmi/) from Stanford University.
 
 
 ## Key Takeaways

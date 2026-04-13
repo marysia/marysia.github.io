@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 Probing trains classifiers on neural network internal activations to understand what models learn internally, beyond just looking at outputs. This approach helps debug models that find unexpected shortcuts and reveals whether systems actually understand the concepts they appear to use.
 
-This lecture was taught by [Fazl Barez](https://fbarez.github.io/).
+This lecture was taught by [Fazl Barez](https://fbarez.github.io/) from the University of Oxford.
 
 ---
 

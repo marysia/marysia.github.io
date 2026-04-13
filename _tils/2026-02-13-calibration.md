@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture covered why we're interested in calibration, calibration techniques and evaluation metrics for this, multi-class calibration and proper scoring rules. 
 
-This lecture was taught by [Peter Flach](http://people.cs.bris.ac.uk/~flach//).
+This lecture was taught by [Peter Flach](http://people.cs.bris.ac.uk/~flach/) from the University of Bristol.
 
 ---
 

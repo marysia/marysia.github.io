@@ -7,7 +7,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 This lecture covered scaling laws, various trends in scaling, and a practical checklist for scientificaly reading leaderboard results. 
 
-This lecture was taught by [Manuel Cebrián](https://sites.google.com/view/manuelcebrian).
+This lecture was taught by [Manuel Cebrián](https://sites.google.com/view/manuelcebrian) from the Spanish National Research Council (CSIC).
 
 ## Scaling Laws 
 Scaling laws answer one fundamental question: if I spend 10x more resources, what improves in my AI model? Those resources could be training compute (more GPUs), data (more or better tokens), inference compute (how much you let the model think), engineering effort, or evaluation work. When you invest more resources, you need to know whether you'll get predictable improvements rather than random outcomes.

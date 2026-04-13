@@ -8,7 +8,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 
 Current AI evaluation methods tell us how models perform on specific tests but not what they can actually do in new situations. Capability-oriented evaluation separates a system's underlying abilities from the difficulty of test questions, letting you predict performance on new tasks and make better deployment decisions.
 
-This lecture was taught by Marko Tesic.
+This lecture was taught by [Marko Tešić](https://markotesic.org/) from the UK Government Department for Science, Innovation and Technology (DSIT).
 
 ---
 
