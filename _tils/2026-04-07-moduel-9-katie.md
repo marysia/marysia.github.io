@@ -1,42 +1,24 @@
 ---
 title: "Module 9: Human-AI Thought Partnerships"
-date: 2026-04-15
+date: 2026-04-07
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
 ## Overview
 
-Most AI evaluation uses static benchmarks (fixed questions, check answers), but people don't use AI that way. This lecture presents two studies with mathematicians showing what you learn from watching real interactions and why this kind of evaluation is both necessary and hard to scale.
+Most AI evaluation uses static benchmarks (fixed questions, check answers), but people don't use AI that way. AI could potentially be a valuable thought partner to humans,  but makes a good thought partner and how do evaluate whether AI is qualifies as one?  
 
 
 
 This lecture was taught by [Katie Collins](https://collinskatie.github.io/), a postdoctoral fellow at MIT's Computational Cognitive Science group and visiting postdoc at Princeton's AI lab.
 
---- 
-
-## Key Concepts & Takeaways
-1. Static evaluation (fixed questions, check correctness) misses what matters in real use because queries evolve over multiple turns, there's no single right answer, and correctness doesn't equal helpfulness.
-2. In the Checkmate study with 25 mathematicians, correctness and helpfulness correlated at only 0.8, with responses being correct but too verbose to help, or incorrect but providing useful scaffolding.
-3. AI interaction experience matters separately from domain expertise - experienced users asked targeted questions while novices copy-pasted entire problems, regardless of math skill.
-4. Interactive evaluation has unsolved scaling problems: expert time is expensive, every interaction is unique, and 80+ hours of video from 7 participants remains difficult to analyze.
-5. Current methods can't answer questions about timescales (does coding culture change in 5 months or 5 years?), skill atrophy, or when people should use AI versus work independently.
-
-- **Static Evaluation:** Question bank, model answer, check against reference
-- **Interactive Evaluation:** Multi-turn conversations, queries evolve, no fixed reference
-- **Correctness-Helpfulness Gap:** Correlation of 0.8, substantial disagreement between measures
-- **AI Literacy:** Experience with AI systems, separate from domain expertise
-- **Query Types:** Definition, copy-paste, general question, correction
-- **Frustration Cycles:** Users stop when satisfied or too frustrated
-- **Skill Atrophy:** Losing cognitive abilities by offloading to AI
-
 ---
 
 ## Detailed Notes
 
-
 In static evaluation, you have a question bank with reference answers, feed questions to the model, check if the output matches. This is how most benchmarks work, including the "humanity's last exam" type evaluations.
 
-But in reality, use is different. People ask follow-up questions and helpfulness matters as much as correctness. A response can be technically correct but useless, or wrong but spark the insight that solves the problem. This means we should not only evaluate AI systems, but also shift evaluate human-AI systems.
+But in reality, use is different. People ask follow-up questions and helpfulness matters as much as correctness. A response can be technically correct but useless, or wrong but spark the insight that solves the problem. This means we should not only evaluate AI systems, but also shift  to evaluate human-AI systems and how AI complements us.
 
 ## AI as Thought Partners
 
