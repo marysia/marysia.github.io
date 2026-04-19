@@ -9,6 +9,7 @@ series: "International Programme on AI Evaluation: Capabilities and Safety"
 This lecture establishes the statistical foundations necessary for AI evaluation. Statistics in AI evaluation are frequently misused or misinterpreted, and impressive-looking numbers that seem authoritative may be meaningless or misleading without understanding their underlying assumptions and limitations.
 
 This lecture was taught by [Line Clemmensen](https://www.imm.dtu.dk/~lkhc/) from the Technical University of Denmark (DTU).
+
 --- 
 
 ## Key Concepts & Takeaways
