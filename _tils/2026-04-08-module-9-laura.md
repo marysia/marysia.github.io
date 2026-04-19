@@ -14,12 +14,12 @@ This lecture was taught by [Laura Weidinger](https://sites.google.com/view/laura
 
 ## Key Takeaways
 
-1. AI evaluation has a measurement problem: benchmarks designed for capability testing don't predict real-world safety or performance.
-2. AI systems are sociotechnical systems where social and technical factors together determine whether risks actually manifest.
+1. Benchmarks designed for capability testing don't predict real-world safety or performance.
+2. AI systems are *sociotechnical* systems where social and technical factors together determine whether risks actually manifest.
 3. Meaningful evaluation requires three layers of context: capability (what the model can do), human interaction (how people use it), and systemic impact (broader societal effects).
 4. Different stakeholders need different evaluation questions: developers ask "is it safe to launch?", regulators ask "what guardrails are needed?", practitioners ask "which model fits my use case?"
-5. Benchmarks work for hill climbing but not for understanding fairness, real-world application fit, or societal impact.
-6. Building a science of AI evaluation requires iterating on both theory and tooling, not just accumulating benchmark results.
+5. Benchmarks work for hill climbing but not for understanding fairness, real-world application fit, or societal impact. You need to match the *goal* with the *method*.
+6. Building a science of AI evaluation requires iterating on both theory and tooling.
 
 ---
 
