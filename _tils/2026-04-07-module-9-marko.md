@@ -1,6 +1,6 @@
 ---
 title: "Module 9: Future of Work & the Economy (I)"
-date: 2026-04-14
+date: 2026-04-07
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
 
