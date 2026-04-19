@@ -14,21 +14,12 @@ This lecture was taught by [Laura Weidinger](https://sites.google.com/view/laura
 
 ## Key Takeaways
 
-**Main lessons:**
 1. AI evaluation has a measurement problem: benchmarks designed for capability testing don't predict real-world safety or performance.
 2. AI systems are sociotechnical systems where social and technical factors together determine whether risks actually manifest.
 3. Meaningful evaluation requires three layers of context: capability (what the model can do), human interaction (how people use it), and systemic impact (broader societal effects).
 4. Different stakeholders need different evaluation questions: developers ask "is it safe to launch?", regulators ask "what guardrails are needed?", practitioners ask "which model fits my use case?"
 5. Benchmarks work for hill climbing but not for understanding fairness, real-world application fit, or societal impact.
 6. Building a science of AI evaluation requires iterating on both theory and tooling, not just accumulating benchmark results.
-
-**Core concepts:**
-- **Sociotechnical systems:** Social and technical factors co-determine outcomes
-- **Three evaluation layers:** Capability, human interaction, systemic impact
-- **Lab-to-wild problem:** AI built in labs then released, questions come too late
-- **Evaluation-goal mismatch:** Using benchmarks for questions they can't answer
-- **Real-world anchoring:** Designing tests that predict actual outcomes
-- **Iterative evaluation science:** Refining theory and tools together
 
 ---
 
@@ -75,9 +66,9 @@ Comprehensive understanding of safety requires integrating insights across layer
 
 <div class="example-box" markdown="1">
 **Example: Misinformation Across Three Layers** <br>
-**Capability:** Does the model hallucinate? (benchmark can measure this) <br>
-**Human interaction:** Do people believe it? Is it persuasive? (user studies needed) <br>
-**Systemic impact:** Could this swing elections? Erode media trust? (impact assessments needed)
+*Capability:* Does the model hallucinate? (benchmark can measure this) <br>
+*Human interaction:* Do people believe it? Is it persuasive? (user studies needed) <br>
+*Systemic impact:* Could this swing elections? Erode media trust? (impact assessments needed)
 </div>
 
 ### Evaluation Goals vs. Methods
@@ -97,7 +88,7 @@ Benchmarks cannot answer all of these questions. Different evaluation goals requ
 Even when you pick the right method, you need to ensure it actually measures what you think it measures.  AI passes the bar exam and headlines say lawyers will be automated, but lawyers don't answer bar exam questions all day. The benchmark measures only legal knowledge, which is a subset of what lawyers actually do. This is a validity problem.
 
 <div class="example-box" markdown="1">
-**Evolution of car crash dummies**
+**Evolution of car crash dummies**<br>
 Initially, car crash dummies were simply floppy dolls, but that barely predicted what would happen to a human body during a crash. So the dummies evolved to human shapes with organs and sensitive areas - but mostly average male bodies. The next evolution was to diversify to represent women, children and pregnant people. Each iteration got closer to predicting what would actually happen in a real crash. In AI, we're arguably still in the rubber doll phase of crash testing.
 </div>
 
