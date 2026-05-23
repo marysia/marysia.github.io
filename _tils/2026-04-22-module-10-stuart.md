@@ -1,5 +1,5 @@
 ---
-title: "Module 10: Communicating AI Capabilities to Policymakers and the Public"
+title: "Module 10: AI Capabilities Communication to Policymakers and the Public"
 date: 2026-04-22
 series: "International Programme on AI Evaluation: Capabilities and Safety"
 ---
