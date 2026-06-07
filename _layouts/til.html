@@ -2,21 +2,14 @@
 layout: default
 ---
 <article class="til-single">
-  <header class="til-header">
-    <p class="til-meta-line">
-      {% if page.series %}
-        <span class="til-series">{{ page.series | escape }}</span>
-      {% endif %}
-      <span class="til-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {%- assign date_format = site.minima.date_format | default: "%-d %B %Y" -%}
-          {{ page.date | date: date_format }}
-        </time>
-      </span>
+  <header class="til-single-header">
+    {%- if page.tag -%}<p class="til-single-kicker">{{ page.tag | escape }}</p>{%- endif -%}
+    <h1 class="til-single-title">{{ page.title | escape }}</h1>
+    <p class="til-single-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time>
     </p>
-    <h1 class="til-title">{{ page.title | escape }}</h1>
   </header>
-  <div class="til-content">
+  <div class="til-single-content">
     {{ content }}
   </div>
 </article>

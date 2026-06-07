@@ -1,0 +1,34 @@
+{%- comment -%}
+  include: id, heading, count, open (boolean), items (array), note (optional string)
+{%- endcomment -%}
+<details class="tg"{% if include.open %} open{% endif %}>
+  <summary>
+    <span class="gh">{{ include.heading }}</span>
+    <span class="gc">{{ include.count }}</span>
+    <span class="chev"></span>
+  </summary>
+  {%- for row in include.items -%}
+  <div class="crow">
+    <div class="yr">{{ row.year }}</div>
+    <div>
+      <span class="t">{{ row.title }}</span>
+      {%- if row.meta -%} <span class="m">· {{ row.meta }}</span>{%- endif -%}
+      {%- if row.note -%}<br><span class="m">{{ row.note }}</span>{%- endif -%}
+    </div>
+    {%- if row.links -%}
+    <div class="lk">
+      {%- for link in row.links -%}
+        {%- if link.url contains "://" -%}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {%- else -%}
+        <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
+  {%- if include.note -%}
+  <p class="tg-note">{{ include.note }}</p>
+  {%- endif -%}
+</details>

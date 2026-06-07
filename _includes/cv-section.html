@@ -1,0 +1,17 @@
+{%- comment -%}
+  expects: section (heading, layout: full|grid, items)
+{%- endcomment -%}
+<section class="cv-block">
+  <h2 class="cv-h">{{ include.section.heading | escape }}</h2>
+  {%- if include.section.layout == "grid" -%}
+  <div class="cv-grid">
+    {%- for item in include.section.items -%}
+      {%- include cv-item.html item=item -%}
+    {%- endfor -%}
+  </div>
+  {%- else -%}
+    {%- for item in include.section.items -%}
+      {%- include cv-item.html item=item -%}
+    {%- endfor -%}
+  {%- endif -%}
+</section>

@@ -1,0 +1,110 @@
+---
+layout: note
+title: "Introduction to AI Evaluation (Part 2)"
+course: "AI Evaluation: Capabilities & Safety"
+course_id: eval
+module: "01"
+module_title: "Introduction to AI Evaluation"
+lecturer: "Jin-Dong Wang"
+lecturer_affiliation: "William & Mary, Department of Data Science"
+date: 2026-02-08
+---
+
+
+## Overview
+This lecture further epxlores the many issues with the current state of AI, from data contamination to benchmark gaming to methodological issues. The lecturer highlights various evaluation problems he has encountered, and introduces tools he and his team have developd to address some of these issues. 
+
+This lecture was taught by [Jin-Dong Wang](https://jd92.wang/) from William & Mary (Department of Data Science).
+
+---
+
+## Key Take-Aways and Concepts
+
+**The Problem**
+AI evaluation is fundamentally unreliable. Current benchmarks suffer from data contamination where models have seen test data during training. Static benchmarks become obsolete as models improve. Multiple choice questions have parsing issues (although these can be mostly resolved), interpretability problems, and systematic biases (such as a preference for option *C*). Open-ended evaluation lacks ground truth and struggles with semantic vs character-level comparison. Even human evaluation and LLM-as-judge approaches introduce their own biases and reliability issues.
+
+**Partial Solutions**
+Dynamic evaluation approaches like DyEl can generate new benchmarks to avoid contamination issues. Adversarial robustness testing reveals that models are particularly vulnerable to word-level perturbations. Tools like PromptBench provide comprehensive frameworks for systematic evaluation, but the field still lacks reliable methods for truly trustworthy assessment.
+
+---
+
+# Detailed Notes
+
+
+## Motivating Examples
+
+The lecture began with several example cases of evaluation gone wrong. The OpenClaw system that caused Mac Mini sellouts by promising personal AI assistants was questioned on Reddit, with users discovering that posts were made by deleted accounts, suggesting human operation rather than genuine AI interaction.
+
+Academic evaluation has similar issues. A 2023 MIT paper claimed GPT-4 could solve a third of MIT's curriculum, but follow-up analysis revealed they had included correct answers directly in their prompts. GPT-4 also struggles with visual illusions and basic counting tasks, showing the gap between claimed and actual capabilities.
+
+These examples illustrate the "Clever Hans" problem. Over 100 years ago, a horse appeared to do mathematics and recognize colors, but was actually reading subtle cues from its master. Current AI evaluation might be similarly misleading, measuring memorization rather than true understanding.
+
+## LLM Evaluation Problems
+
+Large language model evaluation reveals a progression of problems where each solution creates new issues.
+
+**Multiple Choice Questions** seem simple but have three major problems. First, models produce uncontrollable outputs. Instead of just answering "B," they generate lengthy explanations that are difficult to parse automatically (although I personally believe this can be easily resolved by defining the output format in the prompt). Second, there are interpretability issues where token probabilities contradict final answers. A model might output "B" as its final answer but assign higher probability to token "3." Third, models show systematic bias toward certain answer choices, particularly "C," and performance varies significantly based on where the correct answer is positioned. A solution to this might be using open-ended questions. 
+
+**Open-Ended Questions** avoid multiple choice issues but create new problems. There's no ground truth for comparison, making evaluation subjective. Automated metrics often fail to recognize when different outputs are semantically equivalent. A solution to this might be a) using human evaluation or b) using an LLM as a judge to determine whether the answer is correct, though these solutions have limitations too. 
+
+**Human Evaluation** The lecture mentions Chatbot Arena, but there are so many issues with that that I won't even get into that for this summary. 
+
+**LLM-as-Judge** approaches use stronger models to evaluate weaker ones, but introduce new reliability concerns. The evaluator model itself may be unreliable, there are position biases where answer ordering affects judgments, and different evaluator models (GPT vs Gemini) produce different results. There are also concerning preference correlations between specific benchmarks and evaluator models. And, of course, you can only evaluate weaker models, not stronger ones.
+
+## Data Contamination
+
+Data contamination represents a systematic threat to evaluation reliability. Models may have been trained on test data, either intentionally or accidentally, making their performance scores meaningless.
+
+We know this, because experiments have been run with rephrases of prompts of existing benchmarks, which revealed that semantically identical questions produced different performance scores. If models truly understood the content, rephrasing shouldn't affect performance. Timeline analysis shows models trained in 2022 being evaluated on datasets released in previous years, creating opportunities for contamination.
+
+The problem is widespread. Studies suggest over 50% of test samples may have leaked into training data for major language models. Since training datasets aren't publicly available, even for "open source" models that only release weights, it's impossible to verify contamination claims.
+
+This means high benchmark scores may not actually tell you the model 
+
+This means that high benchmark scores may reflect memorization rather than understanding. Models claiming excellent performance on existing benchmarks sometimes achieve zero performance on newly generated equivalent problems, suggesting their original scores were inflated by contamination.
+
+## Robustness Issues
+
+Robustness testing reveals systematic vulnerabilities in current AI systems through both adversarial and out-of-distribution evaluation.
+
+**Adversarial Robustness** testing creates inputs that are minimally different from originals but cause model failures. Four types of perturbations are used. Character-level attacks introduce typos and character substitutions. Word-level attacks replace words with synonyms or contextually similar terms. Sentence-level attacks append irrelevant sentences. Semantic-level attacks translate prompts to other languages and back to English.
+
+**Findings** show word-level perturbations are most effective, with much higher attack success rates than other approaches. Character-level attacks are easily fixed by modern models. Surprisingly, adversarial examples created on open-source models transfer to commercial models, meaning attackers don't need access to target systems.
+
+**Out-of-Distribution Robustness** is difficult to measure because training data isn't publicly available. Controlled experiments on older models suggest no silver bullet solutions exist. Model architecture matters more than parameter size for OOD performance. There's evidence that larger models may actually overfit, with GPT-3 175B performing similarly to much smaller models on some OOD tasks.
+
+## DyEl Solution
+
+Dynamic evaluation addresses contamination and static benchmark limitations through algorithmic benchmark generation.
+
+**DyEl-1** creates mathematical problems from scratch using graph structures. Any mathematical equation can be represented as a tree where nodes are numbers or operators. By replacing nodes systematically, the algorithm generates infinite variations of problems with known correct answers. This supports arithmetic, linear equations, boolean logic, and algorithmic reasoning tasks.
+
+**DyEl-2** transforms existing benchmarks using psychometric principles. Drawing from cognitive psychology, it applies transformations based on language understanding, problem solving, and domain knowledge. Transformation techniques include paraphrasing questions and choices, permuting answer options, adding contextual information, and creating new answer choices. Human annotators verify quality, filtering out incorrect transformations to maintain 95% accuracy.
+
+**Key Findings** provide strong evidence of contamination. Models claiming high performance on existing benchmarks achieved zero performance on DyEl-generated equivalents, suggesting their original scores reflected memorization rather than understanding. The framework allows complexity control through adjustable difficulty levels, and generated data can improve performance on existing benchmarks, demonstrating its value for data augmentation.
+
+## PromptBench Toolkit
+
+PromptBench provides a comprehensive framework for systematic LLM evaluation, built on the foundation of DyEl research.
+
+**Core Components** include support for multiple model APIs, comprehensive benchmark collections, prompt engineering techniques (zero-shot, few-shot, chain-of-thought, emotional prompting), attack methods across all perturbation levels, evaluation protocols for standard, dynamic, and semantic assessment, and analysis tools for visualization and transferability studies.
+
+**Research Impact** has been substantial, with the toolkit serving as the foundation for multiple published papers and ongoing research projects. The simple API design (`import promptbench as pb`) makes comprehensive evaluation accessible to researchers without requiring deep technical implementation knowledge.
+
+**Practical Applications** extend beyond evaluation to data augmentation, allowing researchers to generate training data that improves model performance on existing benchmarks while avoiding contamination issues.
+
+---
+
+## Additional Notes
+
+### The Clever Hans Problem
+The historical example of Clever Hans, a horse that appeared to do mathematics but was actually reading subtle cues from its master, serves as a warning about current AI evaluation. Wang suggests we may be in a similar situation where impressive AI performance reflects sophisticated pattern matching rather than true understanding.
+
+### Evaluation Paradigm Evolution
+The field has moved from simple accuracy metrics to multi-dimensional evaluation frameworks like HELM (Holistic Evaluation of Language Models), which measures accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency across multiple benchmarks.
+
+### Transfer Learning Implications
+The finding that adversarial examples transfer between models has important implications for both security (attackers don't need target model access) and improvement (training data generated on one model can improve others).
+
+### Homework Assignment
+Students must conduct prompt engineering experiments using available APIs, testing five different prompt variations for a chosen task, analyzing output variations and failure cases, then writing a two-page report on their findings.

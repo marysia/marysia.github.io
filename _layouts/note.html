@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="note-single">
+  <header class="note-header">
+    <p class="note-kicker">{{ page.course | escape }}</p>
+    <h1 class="note-title">{{ page.title | escape }}</h1>
+    <p class="note-meta">
+      {%- assign lec_by = page.lecturer | default: "" | strip -%}
+      {%- assign lec_aff = page.lecturer_affiliation | default: "" | strip -%}
+      {%- if lec_by != "" -%}by <b>{{ lec_by | escape }}</b>{%- if lec_aff != "" -%}, {{ lec_aff | escape }}{%- endif -%} · {%- endif -%}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time>
+    </p>
+  </header>
+  <div class="note-content">
+    {{ content }}
+  </div>
+</article>

@@ -33,11 +33,19 @@ excerpt_separator: "<!-- more -->"
 
 # Collections
 collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
   tils:
     output: true
     permalink: /til/:name/
 
 defaults:
+  - scope:
+      path: "_notes"
+      type: "notes"
+    values:
+      layout: note
   - scope:
       path: "_tils"
       type: "tils"
@@ -45,13 +53,12 @@ defaults:
       layout: til
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - handoff_marysia_redesign/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

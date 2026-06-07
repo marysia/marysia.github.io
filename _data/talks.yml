@@ -1,0 +1,146 @@
+organisation:
+  - year: 2024
+    title: PyData Amsterdam
+    meta: co-chair
+    links:
+      - { label: aftermovie, url: "https://www.youtube.com/watch?v=y-dFFhVs_6E" }
+      - { label: playlist, url: "https://www.youtube.com/watch?v=di670dGu3No&list=PLGVZCDnMOq0reU2lzNZCn9obkyRVaSnpF" }
+  - year: 2023
+    title: PyData Amsterdam
+    meta: co-chair
+    links:
+      - { label: aftermovie, url: "https://www.youtube.com/watch?v=TwQNBqqH9hA" }
+      - { label: playlist, url: "https://www.youtube.com/watch?v=_nlryVPWTGM&list=PLGVZCDnMOq0pADyz2VboxPFIdrsozlENg" }
+  - year: 2021
+    title: PyData Global
+    meta: co-chair
+    links:
+      - { label: playlist, url: "https://www.youtube.com/watch?v=51FAin5RyHY&list=PLGVZCDnMOq0qlw7eLuNIvoUTisSfDbjmq" }
+  - year: 2020
+    title: PyData Festival
+    meta: co-chair
+    links:
+      - { label: playlist, url: "https://www.youtube.com/watch?v=BKYWt8B9hgs&list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH" }
+  - year: 2019
+    title: PyData Amsterdam
+    meta: co-chair
+    links:
+      - { label: playlist, url: "https://www.youtube.com/playlist?list=PLGVZCDnMOq0q7_6SdrC2wRtdkojGBTAht" }
+organisation_note: "Now involved in an advisory role (2025–present)."
+
+talks:
+  - year: 2025
+    title: Help! There Are Humans in My Data!
+    meta: PyData Amsterdam
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=vYZjNQkESr8" }
+#  - year: 2024
+#    title: The Data That Shapes Foundational LLMs
+#    meta: PyData Global
+  - year: 2024
+    title: Interview w/ Guido van Rossum
+    meta: interviewer, PyData Festival
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=eJUwlzR_hCY" }
+  - year: 2024
+    title: Amsterdam AI Impact Festival
+    meta: panelist
+  - year: 2024
+    title: Introduction to Data Storytelling
+    meta: tutorial, PyLadiesCon
+  - year: 2024
+    title: How to build a Large Language Model from scratch
+    meta: Women in Data
+  - year: 2024
+    title: Data For Social Good
+    meta: PyData Amsterdam
+  - year: 2023
+    title: Data Storytelling through Visualization
+    meta: PyData London, Global, Eindhoven
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=23Bf-jb3ryk" }
+      - { label: slides, url: "/assets/slides/data_visualization_storytelling.pdf" }
+  - year: 2022
+    title: Tech Talk 101
+    meta: PyData Global — Impact Scholarship Programme
+    links:
+      - { label: slides, url: "/assets/slides/tech_talk_101.pdf" }
+  - year: 2022
+    title: The Why of Data-Centric AI
+    meta: PyData London
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=vgtdPwUrP5I" }
+      - { label: slides, url: "/assets/slides/why_of_data_centric_ai.pdf" }
+  - year: 2021
+    title: Serious Time for Time Series
+    meta: PyCon US, PyData Berlin, AMLD
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=nT6UsVgJ0xw" }
+  - year: 2022
+    title: "Unpacking the \"Black Box\": How to Interpret your Machine Learning Model"
+    meta: Applied Machine Learning Days
+    links:
+      - { label: link, url: "https://appliedmldays.org/events/amld-epfl-2022/workshops/unpacking-the-black-box-how-to-interpret-your-machine-learning-model" }
+  - year: 2021
+    title: Data-centric AI competition
+    meta: NeurIPS
+    links:
+      - { label: link, url: "https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305" }
+  - year: 2019
+    title: Equivariance in CNNs
+    meta: PyData Berlin / PyCon DE
+    links:
+      - { label: link, url: "https://www.youtube.com/watch?v=t7U-Z5a7oWw" }
+  - year: 2019
+    title: An Alternative to Data Augmentation
+    meta: PyData Amsterdam
+  - year: 2019
+    title: Data-efficiency in Medical AI
+    meta: PyData Amsterdam (meetup)
+    links:
+      - { label: slides, url: "/assets/slides/data_efficiency_for_medical_image_analysis.pdf" }
+  - year: 2019
+    title: "Towards learning with limited labels: Equivariance, Invariance, and Beyond"
+    meta: ICML
+
+competitions:
+  - year: 2021
+    title: Data-Centric AI Competition
+    meta: winner, "Most Innovative" · deeplearning.ai
+    links:
+      - { label: write-up, url: "https://www.deeplearning.ai/blog/data-centric-ai-competition-godatadriven/" }
+      - { label: talk, url: "https://neurips.cc/virtual/2021/workshop/21860#collapse-sl-38305" }
+  - year: 2017
+    title: Kaggle Data Science Bowl
+    meta: 3rd, lung cancer detection (Aidence)
+    links:
+      - { label: kaggle, url: "https://www.kaggle.com/c/data-science-bowl-2017" }
+
+research:
+  - year: 2025
+    title: "Command A: An Enterprise-Ready Large Language Model"
+    meta: Team Cohere · Technical Report
+    links:
+      - { label: link, url: "https://cohere.com/research/papers/command-a-technical-report.pdf" }
+  - year: 2019
+    title: Pulmonary Nodule Detection with 3D G-CNNs
+    meta: M. Winkels & T.S. Cohen · Medical Image Analysis Journal
+    links:
+      - { label: arxiv, url: "https://arxiv.org/abs/1804.04656" }
+  - year: 2018
+    title: 3D Group-Equivariant Neural Networks for Octahedral and Square Prism Symmetry Groups
+    meta: ICML Workshop
+  - year: 2018
+    title: 3D G-CNNs for Pulmonary Nodule Detection
+    meta: MIDL
+    links:
+      - { label: arxiv, url: "https://arxiv.org/abs/1804.04656" }
+  - year: 2018
+    title: Challenge balancing for a kanji e-tutoring system
+    meta: BNAIC
+
+trainings:
+  - year: "—"
+    title: Data science educator
+    meta: Xebia Data Academy · >1000 hours
+    note: "Python for Data Analysis, Data Science with Python, Advanced Data Science, Advanced Python, Production-Ready ML, Clean Coding, Version Control & CI/CD, MLOps, Unsupervised Learning, Explainability, Data Visualisation & Storytelling, Deep Learning for CV and NLP, and more."

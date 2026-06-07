@@ -1,0 +1,94 @@
+{%- comment -%}
+  expects: include.course_id, include.open_modules, include.first, include.course_meta
+  AISES (flat_modules): one note per module — module row links straight to the page
+  eval: accordion with lectures nested under each module
+{%- endcomment -%}
+{%- assign lectures = site.notes | where: "course_id", include.course_id -%}
+{%- assign modules = lectures | group_by: "module" | sort: "name" -%}
+{%- assign open_list = include.open_modules | default: "" | split: "," -%}
+{%- assign flat = false -%}
+{%- if include.course_id == "aises" -%}
+  {%- assign flat = true -%}
+{%- endif -%}
+<section class="course-panel" data-course="{{ include.course_id }}"{% unless include.first %} hidden{% endunless %}>
+  {%- if include.course_meta -%}
+  <p class="course-meta">{{ include.course_meta }}</p>
+  {%- endif -%}
+
+  {%- if flat -%}
+  <div class="acc acc-flat">
+    {%- for mod in modules -%}
+      {%- assign note = mod.items | first -%}
+      {%- assign c0 = mod.name | slice: 0, 1 -%}
+      {%- assign c1 = mod.name | slice: 1, 1 -%}
+      {%- if c0 == '0' and c1 != '0' -%}
+        {%- assign mod_num = c1 -%}
+      {%- else -%}
+        {%- assign mod_num = mod.name -%}
+      {%- endif -%}
+      <div class="mod-row">
+        <span class="num">{{ mod.name }}</span>
+        <div class="mod-body">
+          <div class="lt">
+            <span class="mod-label">Module {{ mod_num }} ·</span>
+            <a href="{{ note.url | relative_url }}">{{ note.title | escape }}</a>
+          </div>
+        </div>
+        <div class="ld">{{ note.date | date: "%-d %b %Y" }}</div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {%- else -%}
+  <div class="acc">
+    {%- for mod in modules -%}
+      {%- assign first = mod.items | first -%}
+      {%- assign mod_lectures = mod.items | sort: "date" -%}
+      {%- assign mod_open = false -%}
+      {%- for o in open_list -%}
+        {%- assign o_trim = o | strip -%}
+        {%- if o_trim == mod.name -%}
+          {%- assign mod_open = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+      <details class="acc-mod"{% if mod_open %} open{% endif %}>
+        <summary>
+          <span class="num">{{ mod.name }}</span>
+          <span class="mt">
+            {%- assign mt = first.module_title | default: "" | strip -%}
+            {%- if mt != "" -%}
+              {{ mt | escape }}
+            {%- else -%}
+              {%- assign c0 = mod.name | slice: 0, 1 -%}
+              {%- assign c1 = mod.name | slice: 1, 1 -%}
+              {%- if c0 == '0' and c1 != '0' -%}
+                {%- assign mod_num = c1 -%}
+              {%- else -%}
+                {%- assign mod_num = mod.name -%}
+              {%- endif -%}
+              Module {{ mod_num }}
+            {%- endif -%}
+          </span>
+          <span class="rt">
+            <span class="cnt">{{ mod_lectures.size }} lecture{% if mod_lectures.size != 1 %}s{% endif %}</span>
+            <span class="chev"></span>
+          </span>
+        </summary>
+        <div class="lecs">
+          {%- for lec in mod_lectures -%}
+            <div class="lec">
+              <div>
+                <div class="lt"><a href="{{ lec.url | relative_url }}">{{ lec.title | escape }}</a></div>
+                {%- assign lec_by = lec.lecturer | default: "" | strip -%}
+                {%- assign lec_aff = lec.lecturer_affiliation | default: "" | strip -%}
+                {%- if lec_by != "" -%}<div class="by">by <b>{{ lec_by | escape }}</b>{%- if lec_aff != "" -%}, {{ lec_aff | escape }}{%- endif -%}</div>{%- endif -%}
+              </div>
+              <div class="ld">{{ lec.date | date: "%-d %b %Y" }}</div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </details>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+</section>

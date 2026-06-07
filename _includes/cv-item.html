@@ -1,0 +1,24 @@
+{%- comment -%}
+  Renders one CV entry (.cv-item).
+  expects: item (role, org, org_url?, ctx?, when, role_url?)
+{%- endcomment -%}
+<div class="cv-item">
+  <div class="cv-main">
+    <div class="role">
+      {%- if item.role_url -%}
+        <a href="{{ item.role_url | relative_url }}">{{ item.role | escape }}</a>
+      {%- else -%}
+        {{ item.role | escape }}
+      {%- endif -%}
+    </div>
+    <div class="org">
+      {%- if item.org_url -%}
+        <a href="{{ item.org_url }}">{{ item.org | escape }}</a>
+      {%- else -%}
+        {{ item.org | escape }}
+      {%- endif -%}
+      {%- if item.ctx -%}<span class="ctx">· {{ item.ctx | escape }}</span>{%- endif -%}
+    </div>
+  </div>
+  <div class="when">{{ item.when | escape }}</div>
+</div>

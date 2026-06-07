@@ -1,0 +1,76 @@
+pdf_url: /assets/misc/cv_web.pdf
+linkedin_url: https://www.linkedin.com/in/marysia-winkels/
+
+sections:
+  - heading: Experience
+    layout: full
+    items:
+      - role: Senior ML Researcher
+        org: Gray Swan
+        org_url: https://www.grayswan.ai/
+        ctx: AI safety & security — red-teaming & defence
+        when: "2025 – present"
+      - role: Member of Technical Staff
+        org: Cohere
+        org_url: https://cohere.com/
+        ctx: frontier AI / LLM lab
+        when: "2023 – 2025"
+      - role: Team Lead, Data & Analytics
+        org: Xebia Data
+        ctx: consultant
+        when: "2022 – 2023"
+      - role: Data Science Educator
+        org: Xebia Data
+        ctx: hands-on Data & AI training
+        when: "2020 – 2023"
+      - role: Deep Learning Engineer
+        org: Aidence
+        org_url: https://www.aidence.com/
+        ctx: deep learning for medical imaging
+        when: "2016 – 2020"
+
+  - heading: AI safety & evaluation
+    layout: full
+    items:
+      - role: International Programme on AI Evaluation
+        org: ai-evaluation.org
+        org_url: https://ai-evaluation.org
+        ctx: capabilities & safety
+        when: present
+      - role: Safe AI Netherlands (SAIN)
+        org: Community member
+        ctx: formerly Amsterdam AI Safety
+        when: present
+      - role: Activation Steering for Honesty Research Project
+        org: Center for AI Safety
+        org_url: https://safe.ai/
+        ctx: research project via MARS
+        when: "2025"
+        role_url: /honesty-steering/
+      - role: AI Safety, Ethics & Society Course
+        org: Center for AI Safety
+        org_url: https://safe.ai/
+        ctx: summer 2025 cohort
+        when: "2025"
+
+  - heading: Volunteer
+    layout: grid
+    items:
+      - role: Chair of Organising Committee
+        org: PyData Amsterdam
+        org_url: http://amsterdam.pydata.org
+        when: "2019 – 2024"
+      - role: Chair of Organising Committee
+        org: PyData Global
+        org_url: http://global.pydata.org
+        when: "2021"
+
+  - heading: Education
+    layout: grid
+    items:
+      - role: MSc Artificial Intelligence
+        org: University of Amsterdam
+        when: "2014 – 2018"
+      - role: BSc Artificial Intelligence
+        org: University of Amsterdam
+        when: "2011 – 2014"

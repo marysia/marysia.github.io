@@ -1,0 +1,74 @@
+---
+layout: note
+title: "Robust Evaluation of Generative AI"
+course: "AI Evaluation: Capabilities & Safety"
+course_id: eval
+module: "06"
+module_title: "Construct-Based Evaluation"
+lecturer: "Marko Tešić"
+lecturer_affiliation: "UK Department for Science, Innovation and Technology (DSIT)"
+date: 2026-03-12
+---
+
+
+## Overview
+
+Current AI evaluation methods tell us how models perform on specific tests but not what they can actually do in new situations. Capability-oriented evaluation separates a system's underlying abilities from the difficulty of test questions, letting you predict performance on new tasks and make better deployment decisions.
+
+This lecture was taught by [Marko Tešić](https://markotesic.org/) from the UK Government Department for Science, Innovation and Technology (DSIT).
+
+---
+
+## Detailed Notes
+
+AI evaluation has become what researchers call an "evaluation circus" with three main acts, each missing something important. The first act shows off the best case scenario, where researchers spend time crafting perfect prompts to demonstrate what models can do when everything goes right. The second act reports average performance on benchmarks, giving you numbers like "85% accuracy on MMLU" without explaining what that means for your specific use case. The third act focuses on worst case scenarios through red teaming and failure mode discovery, showing you where things go wrong but not how often or under what conditions.
+
+Each approach captures something real but incomplete. Best case evaluation tells you the upper bound of what's possible but not what you can expect consistently. Benchmark averages hide whether two models with identical scores succeed on the same tasks or completely different ones. Worst case analysis shows you failure modes but doesn't tell you if they happen 1% or 50% of the time.
+
+<div class="example-box" markdown="1">
+**The Self-Driving Car Problem** <br>
+Imagine a self-driving car with 99% safety performance across thousands of test drives. Would you take it from San Francisco to Vancouver? You probably want to know more than just the aggregate score. Does it handle foggy conditions? Mountain roads? What about the specific route you're planning to take? The 99% average could hide the fact that it's perfect on sunny highways but terrible in fog, or great everywhere except on the exact type of winding mountain road you need to traverse.
+</div>
+
+This is the same problem with AI benchmarks. An aggregate score doesn't tell you whether a model will work for your specific application, and comparing aggregate scores doesn't tell you if two models have similar capabilities or just happen to average out to the same number.
+
+### How Measurement Layouts Work
+
+Measurement layouts provide a mathematical framework for separating capabilities from performance. The basic idea is that if you know how demanding a task is and you observe whether a system succeeds or fails, you can work backward to infer the system's capabilities. Once you know those capabilities, you can predict forward to new tasks.
+
+The framework assumes that success becomes more likely when your capabilities exceed the task demands, and less likely when demands exceed capabilities. The difference between capability and demand creates what's called a "margin." Large positive margins mean high probability of success, large negative margins mean likely failure, and margins near zero give you coin-flip odds.
+
+<div class="example-box" markdown="1">
+**Simple Capability Inference** <br>
+Imagine testing a system on three tasks. Task 1 requires navigation ability (system succeeds). Task 2 requires navigation and memory abilities (system succeeds). Task 3 requires navigation, memory, and object permanence abilities (system fails). You can infer the system has navigation and memory capabilities but lacks object permanence. For a new Task 4 requiring all three abilities, you'd predict failure because it needs the missing object permanence capability.
+</div>
+
+In practice, everything is probabilistic rather than binary. Systems don't definitively "have" or "lack" capabilities, and tasks don't absolutely require specific abilities. Instead, higher capabilities make success more likely, and higher demands make success less likely. The mathematical framework uses sigmoid functions to convert the margin between capability and demand into a probability of success.
+
+For tasks requiring multiple capabilities, the framework can model different interaction patterns. Some tasks are "non-compensatory," meaning you need all the required capabilities and being excellent at one won't make up for lacking another. Other tasks are "compensatory," where high ability in one area can partially offset weaknesses in another. The framework can handle anything between these extremes.
+
+### Example: Testing Math Abilities
+
+Researchers tested ten language models on simple arithmetic problems, asking them to add two numbers and checking if they got the right answer. Instead of just reporting aggregate accuracy scores, they identified meta-features that make addition problems harder or easier.
+
+The obvious candidates were the size of the numbers (more digits means harder) and the number of carrying operations required (more carrying means more computational steps). But they also discovered a subtler factor: digit variety. Problems like 99999 + 1 require many carrying operations but are actually easy because you're just adding one and converting nines to zeros. Problems with diverse digits like 47382 + 59617 are harder even with fewer carrying operations because there's no simple pattern to exploit.
+
+<div class="example-box" markdown="1">
+**The 99999 + 1 Problem** <br>
+Adding 99999 + 1 requires five carrying operations (more than most addition problems), but it's actually easy because there's a simple pattern: change all the 9s to 0s and add 1 to the front. A problem like 47382 + 59617 has fewer carrying operations but requires tracking different digits in each position with no shortcuts available.
+</div>
+
+When they built capability profiles for the different models, they discovered something that aggregate scores completely missed. GPT-3.5 outperformed GPT-4 on this benchmark, which seemed surprising given GPT-4's generally superior performance on other tasks. The capability analysis revealed why: GPT-4 was actually better than GPT-3.5 at handling large numbers (size capability) but much worse at handling digit variety. Since the benchmark included many problems with diverse digits, this specific weakness dragged down GPT-4's overall score.
+
+This kind of insight is impossible to get from aggregate benchmark scores. Two models might have identical average performance but completely different capability profiles, succeeding and failing on entirely different types of problems. Understanding these differences is crucial for choosing which model to deploy in which contexts.
+
+
+### Practical Implementation Requirements
+
+Building measurement layouts requires three things that many current benchmarks don't provide. First, you need *instance-level performance* data showing exactly which problems the model solved and which it failed, not just aggregate scores. Second, you need *meta-features* describing what makes each problem difficult along relevant dimensions. Third, you need *domain knowledge* to map those meta-features to meaningful capabilities.
+
+The meta-feature identification step is often the most challenging because it requires understanding the task domain well enough to identify the factors that drive difficulty. For addition problems, this meant recognizing that digit variety matters independently of problem size. For other domains, the relevant factors might be completely different and require domain expertise to identify.
+
+The framework also requires decisions about how capabilities interact. Do you need all the required capabilities to succeed (non-compensatory), or can strength in one area compensate for weakness in another (compensatory)? These decisions should be based on theoretical understanding of the task domain when possible, though the framework can also help you test different assumptions empirically.
+
+Despite these requirements, the payoff is substantial. Instead of treating AI systems as black boxes that either work or don't, you get detailed maps of what they can and cannot do. This enables much more informed deployment decisions and better predictions about performance in new contexts. As AI systems become more capable and are deployed in more diverse applications, this kind of detailed capability assessment becomes increasingly important for both performance and safety.

@@ -7,16 +7,19 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main>
+      <div class="wrap">
         {{ content }}
       </div>
     </main>
 
     {%- include footer.html -%}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-{% include lightbox.html %}
+    {%- if page.lightbox -%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    {%- include lightbox.html -%}
+    {%- endif -%}
+
   </body>
 
 </html>
