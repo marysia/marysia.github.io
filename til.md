@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TIL
+title: Shorts
 permalink: /til/
 footer_tagline: 'Short by design. If it grows, it becomes a [note](/notes/).'
 ---
